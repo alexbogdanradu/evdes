@@ -22,8 +22,8 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <style scoped>
 header {
-  line-height: 1.5;
-  max-height: 100vh;
+  line-height: 1;
+  background-color: aquamarine;
 }
 
 .logo {
@@ -58,7 +58,7 @@ nav a:first-of-type {
 
 @media (min-width: 1024px) {
   header {
-    display: flex;
+    display: none;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
   }
