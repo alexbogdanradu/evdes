@@ -22,6 +22,10 @@
                 <label>Luna:</label>
                 <input v-model="formData.month" />
             </div>
+            <div>
+                <label>Anul:</label>
+                <input v-model="formData.year" type="number" />
+            </div>
             <fieldset>
                 <legend>Stocat</legend>
                 <div>
@@ -122,10 +126,6 @@
 <script>
 export default {
     props: {
-        year: {
-            type: String,
-            required: true,
-        },
         item: {
             type: Object,
             default: () => ({}),
@@ -138,32 +138,16 @@ export default {
     watch: {
         item: {
             handler(newValue) {
-                this.formData = { ...newValue }; // Update formData when item prop changes
+                this.formData = { ...newValue };
             },
-            deep: true, // Deep watch for nested changes
-            immediate: true // Trigger handler immediately on component creation
+            deep: true,
+            immediate: true
         }
     },
     data() {
         return {
-            formData: { ...this.item } // Initialize formData with item prop
+            formData: { ...this.item }
         };
-        // return {
-        //     formData: {
-        //         code: '',
-        //         quantity: 0,
-        //         unit: '',
-        //         name: '',
-        //         month: '',
-        //         outbound: {
-        //             Stocat: { quantity: 32, unit: "", storageType: "" },
-        //             Tratat: { quantity: 0, unit: "", treatmentMode: "", treatmentScope: "" },
-        //             Transportat: { quantity: 0, unit: "", meansOfTransportation: "", destination: "" },
-        //             Valorificat: { quantity: 33, unit: "", operationCode: "", processingCompany: "" },
-        //             Eliminat: { quantity: 0, unit: "", operationCode: "", processingCompany: "" },
-        //         },
-        //     }
-        // };
     },
     methods: {
         submitForm() {
