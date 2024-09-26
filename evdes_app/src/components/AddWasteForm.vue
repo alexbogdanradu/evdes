@@ -1,5 +1,6 @@
 <template>
     <div class="add-item-form">
+        <SearchableDropdown @item-selected="updateFormFields" />
         <h3>Adauga deseu</h3>
         <form @submit.prevent="submitForm">
             <div>
@@ -124,7 +125,12 @@
 </template>
 
 <script>
+import SearchableDropdown from './SearchableDropdown.vue';
+
 export default {
+    components: {
+        SearchableDropdown
+    },
     props: {
         item: {
             type: Object,
@@ -150,6 +156,11 @@ export default {
         };
     },
     methods: {
+        // Update form fields based on the selected dropdown item
+        updateFormFields(selectedItem) {
+            this.formData.code = selectedItem.code;
+            this.formData.name = selectedItem.description;
+        },
         submitForm() {
             this.$emit('save-item', { ...this.formData });
         }

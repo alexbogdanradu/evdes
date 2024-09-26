@@ -23,7 +23,7 @@
             <td>{{ item.month }}</td>
             <td v-html="formattedOutbound(item.outbound)"></td>
             <td><button @click="openAddModal(item.id, item)">✏️</button></td>
-            <td><button @click="removeItem(item.id)">❌</button></td>
+            <td><button @click="removeItem(item.id, item)">❌</button></td>
           </tr>
         </tbody>
       </table>
@@ -182,8 +182,17 @@ export default {
 
       this.isAddModalOpen = false;
     },
-    removeItem(index) {
-      this.wasteList.splice(index, 1);
+    removeItem(itemId = null, item = null) {
+      const isConfirmed = confirm("Are you sure you want to remove this item?");
+
+      if (isConfirmed) {
+        this.currentItemId = itemId;
+        const indexOfRemoved = this.wasteList.findIndex(x => x.id == this.currentItemId);
+
+        if (indexOfRemoved > -1) {
+          this.wasteList.splice(indexOfRemoved, 1);
+        }
+      }
     }
   },
 };

@@ -1,0 +1,5875 @@
+[
+    {
+      "code": "01 01 01",
+      "description": "deşeuri de la excavarea minereurilor metalifere",
+      "category": "01",
+      "subcategory": "01 01",
+      "hazardous": false
+    },
+    {
+      "code": "01 01 02",
+      "description": "deşeuri de la excavarea minereurilor ne-metalifere",
+      "category": "01",
+      "subcategory": "01 01",
+      "hazardous": false
+    },
+    {
+      "code": "01 03 04*",
+      "description": "reziduuri acide generate de la procesarea minereurilor cu sulfuri",
+      "category": "01",
+      "subcategory": "01 03",
+      "hazardous": true
+    },
+    {
+      "code": "01 03 05*",
+      "description": "alte reziduuri cu conţinut de substanţe periculoase",
+      "category": "01",
+      "subcategory": "01 03",
+      "hazardous": true
+    },
+    {
+      "code": "01 03 06",
+      "description": "reziduuri, altele decât cele specificate la 01 03 04 şi 01 03 05",
+      "category": "01",
+      "subcategory": "01 03",
+      "hazardous": false
+    },
+    {
+      "code": "01 03 07*",
+      "description": "alte deşeuri cu conţinut de substanţe periculoase de la procesarea",
+      "category": "01",
+      "subcategory": "01 03",
+      "hazardous": true
+    },
+    {
+      "code": "01 03 08",
+      "description": "deşeuri sub forma de praf şi pulberi, altele decât cele specificate",
+      "category": "01",
+      "subcategory": "01 03",
+      "hazardous": false
+    },
+    {
+      "code": "01 03 09",
+      "description": "namoluri roşii de la producerea aluminei, altele decât cele",
+      "category": "01",
+      "subcategory": "01 03",
+      "hazardous": false
+    },
+    {
+      "code": "01 03 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "01",
+      "subcategory": "01 03",
+      "hazardous": false
+    },
+    {
+      "code": "01 04 07*",
+      "description": "deşeuri cu conţinut de substanţe periculoase de la procesarea fizica",
+      "category": "01",
+      "subcategory": "01 04",
+      "hazardous": true
+    },
+    {
+      "code": "01 04 08",
+      "description": "deşeuri de pietriş şi sparturi de piatra, altele decât cele",
+      "category": "01",
+      "subcategory": "01 04",
+      "hazardous": false
+    },
+    {
+      "code": "01 04 09",
+      "description": "deşeuri de nisip şi argila",
+      "category": "01",
+      "subcategory": "01 04",
+      "hazardous": false
+    },
+    {
+      "code": "01 04 10",
+      "description": "deşeuri sub forma de praf\" şi pulberi, altele decât cele specificate",
+      "category": "01",
+      "subcategory": "01 04",
+      "hazardous": false
+    },
+    {
+      "code": "01 04 11",
+      "description": "deşeuri de la procesarea lesiei şi rocilor care conţin saruri,",
+      "category": "01",
+      "subcategory": "01 04",
+      "hazardous": false
+    },
+    {
+      "code": "01 04 12",
+      "description": "reziduuri şi alte deşeuri de la spalarea şi purificarea",
+      "category": "01",
+      "subcategory": "01 04",
+      "hazardous": false
+    },
+    {
+      "code": "01 04 13",
+      "description": "deşeuri de la taierea şi slefuirea pietrei, altele decât cele",
+      "category": "01",
+      "subcategory": "01 04",
+      "hazardous": false
+    },
+    {
+      "code": "01 04 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "01",
+      "subcategory": "01 04",
+      "hazardous": false
+    },
+    {
+      "code": "01 05 04",
+      "description": "deşeuri şi noroaie de foraj pe bază de apa dulce",
+      "category": "01",
+      "subcategory": "01 05",
+      "hazardous": false
+    },
+    {
+      "code": "01 05 05*",
+      "description": "deşeuri şi noroaie de foraj cu conţinut de uleiuri",
+      "category": "01",
+      "subcategory": "01 05",
+      "hazardous": true
+    },
+    {
+      "code": "01 05 06*",
+      "description": "noroaie de foraj şi alte deşeuri de forare cu conţinut de substanţe",
+      "category": "01",
+      "subcategory": "01 05",
+      "hazardous": true
+    },
+    {
+      "code": "01 05 07",
+      "description": "noroaie de foraj şi deşeuri cu conţinut de baritina, altele decât",
+      "category": "01",
+      "subcategory": "01 05",
+      "hazardous": false
+    },
+    {
+      "code": "01 05 08",
+      "description": "noroaie de foraj şi deşeuri cu conţinut de cloruri, altele decât",
+      "category": "01",
+      "subcategory": "01 05",
+      "hazardous": false
+    },
+    {
+      "code": "01 05 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "01",
+      "subcategory": "01 05",
+      "hazardous": false
+    },
+    {
+      "code": "02 01 01",
+      "description": "namoluri de la spalare şi curatare",
+      "category": "02",
+      "subcategory": "02 01",
+      "hazardous": false
+    },
+    {
+      "code": "02 01 02",
+      "description": "deşeuri de tesuturi animale",
+      "category": "02",
+      "subcategory": "02 01",
+      "hazardous": false
+    },
+    {
+      "code": "02 01 03",
+      "description": "deşeuri de tesuturi vegetale",
+      "category": "02",
+      "subcategory": "02 01",
+      "hazardous": false
+    },
+    {
+      "code": "02 01 04",
+      "description": "deşeuri de materiale plastice (cu excepţia ambalajelor)",
+      "category": "02",
+      "subcategory": "02 01",
+      "hazardous": false
+    },
+    {
+      "code": "02 01 06",
+      "description": "dejectii animaliere (materii fecale, urina, inclusiv resturi de paie)",
+      "category": "02",
+      "subcategory": "02 01",
+      "hazardous": false
+    },
+    {
+      "code": "02 01 07",
+      "description": "deşeuri din exploatarea forestieră",
+      "category": "02",
+      "subcategory": "02 01",
+      "hazardous": false
+    },
+    {
+      "code": "02 01 08*",
+      "description": "deşeuri agrochimice cu conţinut de substanţe periculoase",
+      "category": "02",
+      "subcategory": "02 01",
+      "hazardous": true
+    },
+    {
+      "code": "02 01 09",
+      "description": "deşeuri agrochimice, altele decât cele specificate la 02 01 08",
+      "category": "02",
+      "subcategory": "02 01",
+      "hazardous": false
+    },
+    {
+      "code": "02 01 10",
+      "description": "deşeuri metalice",
+      "category": "02",
+      "subcategory": "02 01",
+      "hazardous": false
+    },
+    {
+      "code": "02 01 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "02",
+      "subcategory": "02 01",
+      "hazardous": false
+    },
+    {
+      "code": "02 02 01",
+      "description": "namoluri de la spalare şi curatare",
+      "category": "02",
+      "subcategory": "02 02",
+      "hazardous": false
+    },
+    {
+      "code": "02 02 02",
+      "description": "deşeuri de tesuturi animale",
+      "category": "02",
+      "subcategory": "02 02",
+      "hazardous": false
+    },
+    {
+      "code": "02 02 03",
+      "description": "materii care nu se preteaza consumului sau procesarii",
+      "category": "02",
+      "subcategory": "02 02",
+      "hazardous": false
+    },
+    {
+      "code": "02 02 04",
+      "description": "namoluri de la epurarea efluentilor proprii",
+      "category": "02",
+      "subcategory": "02 02",
+      "hazardous": false
+    },
+    {
+      "code": "02 02 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "02",
+      "subcategory": "02 02",
+      "hazardous": false
+    },
+    {
+      "code": "02 03 01",
+      "description": "namoluri de la spalare, curatare, decojire, centrifugare şi separare",
+      "category": "02",
+      "subcategory": "02 03",
+      "hazardous": false
+    },
+    {
+      "code": "02 03 02",
+      "description": "deşeuri de agenţi de conservare",
+      "category": "02",
+      "subcategory": "02 03",
+      "hazardous": false
+    },
+    {
+      "code": "02 03 03",
+      "description": "deşeuri de la extractia cu solventi",
+      "category": "02",
+      "subcategory": "02 03",
+      "hazardous": false
+    },
+    {
+      "code": "02 03 04",
+      "description": "materii care nu se preteaza consumului sau procesarii",
+      "category": "02",
+      "subcategory": "02 03",
+      "hazardous": false
+    },
+    {
+      "code": "02 03 05",
+      "description": "namoluri de la epurarea efluentilor proprii",
+      "category": "02",
+      "subcategory": "02 03",
+      "hazardous": false
+    },
+    {
+      "code": "02 03 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "02",
+      "subcategory": "02 03",
+      "hazardous": false
+    },
+    {
+      "code": "02 04 01",
+      "description": "namoluri de la curatarea şi spalarea sfeclei de zahăr",
+      "category": "02",
+      "subcategory": "02 04",
+      "hazardous": false
+    },
+    {
+      "code": "02 04 02",
+      "description": "deşeuri de carbonat de calciu",
+      "category": "02",
+      "subcategory": "02 04",
+      "hazardous": false
+    },
+    {
+      "code": "02 04 03",
+      "description": "namoluri de la epurarea efluentilor proprii",
+      "category": "02",
+      "subcategory": "02 04",
+      "hazardous": false
+    },
+    {
+      "code": "02 04 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "02",
+      "subcategory": "02 04",
+      "hazardous": false
+    },
+    {
+      "code": "02 05 01",
+      "description": "materii care nu se preteaza consumului sau procesarii",
+      "category": "02",
+      "subcategory": "02 05",
+      "hazardous": false
+    },
+    {
+      "code": "02 05 02",
+      "description": "namoluri de la epurarea efluentilor proprii",
+      "category": "02",
+      "subcategory": "02 05",
+      "hazardous": false
+    },
+    {
+      "code": "02 05 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "02",
+      "subcategory": "02 05",
+      "hazardous": false
+    },
+    {
+      "code": "02 06 01",
+      "description": "materii care nu se preteaza consumului sau procesarii",
+      "category": "02",
+      "subcategory": "02 06",
+      "hazardous": false
+    },
+    {
+      "code": "02 06 02",
+      "description": "deşeuri de agenţi de conservare",
+      "category": "02",
+      "subcategory": "02 06",
+      "hazardous": false
+    },
+    {
+      "code": "02 06 03",
+      "description": "namoluri de la epurarea efluentilor proprii",
+      "category": "02",
+      "subcategory": "02 06",
+      "hazardous": false
+    },
+    {
+      "code": "02 06 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "02",
+      "subcategory": "02 06",
+      "hazardous": false
+    },
+    {
+      "code": "02 07 01",
+      "description": "deşeuri de la spalarea, curatarea şi prelucrarea mecanică a materiei",
+      "category": "02",
+      "subcategory": "02 07",
+      "hazardous": false
+    },
+    {
+      "code": "02 07 02",
+      "description": "deşeuri de la distilarea băuturilor alcoolice",
+      "category": "02",
+      "subcategory": "02 07",
+      "hazardous": false
+    },
+    {
+      "code": "02 07 03",
+      "description": "deşeuri de la tratamente chimice",
+      "category": "02",
+      "subcategory": "02 07",
+      "hazardous": false
+    },
+    {
+      "code": "02 07 04",
+      "description": "materii care nu se preteaza consumului sau procesarii",
+      "category": "02",
+      "subcategory": "02 07",
+      "hazardous": false
+    },
+    {
+      "code": "02 07 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "02",
+      "subcategory": "02 07",
+      "hazardous": false
+    },
+    {
+      "code": "03 01 01",
+      "description": "deşeuri de scoarta şi de pluta",
+      "category": "03",
+      "subcategory": "03 01",
+      "hazardous": false
+    },
+    {
+      "code": "03 01 04*",
+      "description": "rumegus, talas, aschii, resturi de scandura şi furnir cu conţinut de",
+      "category": "03",
+      "subcategory": "03 01",
+      "hazardous": true
+    },
+    {
+      "code": "03 01 05",
+      "description": "rumegus, talas, aschii, resturi de scandura şi furnir, altele decât",
+      "category": "03",
+      "subcategory": "03 01",
+      "hazardous": false
+    },
+    {
+      "code": "03 01 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "03",
+      "subcategory": "03 01",
+      "hazardous": false
+    },
+    {
+      "code": "03 02 01*",
+      "description": "agenţi de conservare organici nehalogenati pentru lemn",
+      "category": "03",
+      "subcategory": "03 02",
+      "hazardous": true
+    },
+    {
+      "code": "03 02 02*",
+      "description": "agenţi de conservare organoclorurati pentru lemn",
+      "category": "03",
+      "subcategory": "03 02",
+      "hazardous": true
+    },
+    {
+      "code": "03 02 03*",
+      "description": "agenţi de conservare organometalici pentru lemn",
+      "category": "03",
+      "subcategory": "03 02",
+      "hazardous": true
+    },
+    {
+      "code": "03 02 04*",
+      "description": "agenţi de conservare anorganici pentru lemn",
+      "category": "03",
+      "subcategory": "03 02",
+      "hazardous": true
+    },
+    {
+      "code": "03 02 05*",
+      "description": "alţi agenţi de conservare pentru lemn, cu conţinut de substanţe",
+      "category": "03",
+      "subcategory": "03 02",
+      "hazardous": true
+    },
+    {
+      "code": "03 02 99",
+      "description": "alţi agenţi de conservare pentru lemn, nespecificati",
+      "category": "03",
+      "subcategory": "03 02",
+      "hazardous": false
+    },
+    {
+      "code": "03 03 01",
+      "description": "deşeuri de lemn şi de scoarta",
+      "category": "03",
+      "subcategory": "03 03",
+      "hazardous": false
+    },
+    {
+      "code": "03 03 02",
+      "description": "namoluri de lesie verde (de la recuperarea soluţiilor de fierbere)",
+      "category": "03",
+      "subcategory": "03 03",
+      "hazardous": false
+    },
+    {
+      "code": "03 03 05",
+      "description": "namoluri de la eliminarea cernelii din procesul de reciclare",
+      "category": "03",
+      "subcategory": "03 03",
+      "hazardous": false
+    },
+    {
+      "code": "03 03 07",
+      "description": "deşeuri mecanice de la fierberea hârtiei şi cartonului reciclate",
+      "category": "03",
+      "subcategory": "03 03",
+      "hazardous": false
+    },
+    {
+      "code": "03 03 08",
+      "description": "deşeuri de la sortarea hârtiei şi cartonului destinate reciclarii",
+      "category": "03",
+      "subcategory": "03 03",
+      "hazardous": false
+    },
+    {
+      "code": "03 03 09",
+      "description": "deşeuri de namol de caustificare",
+      "category": "03",
+      "subcategory": "03 03",
+      "hazardous": false
+    },
+    {
+      "code": "03 03 10",
+      "description": "fibre, namoluri de la separarea mecanică, cu conţinut de fibre,",
+      "category": "03",
+      "subcategory": "03 03",
+      "hazardous": false
+    },
+    {
+      "code": "03 03 11",
+      "description": "namoluri de la epurarea efluentilor proprii, altele decât cele",
+      "category": "03",
+      "subcategory": "03 03",
+      "hazardous": false
+    },
+    {
+      "code": "03 03 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "03",
+      "subcategory": "03 03",
+      "hazardous": false
+    },
+    {
+      "code": "04 01 01",
+      "description": "deşeuri de la seruire",
+      "category": "04",
+      "subcategory": "04 01",
+      "hazardous": false
+    },
+    {
+      "code": "04 01 02",
+      "description": "deşeuri de la cenusarire",
+      "category": "04",
+      "subcategory": "04 01",
+      "hazardous": false
+    },
+    {
+      "code": "04 01 03*",
+      "description": "deşeuri de la degresare cu conţinut de solventi fără faza lichidă",
+      "category": "04",
+      "subcategory": "04 01",
+      "hazardous": true
+    },
+    {
+      "code": "04 01 04",
+      "description": "flota de tabacire cu conţinut de crom",
+      "category": "04",
+      "subcategory": "04 01",
+      "hazardous": false
+    },
+    {
+      "code": "04 01 05",
+      "description": "flota de tabacire fără conţinut de crom",
+      "category": "04",
+      "subcategory": "04 01",
+      "hazardous": false
+    },
+    {
+      "code": "04 01 06",
+      "description": "namoluri, în special de la epurarea efluentilor în incinta cu",
+      "category": "04",
+      "subcategory": "04 01",
+      "hazardous": false
+    },
+    {
+      "code": "04 01 07",
+      "description": "namoluri, în special de la epurarea efluentilor în incinta fără",
+      "category": "04",
+      "subcategory": "04 01",
+      "hazardous": false
+    },
+    {
+      "code": "04 01 08",
+      "description": "deşeuri de piele tabacita (razaturi, stutuituri, taieturi, praf",
+      "category": "04",
+      "subcategory": "04 01",
+      "hazardous": false
+    },
+    {
+      "code": "04 01 09",
+      "description": "deşeuri de la apretare şi finisare",
+      "category": "04",
+      "subcategory": "04 01",
+      "hazardous": false
+    },
+    {
+      "code": "04 01 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "04",
+      "subcategory": "04 01",
+      "hazardous": false
+    },
+    {
+      "code": "04 02 09",
+      "description": "deşeuri de la materialele compozite (textile impregnate, elastomeri,",
+      "category": "04",
+      "subcategory": "04 02",
+      "hazardous": false
+    },
+    {
+      "code": "04 02 10",
+      "description": "materii organice din produse naturale (grasime, ceara)",
+      "category": "04",
+      "subcategory": "04 02",
+      "hazardous": false
+    },
+    {
+      "code": "04 02 14*",
+      "description": "deşeuri de la finisare cu conţinut de solventi organici",
+      "category": "04",
+      "subcategory": "04 02",
+      "hazardous": true
+    },
+    {
+      "code": "04 02 15",
+      "description": "deşeuri de la finisare cu alt conţinut decât cel specificat",
+      "category": "04",
+      "subcategory": "04 02",
+      "hazardous": false
+    },
+    {
+      "code": "04 02 16*",
+      "description": "coloranti şi pigmenti cu conţinut de substanţe periculoase",
+      "category": "04",
+      "subcategory": "04 02",
+      "hazardous": true
+    },
+    {
+      "code": "04 02 17",
+      "description": "coloranti şi pigmenti, alţii decât cei specificati la 04 02 16",
+      "category": "04",
+      "subcategory": "04 02",
+      "hazardous": false
+    },
+    {
+      "code": "04 02 19*",
+      "description": "namoluri de la epurarea efluentilor în incinta cu conţinut de",
+      "category": "04",
+      "subcategory": "04 02",
+      "hazardous": true
+    },
+    {
+      "code": "04 02 20",
+      "description": "namoluri de la epurarea efluentilor în incinta, altele decât cele",
+      "category": "04",
+      "subcategory": "04 02",
+      "hazardous": false
+    },
+    {
+      "code": "04 02 21",
+      "description": "deşeuri de fibre textile neprocesate",
+      "category": "04",
+      "subcategory": "04 02",
+      "hazardous": false
+    },
+    {
+      "code": "04 02 22",
+      "description": "deşeuri de fibre textile procesate",
+      "category": "04",
+      "subcategory": "04 02",
+      "hazardous": false
+    },
+    {
+      "code": "04 02 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "04",
+      "subcategory": "04 02",
+      "hazardous": false
+    },
+    {
+      "code": "05 01 02*",
+      "description": "slamuri de la desalinizare",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": true
+    },
+    {
+      "code": "05 01 03*",
+      "description": "slamuri din rezervoare",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": true
+    },
+    {
+      "code": "05 01 04*",
+      "description": "namoluri acide alchilice",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": true
+    },
+    {
+      "code": "05 01 05*",
+      "description": "reziduuri uleioase",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": true
+    },
+    {
+      "code": "05 01 06*",
+      "description": "namoluri uleioase de la operaţiile de întreţinere a instalaţiilor şi",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": true
+    },
+    {
+      "code": "05 01 07*",
+      "description": "gudroane acide",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": true
+    },
+    {
+      "code": "05 01 08*",
+      "description": "alte gudroane",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": true
+    },
+    {
+      "code": "05 01 09*",
+      "description": "namoluri de la epurarea efluentilor în incinta cu conţinut de",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": true
+    },
+    {
+      "code": "05 01 10",
+      "description": "namoluri de la epurarea efluentilor în incinta, altele decât cele",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": false
+    },
+    {
+      "code": "05 01 11*",
+      "description": "deşeuri de la spalarea combustibililor cu baze",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": true
+    },
+    {
+      "code": "05 01 12*",
+      "description": "acizi cu conţinut de uleiuri",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": true
+    },
+    {
+      "code": "05 01 13",
+      "description": "namoluri de la cazanul apei de alimentare",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": false
+    },
+    {
+      "code": "05 01 14",
+      "description": "deşeuri de la coloanele de răcire",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": false
+    },
+    {
+      "code": "05 01 15*",
+      "description": "argile de filtrare epuizate",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": true
+    },
+    {
+      "code": "05 01 16",
+      "description": "deşeuri cu conţinut de sulf de la desulfurarea petrolului",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": false
+    },
+    {
+      "code": "05 01 17",
+      "description": "bitum",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": false
+    },
+    {
+      "code": "05 01 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "05",
+      "subcategory": "05 01",
+      "hazardous": false
+    },
+    {
+      "code": "05 06 01*",
+      "description": "gudroane acide",
+      "category": "05",
+      "subcategory": "05 06",
+      "hazardous": true
+    },
+    {
+      "code": "05 06 03*",
+      "description": "alte gudroane",
+      "category": "05",
+      "subcategory": "05 06",
+      "hazardous": true
+    },
+    {
+      "code": "05 06 04",
+      "description": "deşeuri de la coloanele de răcire",
+      "category": "05",
+      "subcategory": "05 06",
+      "hazardous": false
+    },
+    {
+      "code": "05 06 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "05",
+      "subcategory": "05 06",
+      "hazardous": false
+    },
+    {
+      "code": "05 07 01*",
+      "description": "deşeuri cu conţinut de mercur",
+      "category": "05",
+      "subcategory": "05 07",
+      "hazardous": true
+    },
+    {
+      "code": "05 07 02",
+      "description": "deşeuri cu conţinut de sulf",
+      "category": "05",
+      "subcategory": "05 07",
+      "hazardous": false
+    },
+    {
+      "code": "05 07 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "05",
+      "subcategory": "05 07",
+      "hazardous": false
+    },
+    {
+      "code": "06 01 01*",
+      "description": "acid sulfuric şi acid sulfuros",
+      "category": "06",
+      "subcategory": "06 01",
+      "hazardous": true
+    },
+    {
+      "code": "06 01 02*",
+      "description": "acid clorhidric",
+      "category": "06",
+      "subcategory": "06 01",
+      "hazardous": true
+    },
+    {
+      "code": "06 01 03*",
+      "description": "acid fluorhidric",
+      "category": "06",
+      "subcategory": "06 01",
+      "hazardous": true
+    },
+    {
+      "code": "06 01 04*",
+      "description": "acid fosforic şi acid fosforos",
+      "category": "06",
+      "subcategory": "06 01",
+      "hazardous": true
+    },
+    {
+      "code": "06 01 05*",
+      "description": "acid azotic şi acid azotos",
+      "category": "06",
+      "subcategory": "06 01",
+      "hazardous": true
+    },
+    {
+      "code": "06 01 06*",
+      "description": "alţi acizi",
+      "category": "06",
+      "subcategory": "06 01",
+      "hazardous": true
+    },
+    {
+      "code": "06 01 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "06",
+      "subcategory": "06 01",
+      "hazardous": false
+    },
+    {
+      "code": "06 02 01*",
+      "description": "hidroxid de calciu",
+      "category": "06",
+      "subcategory": "06 02",
+      "hazardous": true
+    },
+    {
+      "code": "06 02 03*",
+      "description": "hidroxid de amoniu",
+      "category": "06",
+      "subcategory": "06 02",
+      "hazardous": true
+    },
+    {
+      "code": "06 02 04*",
+      "description": "hidroxid de sodiu şi potasiu",
+      "category": "06",
+      "subcategory": "06 02",
+      "hazardous": true
+    },
+    {
+      "code": "06 02 05*",
+      "description": "alte baze",
+      "category": "06",
+      "subcategory": "06 02",
+      "hazardous": true
+    },
+    {
+      "code": "06 02 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "06",
+      "subcategory": "06 02",
+      "hazardous": false
+    },
+    {
+      "code": "06 03 11*",
+      "description": "saruri solide şi soluţii cu conţinut de cianuri",
+      "category": "06",
+      "subcategory": "06 03",
+      "hazardous": true
+    },
+    {
+      "code": "06 03 13*",
+      "description": "saruri solide şi soluţii cu conţinut de metale grele",
+      "category": "06",
+      "subcategory": "06 03",
+      "hazardous": true
+    },
+    {
+      "code": "06 03 14",
+      "description": "saruri solide şi soluţii, altele decât cele specificate la 06 03 11",
+      "category": "06",
+      "subcategory": "06 03",
+      "hazardous": false
+    },
+    {
+      "code": "06 03 15*",
+      "description": "oxizi metalici cu conţinut de metale grele",
+      "category": "06",
+      "subcategory": "06 03",
+      "hazardous": true
+    },
+    {
+      "code": "06 03 16",
+      "description": "oxizi metalici, alţii decât cei specificati la 06 03 15",
+      "category": "06",
+      "subcategory": "06 03",
+      "hazardous": false
+    },
+    {
+      "code": "06 03 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "06",
+      "subcategory": "06 03",
+      "hazardous": false
+    },
+    {
+      "code": "06 04 03*",
+      "description": "deşeuri cu conţinut de arsen",
+      "category": "06",
+      "subcategory": "06 04",
+      "hazardous": true
+    },
+    {
+      "code": "06 04 04*",
+      "description": "deşeuri cu conţinut de mercur",
+      "category": "06",
+      "subcategory": "06 04",
+      "hazardous": true
+    },
+    {
+      "code": "06 04 05*",
+      "description": "deşeuri cu conţinut de alte metale grele",
+      "category": "06",
+      "subcategory": "06 04",
+      "hazardous": true
+    },
+    {
+      "code": "06 04 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "06",
+      "subcategory": "06 04",
+      "hazardous": false
+    },
+    {
+      "code": "06 05 02*",
+      "description": "namoluri de la epurarea efluentilor în incinta, cu conţinut",
+      "category": "06",
+      "subcategory": "06 05",
+      "hazardous": true
+    },
+    {
+      "code": "06 05 03",
+      "description": "namoluri de la epurarea efluentilor în incinta, altele decât cele",
+      "category": "06",
+      "subcategory": "06 05",
+      "hazardous": false
+    },
+    {
+      "code": "06 06 02*",
+      "description": "deşeuri cu conţinut de sulfuri periculoase",
+      "category": "06",
+      "subcategory": "06 06",
+      "hazardous": true
+    },
+    {
+      "code": "06 06 03",
+      "description": "deşeuri cu conţinut de sulfuri, altele decât cele specificate la",
+      "category": "06",
+      "subcategory": "06 06",
+      "hazardous": false
+    },
+    {
+      "code": "06 06 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "06",
+      "subcategory": "06 06",
+      "hazardous": false
+    },
+    {
+      "code": "06 07 01*",
+      "description": "deşeuri cu conţinut de azbest de la electroliza",
+      "category": "06",
+      "subcategory": "06 07",
+      "hazardous": true
+    },
+    {
+      "code": "06 07 02*",
+      "description": "cărbune activ de la producerea clorului",
+      "category": "06",
+      "subcategory": "06 07",
+      "hazardous": true
+    },
+    {
+      "code": "06 07 03*",
+      "description": "namol de sulfat de bariu cu conţinut de mercur",
+      "category": "06",
+      "subcategory": "06 07",
+      "hazardous": true
+    },
+    {
+      "code": "06 07 04*",
+      "description": "soluţii şi acizi, de exemplu acid de contact",
+      "category": "06",
+      "subcategory": "06 07",
+      "hazardous": true
+    },
+    {
+      "code": "07 02 01*",
+      "description": "lichide apoase de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 02",
+      "hazardous": true
+    },
+    {
+      "code": "07 02 03*",
+      "description": "solventi organici halogenati, lichide de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 02",
+      "hazardous": true
+    },
+    {
+      "code": "07 02 04*",
+      "description": "alţi solventi organici, soluţii de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 02",
+      "hazardous": true
+    },
+    {
+      "code": "07 02 07*",
+      "description": "reziduuri halogenate din blazul coloanelor de reactie",
+      "category": "07",
+      "subcategory": "07 02",
+      "hazardous": true
+    },
+    {
+      "code": "07 02 08*",
+      "description": "alte reziduuri din blazul coloanelor de reactie",
+      "category": "07",
+      "subcategory": "07 02",
+      "hazardous": true
+    },
+    {
+      "code": "07 02 09*",
+      "description": "turte de filtrare halogenate şi absorbanti epuizati",
+      "category": "07",
+      "subcategory": "07 02",
+      "hazardous": true
+    },
+    {
+      "code": "07 02 10*",
+      "description": "alte turte de filtrare şi absorbanti epuizati",
+      "category": "07",
+      "subcategory": "07 02",
+      "hazardous": true
+    },
+    {
+      "code": "07 02 11*",
+      "description": "namoluri de la epurarea efluentilor în incinta, cu conţinut",
+      "category": "07",
+      "subcategory": "07 02",
+      "hazardous": true
+    },
+    {
+      "code": "07 02 12",
+      "description": "namoluri de la epurarea efluentilor în incinta, altele decât cele",
+      "category": "07",
+      "subcategory": "07 02",
+      "hazardous": false
+    },
+    {
+      "code": "07 02 13",
+      "description": "deşeuri de materiale plastice",
+      "category": "07",
+      "subcategory": "07 02",
+      "hazardous": false
+    },
+    {
+      "code": "07 02 14*",
+      "description": "deşeuri de aditivi cu conţinut de substanţe periculoase",
+      "category": "07",
+      "subcategory": "07 02",
+      "hazardous": true
+    },
+    {
+      "code": "07 02 15",
+      "description": "deşeuri de aditivi, altele decât cele specificate la 07 02 14",
+      "category": "07",
+      "subcategory": "07 02",
+      "hazardous": false
+    },
+    {
+      "code": "07 02 16*",
+      "description": "deşeuri cu conţinut de siliconi periculosi",
+      "category": "07",
+      "subcategory": "07 02",
+      "hazardous": true
+    },
+    {
+      "code": "07 02 17",
+      "description": "deşeuri cu conţinut de siliconi altele decât cele menţionate la",
+      "category": "07",
+      "subcategory": "07 02",
+      "hazardous": false
+    },
+    {
+      "code": "07 02 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "07",
+      "subcategory": "07 02",
+      "hazardous": false
+    },
+    {
+      "code": "07 03 01*",
+      "description": "lichide apoase de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 03",
+      "hazardous": true
+    },
+    {
+      "code": "07 03 03*",
+      "description": "solventi organici halogenati, lichide de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 03",
+      "hazardous": true
+    },
+    {
+      "code": "07 03 04*",
+      "description": "alţi solventi organici, lichide de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 03",
+      "hazardous": true
+    },
+    {
+      "code": "07 03 07*",
+      "description": "reziduuri halogenate din blazul coloanelor de reactie",
+      "category": "07",
+      "subcategory": "07 03",
+      "hazardous": true
+    },
+    {
+      "code": "07 03 08*",
+      "description": "alte reziduuri din blazul coloanelor de reactie",
+      "category": "07",
+      "subcategory": "07 03",
+      "hazardous": true
+    },
+    {
+      "code": "07 03 09*",
+      "description": "turte de filtrare halogenate şi absorbanti epuizati",
+      "category": "07",
+      "subcategory": "07 03",
+      "hazardous": true
+    },
+    {
+      "code": "07 03 10*",
+      "description": "alte turte de filtrare şi absorbanti epuizati",
+      "category": "07",
+      "subcategory": "07 03",
+      "hazardous": true
+    },
+    {
+      "code": "07 03 11*",
+      "description": "namoluri de la epurarea efluentilor în incinta, cu conţinut de",
+      "category": "07",
+      "subcategory": "07 03",
+      "hazardous": true
+    },
+    {
+      "code": "07 03 12",
+      "description": "namoluri de la epurarea efluentilor în incinta, altele decât cele",
+      "category": "07",
+      "subcategory": "07 03",
+      "hazardous": false
+    },
+    {
+      "code": "07 03 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "07",
+      "subcategory": "07 03",
+      "hazardous": false
+    },
+    {
+      "code": "07 04 01*",
+      "description": "lichide apoase de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 04",
+      "hazardous": true
+    },
+    {
+      "code": "07 04 03*",
+      "description": "solventi organici halogenati, lichide de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 04",
+      "hazardous": true
+    },
+    {
+      "code": "07 04 04*",
+      "description": "alţi solventi organici, lichide de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 04",
+      "hazardous": true
+    },
+    {
+      "code": "07 04 07*",
+      "description": "reziduuri halogenate din blazul coloanelor de reactie",
+      "category": "07",
+      "subcategory": "07 04",
+      "hazardous": true
+    },
+    {
+      "code": "07 04 08*",
+      "description": "alte reziduuri din blazul coloanelor de reactie",
+      "category": "07",
+      "subcategory": "07 04",
+      "hazardous": true
+    },
+    {
+      "code": "07 04 09*",
+      "description": "turte de filtrare halogenate şi absorbanti epuizati",
+      "category": "07",
+      "subcategory": "07 04",
+      "hazardous": true
+    },
+    {
+      "code": "07 04 10*",
+      "description": "alte turte de filtrare şi absorbanti epuizati",
+      "category": "07",
+      "subcategory": "07 04",
+      "hazardous": true
+    },
+    {
+      "code": "07 04 11*",
+      "description": "namoluri de la tratarea efluentilor în incinta, cu conţinut de",
+      "category": "07",
+      "subcategory": "07 04",
+      "hazardous": true
+    },
+    {
+      "code": "07 04 12",
+      "description": "namoluri de la tratarea efluentilor în incinta, altele decât cele",
+      "category": "07",
+      "subcategory": "07 04",
+      "hazardous": false
+    },
+    {
+      "code": "07 04 13*",
+      "description": "deşeuri solide cu conţinut de substanţe periculoase",
+      "category": "07",
+      "subcategory": "07 04",
+      "hazardous": true
+    },
+    {
+      "code": "07 04 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "07",
+      "subcategory": "07 04",
+      "hazardous": false
+    },
+    {
+      "code": "06 07 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "06",
+      "subcategory": "06 07",
+      "hazardous": false
+    },
+    {
+      "code": "06 08 02*",
+      "description": "deşeuri cu conţinut de siliconi periculosi",
+      "category": "06",
+      "subcategory": "06 08",
+      "hazardous": true
+    },
+    {
+      "code": "06 08 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "06",
+      "subcategory": "06 08",
+      "hazardous": false
+    },
+    {
+      "code": "06 09 02",
+      "description": "zgura fosforoasa",
+      "category": "06",
+      "subcategory": "06 09",
+      "hazardous": false
+    },
+    {
+      "code": "06 09 03*",
+      "description": "deşeuri pe bază de calciu care conţin sau sunt contaminate cu",
+      "category": "06",
+      "subcategory": "06 09",
+      "hazardous": true
+    },
+    {
+      "code": "06 09 04",
+      "description": "deşeuri pe bază de calciu, altele decât cele specificate la",
+      "category": "06",
+      "subcategory": "06 09",
+      "hazardous": false
+    },
+    {
+      "code": "06 09 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "06",
+      "subcategory": "06 09",
+      "hazardous": false
+    },
+    {
+      "code": "06 10 02*",
+      "description": "deşeuri cu conţinut de substanţe periculoase",
+      "category": "06",
+      "subcategory": "06 10",
+      "hazardous": true
+    },
+    {
+      "code": "06 10 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "06",
+      "subcategory": "06 10",
+      "hazardous": false
+    },
+    {
+      "code": "06 11 01",
+      "description": "deşeuri pe bază de calciu de la producerea bioxidului de titan",
+      "category": "06",
+      "subcategory": "06 11",
+      "hazardous": false
+    },
+    {
+      "code": "06 11 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "06",
+      "subcategory": "06 11",
+      "hazardous": false
+    },
+    {
+      "code": "06 13 01*",
+      "description": "produşi anorganici de protecţie a instalaţiei, agenţi de conservare a",
+      "category": "06",
+      "subcategory": "06 13",
+      "hazardous": true
+    },
+    {
+      "code": "06 13 02*",
+      "description": "cărbune activ epuizat (cu excepţia 06 07 02)",
+      "category": "06",
+      "subcategory": "06 13",
+      "hazardous": true
+    },
+    {
+      "code": "06 13 03",
+      "description": "negru de fum",
+      "category": "06",
+      "subcategory": "06 13",
+      "hazardous": false
+    },
+    {
+      "code": "06 13 04*",
+      "description": "deşeuri de la procesele cu azbest",
+      "category": "06",
+      "subcategory": "06 13",
+      "hazardous": true
+    },
+    {
+      "code": "06 13 05*",
+      "description": "funingine",
+      "category": "06",
+      "subcategory": "06 13",
+      "hazardous": true
+    },
+    {
+      "code": "06 13 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "06",
+      "subcategory": "06 13",
+      "hazardous": false
+    },
+    {
+      "code": "07 01 01*",
+      "description": "soluţii apoase de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 01",
+      "hazardous": true
+    },
+    {
+      "code": "07 01 03*",
+      "description": "solventi organici halogenati, lichide de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 01",
+      "hazardous": true
+    },
+    {
+      "code": "07 01 04*",
+      "description": "alţi solventi organici, lichide de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 01",
+      "hazardous": true
+    },
+    {
+      "code": "07 01 07*",
+      "description": "reziduuri halogenate din blazul coloanelor de distilare şi reactie",
+      "category": "07",
+      "subcategory": "07 01",
+      "hazardous": true
+    },
+    {
+      "code": "07 01 08*",
+      "description": "alte reziduuri din blazul coloanelor de distilare şi reactie",
+      "category": "07",
+      "subcategory": "07 01",
+      "hazardous": true
+    },
+    {
+      "code": "07 01 09*",
+      "description": "turte de filtrare halogenate şi absorbanti epuizati",
+      "category": "07",
+      "subcategory": "07 01",
+      "hazardous": true
+    },
+    {
+      "code": "07 01 10*",
+      "description": "alte turte de filtrare şi absorbanti epuizati",
+      "category": "07",
+      "subcategory": "07 01",
+      "hazardous": true
+    },
+    {
+      "code": "07 01 11*",
+      "description": "namoluri de la epurarea efluentilor în incinta, cu conţinut de",
+      "category": "07",
+      "subcategory": "07 01",
+      "hazardous": true
+    },
+    {
+      "code": "07 01 12",
+      "description": "namoluri de la epurarea efluentilor în incinta, altele decât cele",
+      "category": "07",
+      "subcategory": "07 01",
+      "hazardous": false
+    },
+    {
+      "code": "07 01 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "07",
+      "subcategory": "07 01",
+      "hazardous": false
+    },
+    {
+      "code": "07 05 01*",
+      "description": "lichide apoase de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 05",
+      "hazardous": true
+    },
+    {
+      "code": "07 05 03*",
+      "description": "solventi organici halogenati, lichide de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 05",
+      "hazardous": true
+    },
+    {
+      "code": "07 05 04*",
+      "description": "alţi solventi organici, lichide de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 05",
+      "hazardous": true
+    },
+    {
+      "code": "07 05 07*",
+      "description": "reziduuri halogenate din blazul coloanelor de reactie",
+      "category": "07",
+      "subcategory": "07 05",
+      "hazardous": true
+    },
+    {
+      "code": "07 05 08*",
+      "description": "alte reziduuri din blazul coloanelor de reactie",
+      "category": "07",
+      "subcategory": "07 05",
+      "hazardous": true
+    },
+    {
+      "code": "07 05 09*",
+      "description": "turte de filtrare halogenate şi absorbanti epuizati",
+      "category": "07",
+      "subcategory": "07 05",
+      "hazardous": true
+    },
+    {
+      "code": "07 05 10*",
+      "description": "alte turte de filtrare şi absorbanti epuizati",
+      "category": "07",
+      "subcategory": "07 05",
+      "hazardous": true
+    },
+    {
+      "code": "07 05 11*",
+      "description": "namoluri de la epurarea efluentilor în incinta, cu conţinut de",
+      "category": "07",
+      "subcategory": "07 05",
+      "hazardous": true
+    },
+    {
+      "code": "07 05 12",
+      "description": "namoluri de la epurarea efluentilor în incinta, altele decât cele",
+      "category": "07",
+      "subcategory": "07 05",
+      "hazardous": false
+    },
+    {
+      "code": "07 05 13*",
+      "description": "deşeuri solide cu conţinut de substanţe periculoase",
+      "category": "07",
+      "subcategory": "07 05",
+      "hazardous": true
+    },
+    {
+      "code": "07 05 14",
+      "description": "deşeuri solide, altele decât cele specificate la 07 05 13",
+      "category": "07",
+      "subcategory": "07 05",
+      "hazardous": false
+    },
+    {
+      "code": "07 05 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "07",
+      "subcategory": "07 05",
+      "hazardous": false
+    },
+    {
+      "code": "07 06 01*",
+      "description": "lichide apoase de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 06",
+      "hazardous": true
+    },
+    {
+      "code": "07 06 03*",
+      "description": "solventi organici halogenati, lichide de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 06",
+      "hazardous": true
+    },
+    {
+      "code": "07 06 04*",
+      "description": "alţi solventi organici, lichide de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 06",
+      "hazardous": true
+    },
+    {
+      "code": "07 06 07*",
+      "description": "reziduuri halogenate din blazul coloanelor de reactie",
+      "category": "07",
+      "subcategory": "07 06",
+      "hazardous": true
+    },
+    {
+      "code": "07 06 08*",
+      "description": "alte reziduuri din blazul coloanelor de reactie",
+      "category": "07",
+      "subcategory": "07 06",
+      "hazardous": true
+    },
+    {
+      "code": "07 06 09*",
+      "description": "turte de filtrare halogenate şi absorbanti epuizati",
+      "category": "07",
+      "subcategory": "07 06",
+      "hazardous": true
+    },
+    {
+      "code": "07 06 10*",
+      "description": "alte turte de filtrare şi absorbanti epuizati",
+      "category": "07",
+      "subcategory": "07 06",
+      "hazardous": true
+    },
+    {
+      "code": "07 06 11*",
+      "description": "namoluri de la epurarea efluentilor în incinta, cu conţinut de",
+      "category": "07",
+      "subcategory": "07 06",
+      "hazardous": true
+    },
+    {
+      "code": "07 06 12",
+      "description": "namoluri de la epurarea efluentilor în incinta, altele decât cele",
+      "category": "07",
+      "subcategory": "07 06",
+      "hazardous": false
+    },
+    {
+      "code": "07 06 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "07",
+      "subcategory": "07 06",
+      "hazardous": false
+    },
+    {
+      "code": "07 07 01*",
+      "description": "lichide apoase de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 07",
+      "hazardous": true
+    },
+    {
+      "code": "07 07 03*",
+      "description": "solventi organici halogenati, lichide de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 07",
+      "hazardous": true
+    },
+    {
+      "code": "07 07 04*",
+      "description": "alţi solventi organici, lichide de spalare şi soluţii muma",
+      "category": "07",
+      "subcategory": "07 07",
+      "hazardous": true
+    },
+    {
+      "code": "07 07 07*",
+      "description": "reziduuri halogenate din blazul coloanelor de reactie",
+      "category": "07",
+      "subcategory": "07 07",
+      "hazardous": true
+    },
+    {
+      "code": "07 07 08*",
+      "description": "alte reziduuri din blazul coloanelor de reactie",
+      "category": "07",
+      "subcategory": "07 07",
+      "hazardous": true
+    },
+    {
+      "code": "07 07 09*",
+      "description": "turte de filtrare halogenate şi absorbanti epuizati",
+      "category": "07",
+      "subcategory": "07 07",
+      "hazardous": true
+    },
+    {
+      "code": "07 07 10*",
+      "description": "alte turte de filtrare şi absorbanti epuizati",
+      "category": "07",
+      "subcategory": "07 07",
+      "hazardous": true
+    },
+    {
+      "code": "07 07 11*",
+      "description": "namoluri de la epurarea efluentilor în incinta, cu conţinut de",
+      "category": "07",
+      "subcategory": "07 07",
+      "hazardous": true
+    },
+    {
+      "code": "07 07 12",
+      "description": "namoluri de la epurarea efluentilor în incinta, altele decât cele",
+      "category": "07",
+      "subcategory": "07 07",
+      "hazardous": false
+    },
+    {
+      "code": "07 07 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "07",
+      "subcategory": "07 07",
+      "hazardous": false
+    },
+    {
+      "code": "08 01 11*",
+      "description": "deşeuri de vopsele şi lacuri cu conţinut de solventi organici sau",
+      "category": "08",
+      "subcategory": "08 01",
+      "hazardous": true
+    },
+    {
+      "code": "08 01 12",
+      "description": "deşeuri de vopsele şi lacuri, altele decât cele specificate",
+      "category": "08",
+      "subcategory": "08 01",
+      "hazardous": false
+    },
+    {
+      "code": "08 01 13*",
+      "description": "namoluri de la vopsele şi lacuri cu conţinut de solventi organici sau",
+      "category": "08",
+      "subcategory": "08 01",
+      "hazardous": true
+    },
+    {
+      "code": "08 01 14",
+      "description": "namoluri de la vopsele şi lacuri, altele decât cele specificate la",
+      "category": "08",
+      "subcategory": "08 01",
+      "hazardous": false
+    },
+    {
+      "code": "08 01 15*",
+      "description": "namoluri apoase cu conţinut de vopsele şi lacuri şi solventi organici",
+      "category": "08",
+      "subcategory": "08 01",
+      "hazardous": true
+    },
+    {
+      "code": "08 01 16",
+      "description": "namoluri apoase cu conţinut de vopsele şi lacuri, altele decât cele",
+      "category": "08",
+      "subcategory": "08 01",
+      "hazardous": false
+    },
+    {
+      "code": "08 01 17*",
+      "description": "deşeuri de la îndepărtarea vopselelor şi lacurilor cu conţinut de",
+      "category": "08",
+      "subcategory": "08 01",
+      "hazardous": true
+    },
+    {
+      "code": "08 01 18",
+      "description": "deşeuri de la îndepărtarea \"vopselelor şi lacurilor, altele decât",
+      "category": "08",
+      "subcategory": "08 01",
+      "hazardous": false
+    },
+    {
+      "code": "08 01 19*",
+      "description": "suspensii apoase cu conţinut de vopsele şi lacuri şi solventi",
+      "category": "08",
+      "subcategory": "08 01",
+      "hazardous": true
+    },
+    {
+      "code": "08 01 20",
+      "description": "suspensii apoase cu conţinut de vopsele şi lacuri, altele decât cele",
+      "category": "08",
+      "subcategory": "08 01",
+      "hazardous": false
+    },
+    {
+      "code": "08 01 21*",
+      "description": "deşeuri de la îndepărtarea vopselelor şi lacurilor",
+      "category": "08",
+      "subcategory": "08 01",
+      "hazardous": true
+    },
+    {
+      "code": "08 01 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "08",
+      "subcategory": "08 01",
+      "hazardous": false
+    },
+    {
+      "code": "08 02 01",
+      "description": "deşeuri de pulberi de acoperire",
+      "category": "08",
+      "subcategory": "08 02",
+      "hazardous": false
+    },
+    {
+      "code": "08 02 02",
+      "description": "namoluri apoase cu conţinut de materiale ceramice",
+      "category": "08",
+      "subcategory": "08 02",
+      "hazardous": false
+    },
+    {
+      "code": "08 02 03",
+      "description": "suspensii apoase cu conţinut de materiale ceramice",
+      "category": "08",
+      "subcategory": "08 02",
+      "hazardous": false
+    },
+    {
+      "code": "08 02 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "08",
+      "subcategory": "08 02",
+      "hazardous": false
+    },
+    {
+      "code": "08 03 07",
+      "description": "namoluri apoase cu conţinut de cerneluri",
+      "category": "08",
+      "subcategory": "08 03",
+      "hazardous": false
+    },
+    {
+      "code": "08 03 08",
+      "description": "deşeuri lichide apoase cu conţinut de cerneluri",
+      "category": "08",
+      "subcategory": "08 03",
+      "hazardous": false
+    },
+    {
+      "code": "08 03 12*",
+      "description": "deşeuri de cerneluri cu conţinut de substanţe periculoase",
+      "category": "08",
+      "subcategory": "08 03",
+      "hazardous": true
+    },
+    {
+      "code": "08 03 13",
+      "description": "deşeuri de cerneluri, altele decât cele specificate la 08 03 12",
+      "category": "08",
+      "subcategory": "08 03",
+      "hazardous": false
+    },
+    {
+      "code": "08 03 14*",
+      "description": "namoluri de cerneluri cu conţinut de substanţe periculoase",
+      "category": "08",
+      "subcategory": "08 03",
+      "hazardous": true
+    },
+    {
+      "code": "08 03 15",
+      "description": "namoluri de cerneluri, altele decât cele specificate la 08 03 14",
+      "category": "08",
+      "subcategory": "08 03",
+      "hazardous": false
+    },
+    {
+      "code": "08 03 16*",
+      "description": "deşeuri de soluţii de gravare",
+      "category": "08",
+      "subcategory": "08 03",
+      "hazardous": true
+    },
+    {
+      "code": "08 03 17*",
+      "description": "deşeuri de tonere de imprimante cu conţinut de substanţe periculoase",
+      "category": "08",
+      "subcategory": "08 03",
+      "hazardous": true
+    },
+    {
+      "code": "08 03 18",
+      "description": "deşeuri de tonere de imprimante, altele decât cele specificate",
+      "category": "08",
+      "subcategory": "08 03",
+      "hazardous": false
+    },
+    {
+      "code": "08 03 19*",
+      "description": "ulei de dispersie",
+      "category": "08",
+      "subcategory": "08 03",
+      "hazardous": true
+    },
+    {
+      "code": "08 03 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "08",
+      "subcategory": "08 03",
+      "hazardous": false
+    },
+    {
+      "code": "08 04 09*",
+      "description": "deşeuri de adezivi şi cleiuri cu conţinut de solventi organici sau",
+      "category": "08",
+      "subcategory": "08 04",
+      "hazardous": true
+    },
+    {
+      "code": "08 04 10",
+      "description": "deşeuri de adezivi şi cleiuri, altele decât cele specificate",
+      "category": "08",
+      "subcategory": "08 04",
+      "hazardous": false
+    },
+    {
+      "code": "08 04 11*",
+      "description": "namoluri de adezivi şi cleiuri cu conţinut de solventi organici",
+      "category": "08",
+      "subcategory": "08 04",
+      "hazardous": true
+    },
+    {
+      "code": "08 04 12",
+      "description": "namoluri de adezivi şi cleiuri, altele decât cele specificate",
+      "category": "08",
+      "subcategory": "08 04",
+      "hazardous": false
+    },
+    {
+      "code": "08 04 13*",
+      "description": "namoluri apoase cu conţinut de adezivi şi cleiuri şi solventi",
+      "category": "08",
+      "subcategory": "08 04",
+      "hazardous": true
+    },
+    {
+      "code": "08 04 14",
+      "description": "namoluri apoase cu conţinut de adezivi şi cleiuri, altele decât",
+      "category": "08",
+      "subcategory": "08 04",
+      "hazardous": false
+    },
+    {
+      "code": "08 04 15*",
+      "description": "deşeuri lichide apoase cu conţinut de adezivi şi cleiuri şi",
+      "category": "08",
+      "subcategory": "08 04",
+      "hazardous": true
+    },
+    {
+      "code": "08 04 16",
+      "description": "deşeuri lichide apoase cu conţinut de adezivi şi cleiuri, altele",
+      "category": "08",
+      "subcategory": "08 04",
+      "hazardous": false
+    },
+    {
+      "code": "08 04 17*",
+      "description": "ulei de colofoniu",
+      "category": "08",
+      "subcategory": "08 04",
+      "hazardous": true
+    },
+    {
+      "code": "08 04 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "08",
+      "subcategory": "08 04",
+      "hazardous": false
+    },
+    {
+      "code": "08 05 01*",
+      "description": "deşeuri de izocianati",
+      "category": "08",
+      "subcategory": "08 05",
+      "hazardous": true
+    },
+    {
+      "code": "09 01 01*",
+      "description": "developanti pe bază de apa şi soluţii de activare",
+      "category": "09",
+      "subcategory": "09 01",
+      "hazardous": true
+    },
+    {
+      "code": "09 01 02*",
+      "description": "soluţii de developare pe bază de apa pentru plăcile offset",
+      "category": "09",
+      "subcategory": "09 01",
+      "hazardous": true
+    },
+    {
+      "code": "09 01 03*",
+      "description": "soluţii de developare pe bază de solventi",
+      "category": "09",
+      "subcategory": "09 01",
+      "hazardous": true
+    },
+    {
+      "code": "09 01 04*",
+      "description": "soluţii de fixare",
+      "category": "09",
+      "subcategory": "09 01",
+      "hazardous": true
+    },
+    {
+      "code": "09 01 05*",
+      "description": "soluţii de albire şi soluţii de albire fixatoare",
+      "category": "09",
+      "subcategory": "09 01",
+      "hazardous": true
+    },
+    {
+      "code": "09 01 06*",
+      "description": "deşeuri cu conţinut de argint de la tratarea în incinta",
+      "category": "09",
+      "subcategory": "09 01",
+      "hazardous": true
+    },
+    {
+      "code": "09 01 07",
+      "description": "film sau hârtie fotografica cu conţinut de argint sau compuşi",
+      "category": "09",
+      "subcategory": "09 01",
+      "hazardous": false
+    },
+    {
+      "code": "09 01 08",
+      "description": "film sau hârtie fotografica fără conţinut de argint sau compuşi",
+      "category": "09",
+      "subcategory": "09 01",
+      "hazardous": false
+    },
+    {
+      "code": "09 01 10",
+      "description": "camere de unica folosinţă fără baterii",
+      "category": "09",
+      "subcategory": "09 01",
+      "hazardous": false
+    },
+    {
+      "code": "09 01 11*",
+      "description": "camera de unica folosinţă cu baterii incluse la 16 06 01, 16 06 02",
+      "category": "09",
+      "subcategory": "09 01",
+      "hazardous": true
+    },
+    {
+      "code": "09 01 12",
+      "description": "camere de unica folosinţă cu baterii, altele decât cele specificate",
+      "category": "09",
+      "subcategory": "09 01",
+      "hazardous": false
+    },
+    {
+      "code": "09 01 13*",
+      "description": "deşeuri apoase lichide de la recuperarea în incinta a argintului,",
+      "category": "09",
+      "subcategory": "09 01",
+      "hazardous": true
+    },
+    {
+      "code": "09 01 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "09",
+      "subcategory": "09 01",
+      "hazardous": false
+    },
+    {
+      "code": "10 01 01",
+      "description": "cenusa de vatra, zgura şi praf de cazan (cu excepţia prafului de",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": false
+    },
+    {
+      "code": "10 01 02",
+      "description": "cenusa zburătoare de la arderea carbunelui",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": false
+    },
+    {
+      "code": "10 01 03",
+      "description": "cenusa zburătoare de la arderea turbei şi lemnului netratat",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": false
+    },
+    {
+      "code": "10 01 04*",
+      "description": "cenusa zburătoare de la arderea uleiului şi praf de cazan",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": true
+    },
+    {
+      "code": "10 01 05",
+      "description": "deşeuri solide, pe bază de calciu, de la desulfurarea gazelor",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": false
+    },
+    {
+      "code": "10 01 07",
+      "description": "namoluri pe bază de calciu, de la desulfurarea gazelor de ardere",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": false
+    },
+    {
+      "code": "10 01 09*",
+      "description": "acid sulfuric",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": true
+    },
+    {
+      "code": "10 01 13*",
+      "description": "cenusi zburătoare de la hidrocarburile emulsionate folosite drept",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": true
+    },
+    {
+      "code": "10 01 14*",
+      "description": "cenusa de vatra, zgura şi praf de cazan de la co-incinerarea",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": true
+    },
+    {
+      "code": "10 01 15",
+      "description": "cenusa de vatra, zgura şi praf de cazan de la co-incinerarea altor",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": false
+    },
+    {
+      "code": "10 01 16*",
+      "description": "cenusa zburătoare de la co-incinerare cu conţinut de substanţe",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": true
+    },
+    {
+      "code": "10 01 17",
+      "description": "cenusa zburătoare de la co-incinerare, alta decât cea specificată",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": false
+    },
+    {
+      "code": "10 01 18*",
+      "description": "deşeuri de la spalarea gazelor cu conţinut de substanţe periculoase",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": true
+    },
+    {
+      "code": "10 01 19",
+      "description": "deşeuri de la spalarea gazelor, altele decât cele specificate la",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": false
+    },
+    {
+      "code": "10 01 20*",
+      "description": "namoluri de la epurarea efluentilor în incinta, cu conţinut de",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": true
+    },
+    {
+      "code": "10 01 21",
+      "description": "namoluri de la epurarea efluentilor în incinta, altele decât cele",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": false
+    },
+    {
+      "code": "10 01 22*",
+      "description": "namoluri apoase de la spalarea cazanului de ardere cu conţinut",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": true
+    },
+    {
+      "code": "10 01 23",
+      "description": "namoluri apoase de la spalarea cazanului de ardere, altele decât",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": false
+    },
+    {
+      "code": "10 01 24",
+      "description": "nisipuri de la paturile fluidizate",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": false
+    },
+    {
+      "code": "10 01 25",
+      "description": "deşeuri de la depozitarea combustibilului şi de la pregătirea",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": false
+    },
+    {
+      "code": "10 01 26",
+      "description": "deşeuri de la epurarea apelor de răcire",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": false
+    },
+    {
+      "code": "10 01 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "10",
+      "subcategory": "10 01",
+      "hazardous": false
+    },
+    {
+      "code": "10 02 01",
+      "description": "deşeuri de la procesarea zgurii",
+      "category": "10",
+      "subcategory": "10 02",
+      "hazardous": false
+    },
+    {
+      "code": "10 02 02",
+      "description": "zgura neprocesata",
+      "category": "10",
+      "subcategory": "10 02",
+      "hazardous": false
+    },
+    {
+      "code": "10 02 07*",
+      "description": "deşeuri solide de la epurarea gazelor cu conţinut de substanţe",
+      "category": "10",
+      "subcategory": "10 02",
+      "hazardous": true
+    },
+    {
+      "code": "10 02 08",
+      "description": "deşeuri solide de la epurarea gazelor, altele decât cele specificate",
+      "category": "10",
+      "subcategory": "10 02",
+      "hazardous": false
+    },
+    {
+      "code": "10 02 10",
+      "description": "cruste de tunder",
+      "category": "10",
+      "subcategory": "10 02",
+      "hazardous": false
+    },
+    {
+      "code": "10 02 11*",
+      "description": "deşeuri de la epurarea apelor de răcire cu conţinut de uleiuri",
+      "category": "10",
+      "subcategory": "10 02",
+      "hazardous": true
+    },
+    {
+      "code": "10 02 12",
+      "description": "deşeuri de la epurarea apelor de răcire, altele decât cele",
+      "category": "10",
+      "subcategory": "10 02",
+      "hazardous": false
+    },
+    {
+      "code": "10 02 13*",
+      "description": "namoluri şi turte de filtrare de Ia epurarea gazelor cu conţinut",
+      "category": "10",
+      "subcategory": "10 02",
+      "hazardous": true
+    },
+    {
+      "code": "10 02 14",
+      "description": "namoluri şi turte de filtrare, altele decât cele specificate la",
+      "category": "10",
+      "subcategory": "10 02",
+      "hazardous": false
+    },
+    {
+      "code": "10 02 15",
+      "description": "alte namoluri şi turte de filtrare",
+      "category": "10",
+      "subcategory": "10 02",
+      "hazardous": false
+    },
+    {
+      "code": "10 02 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "10",
+      "subcategory": "10 02",
+      "hazardous": false
+    },
+    {
+      "code": "10 03 02",
+      "description": "resturi de anozi",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": false
+    },
+    {
+      "code": "10 03 04*",
+      "description": "zguri de la topirea primara",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": true
+    },
+    {
+      "code": "10 03 05",
+      "description": "deşeuri de alumina",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": false
+    },
+    {
+      "code": "10 03 08*",
+      "description": "zguri saline de la topirea secundară",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": true
+    },
+    {
+      "code": "10 03 09*",
+      "description": "scorii negre de la topirea secundară",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": true
+    },
+    {
+      "code": "10 03 15*",
+      "description": "cruste care sunt inflamabile sau emit în, contact cu apa, gaze",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": true
+    },
+    {
+      "code": "10 03 16",
+      "description": "cruste, altele decât cele specificate la 10 03 15",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": false
+    },
+    {
+      "code": "10 03 17*",
+      "description": "deşeuri cu conţinut de gudroane de la producerea anozilor",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": true
+    },
+    {
+      "code": "10 03 18",
+      "description": "deşeuri cu conţinut de carbon de la producerea anozilor,",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": false
+    },
+    {
+      "code": "10 03 19*",
+      "description": "praf din gazele de ardere cu conţinut de substanţe periculoase",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": true
+    },
+    {
+      "code": "10 03 20",
+      "description": "praf din gazele de ardere, altul decât cel specificat la 10 03 19",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": false
+    },
+    {
+      "code": "10 03 21*",
+      "description": "alte particule şi praf (inclusiv praf de la morile cu bile) cu",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": true
+    },
+    {
+      "code": "10 03 22",
+      "description": "alte particule şi praf (inclusiv praf de la morile cu bile), altele",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": false
+    },
+    {
+      "code": "10 03 23*",
+      "description": "deşeuri solide de la epurarea gazelor cu conţinut de substanţe",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": true
+    },
+    {
+      "code": "10 03 24",
+      "description": "deşeuri solide de la epurarea gazelor, altele decât cele specificate",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": false
+    },
+    {
+      "code": "10 03 25*",
+      "description": "namoluri şi turte de filtrare de la epurarea gazelor cu conţinut de",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": true
+    },
+    {
+      "code": "10 03 26",
+      "description": "namoluri şi turte de filtrare de la epurarea gazelor, altele decât",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": false
+    },
+    {
+      "code": "10 03 27*",
+      "description": "deşeuri de la epurarea apelor de răcire cu conţinut de ulei",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": true
+    },
+    {
+      "code": "10 03 28",
+      "description": "deşeuri de la epurarea apelor de răcire, altele decât cele",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": false
+    },
+    {
+      "code": "10 03 29*",
+      "description": "deşeuri de la epurarea zgurilor saline şi scoriile negre cu conţinut",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": true
+    },
+    {
+      "code": "10 03 30",
+      "description": "deşeuri de la epurarea zgurilor saline şi scoriile negre, altele",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": false
+    },
+    {
+      "code": "10 03 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "10",
+      "subcategory": "10 03",
+      "hazardous": false
+    },
+    {
+      "code": "10 04 01*",
+      "description": "zguri de la topirea primara şi secundară",
+      "category": "10",
+      "subcategory": "10 04",
+      "hazardous": true
+    },
+    {
+      "code": "10 04 02*",
+      "description": "scorii şi cruste de la topirea primara şi secundară",
+      "category": "10",
+      "subcategory": "10 04",
+      "hazardous": true
+    },
+    {
+      "code": "10 04 03*",
+      "description": "arseniat de calciu",
+      "category": "10",
+      "subcategory": "10 04",
+      "hazardous": true
+    },
+    {
+      "code": "10 04 04*",
+      "description": "praf din gazul de ardere",
+      "category": "10",
+      "subcategory": "10 04",
+      "hazardous": true
+    },
+    {
+      "code": "10 04 05*",
+      "description": "alte particule şi praf",
+      "category": "10",
+      "subcategory": "10 04",
+      "hazardous": true
+    },
+    {
+      "code": "10 04 06*",
+      "description": "deşeuri solide de la epurarea gazelor",
+      "category": "10",
+      "subcategory": "10 04",
+      "hazardous": true
+    },
+    {
+      "code": "10 04 07*",
+      "description": "namoluri şi turte de filtrare de la epurarea gazelor",
+      "category": "10",
+      "subcategory": "10 04",
+      "hazardous": true
+    },
+    {
+      "code": "10 04 09*",
+      "description": "deşeuri de la epurarea apelor de răcire cu conţinut de ulei",
+      "category": "10",
+      "subcategory": "10 04",
+      "hazardous": true
+    },
+    {
+      "code": "10 04 10",
+      "description": "deşeuri de la epurarea apelor de răcire, altele decât cele",
+      "category": "10",
+      "subcategory": "10 04",
+      "hazardous": false
+    },
+    {
+      "code": "10 04 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "10",
+      "subcategory": "10 04",
+      "hazardous": false
+    },
+    {
+      "code": "10 05 01",
+      "description": "zguri de la topirea primara şi secundară",
+      "category": "10",
+      "subcategory": "10 05",
+      "hazardous": false
+    },
+    {
+      "code": "10 05 03*",
+      "description": "praf din gazul de ardere",
+      "category": "10",
+      "subcategory": "10 05",
+      "hazardous": true
+    },
+    {
+      "code": "10 05 04",
+      "description": "alte particule şi praf",
+      "category": "10",
+      "subcategory": "10 05",
+      "hazardous": false
+    },
+    {
+      "code": "10 05 05*",
+      "description": "deşeuri solide de la epurarea gazelor",
+      "category": "10",
+      "subcategory": "10 05",
+      "hazardous": true
+    },
+    {
+      "code": "10 05 06*",
+      "description": "namoluri şi turte de filtrare de la epurarea gazelor",
+      "category": "10",
+      "subcategory": "10 05",
+      "hazardous": true
+    },
+    {
+      "code": "10 05 08*",
+      "description": "deşeuri de la epurarea apelor de răcire cu conţinut de ulei",
+      "category": "10",
+      "subcategory": "10 05",
+      "hazardous": true
+    },
+    {
+      "code": "10 05 09",
+      "description": "deşeuri de la epurarea apelor de răcire, altele decât cele",
+      "category": "10",
+      "subcategory": "10 05",
+      "hazardous": false
+    },
+    {
+      "code": "10 05 10*",
+      "description": "scorii şi cruste care sunt inflamabile sau emit, în contactul cu",
+      "category": "10",
+      "subcategory": "10 05",
+      "hazardous": true
+    },
+    {
+      "code": "10 05 11",
+      "description": "scorii şi cruste, altele decât cele specificate la 10 05 10",
+      "category": "10",
+      "subcategory": "10 05",
+      "hazardous": false
+    },
+    {
+      "code": "10 05 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "10",
+      "subcategory": "10 05",
+      "hazardous": false
+    },
+    {
+      "code": "10 06 01",
+      "description": "zguri de la topirea primara şi secundară",
+      "category": "10",
+      "subcategory": "10 06",
+      "hazardous": false
+    },
+    {
+      "code": "10 06 02",
+      "description": "scorii şi cruste de la topirea primara şi secundară",
+      "category": "10",
+      "subcategory": "10 06",
+      "hazardous": false
+    },
+    {
+      "code": "10 06 03*",
+      "description": "praf din gazul de ardere",
+      "category": "10",
+      "subcategory": "10 06",
+      "hazardous": true
+    },
+    {
+      "code": "10 06 04",
+      "description": "alte particule şi praf",
+      "category": "10",
+      "subcategory": "10 06",
+      "hazardous": false
+    },
+    {
+      "code": "10 06 06*",
+      "description": "deşeuri solide de la epurarea gazelor",
+      "category": "10",
+      "subcategory": "10 06",
+      "hazardous": true
+    },
+    {
+      "code": "10 06 07*",
+      "description": "namoluri şi turte de filtrare de la epurarea gazelor",
+      "category": "10",
+      "subcategory": "10 06",
+      "hazardous": true
+    },
+    {
+      "code": "10 06 09*",
+      "description": "deşeuri de la epurarea apelor de răcire cu conţinut de ulei",
+      "category": "10",
+      "subcategory": "10 06",
+      "hazardous": true
+    },
+    {
+      "code": "10 06 10",
+      "description": "deşeuri de la epurarea apelor de răcire, altele decât cele",
+      "category": "10",
+      "subcategory": "10 06",
+      "hazardous": false
+    },
+    {
+      "code": "10 06 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "10",
+      "subcategory": "10 06",
+      "hazardous": false
+    },
+    {
+      "code": "10 07 01",
+      "description": "zguri de la topirea primara şi secundară",
+      "category": "10",
+      "subcategory": "10 07",
+      "hazardous": false
+    },
+    {
+      "code": "10 07 02",
+      "description": "scorii şi cruste de la topirea primara şi secundară",
+      "category": "10",
+      "subcategory": "10 07",
+      "hazardous": false
+    },
+    {
+      "code": "10 07 03",
+      "description": "deşeuri solide de la epurarea gazelor",
+      "category": "10",
+      "subcategory": "10 07",
+      "hazardous": false
+    },
+    {
+      "code": "10 07 04",
+      "description": "alte particule şi praf",
+      "category": "10",
+      "subcategory": "10 07",
+      "hazardous": false
+    },
+    {
+      "code": "10 07 05",
+      "description": "namoluri şi turte de filtrare de la epurarea gazelor",
+      "category": "10",
+      "subcategory": "10 07",
+      "hazardous": false
+    },
+    {
+      "code": "10 07 07*",
+      "description": "deşeuri de la epurarea apelor de răcire cu conţinut de ulei",
+      "category": "10",
+      "subcategory": "10 07",
+      "hazardous": true
+    },
+    {
+      "code": "10 07 08",
+      "description": "deşeuri de la epurarea apelor de răcire, altele decât cele",
+      "category": "10",
+      "subcategory": "10 07",
+      "hazardous": false
+    },
+    {
+      "code": "10 07 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "10",
+      "subcategory": "10 07",
+      "hazardous": false
+    },
+    {
+      "code": "10 08 04",
+      "description": "particule şi praf",
+      "category": "10",
+      "subcategory": "10 08",
+      "hazardous": false
+    },
+    {
+      "code": "10 08 08*",
+      "description": "zgura salina de la topirea primara şi secundară",
+      "category": "10",
+      "subcategory": "10 08",
+      "hazardous": true
+    },
+    {
+      "code": "10 08 09",
+      "description": "alte zguri",
+      "category": "10",
+      "subcategory": "10 08",
+      "hazardous": false
+    },
+    {
+      "code": "10 08 10*",
+      "description": "scorii şi cruste care sunt inflamabile sau care emit, în contact",
+      "category": "10",
+      "subcategory": "10 08",
+      "hazardous": true
+    },
+    {
+      "code": "10 08 11",
+      "description": "scorii şi cruste, altele decât cele specificate la 10 08 10",
+      "category": "10",
+      "subcategory": "10 08",
+      "hazardous": false
+    },
+    {
+      "code": "10 08 12*",
+      "description": "deşeuri cu conţinut de gudron de la producerea anozilor",
+      "category": "10",
+      "subcategory": "10 08",
+      "hazardous": true
+    },
+    {
+      "code": "10 08 13",
+      "description": "deşeuri cu conţinut de carbon de la producerea anozilor, altele",
+      "category": "10",
+      "subcategory": "10 08",
+      "hazardous": false
+    },
+    {
+      "code": "10 08 14",
+      "description": "resturi de anozi",
+      "category": "10",
+      "subcategory": "10 08",
+      "hazardous": false
+    },
+    {
+      "code": "10 08 15*",
+      "description": "praf din gazul de ardere cu conţinut de substanţe periculoase",
+      "category": "10",
+      "subcategory": "10 08",
+      "hazardous": true
+    },
+    {
+      "code": "10 08 16",
+      "description": "praf din gazul de ardere, altul decât cel specificat la 10 08 15",
+      "category": "10",
+      "subcategory": "10 08",
+      "hazardous": false
+    },
+    {
+      "code": "10 08 17*",
+      "description": "namoluri şi turte de filtrare de la epurarea gazelor de ardere cu",
+      "category": "10",
+      "subcategory": "10 08",
+      "hazardous": true
+    },
+    {
+      "code": "10 08 18",
+      "description": "namoluri şi turte de filtrare de la epurarea gazelor de ardere,",
+      "category": "10",
+      "subcategory": "10 08",
+      "hazardous": false
+    },
+    {
+      "code": "10 08 19*",
+      "description": "deşeuri de la epurarea apelor de răcire cu conţinut de ulei",
+      "category": "10",
+      "subcategory": "10 08",
+      "hazardous": true
+    },
+    {
+      "code": "10 08 20",
+      "description": "deşeuri de la epurarea apelor de răcire, altele decât cele",
+      "category": "10",
+      "subcategory": "10 08",
+      "hazardous": false
+    },
+    {
+      "code": "10 08 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "10",
+      "subcategory": "10 08",
+      "hazardous": false
+    },
+    {
+      "code": "10 09 03",
+      "description": "zgura de topitorie",
+      "category": "10",
+      "subcategory": "10 09",
+      "hazardous": false
+    },
+    {
+      "code": "10 09 05*",
+      "description": "miezuri şi forme de turnare care nu au fost încă folosite la",
+      "category": "10",
+      "subcategory": "10 09",
+      "hazardous": true
+    },
+    {
+      "code": "10 09 06",
+      "description": "miezuri şi forme de turnare care nu au fost încă folosite la",
+      "category": "10",
+      "subcategory": "10 09",
+      "hazardous": false
+    },
+    {
+      "code": "10 09 07*",
+      "description": "miezuri şi forme de turnare care au fost folosite la turnare cu",
+      "category": "10",
+      "subcategory": "10 09",
+      "hazardous": true
+    },
+    {
+      "code": "10 09 08",
+      "description": "miezuri şi forme de turnare care au fost folosite la turnare,",
+      "category": "10",
+      "subcategory": "10 09",
+      "hazardous": false
+    },
+    {
+      "code": "10 09 09*",
+      "description": "praf din gazul de ardere cu conţinut de substanţe periculoase",
+      "category": "10",
+      "subcategory": "10 09",
+      "hazardous": true
+    },
+    {
+      "code": "10 09 10",
+      "description": "praf din gazul de ardere, altul decât cel specificat la 10 09 09",
+      "category": "10",
+      "subcategory": "10 09",
+      "hazardous": false
+    },
+    {
+      "code": "10 09 11*",
+      "description": "alte particule care conţin substanţe periculoase",
+      "category": "10",
+      "subcategory": "10 09",
+      "hazardous": true
+    },
+    {
+      "code": "10 09 12",
+      "description": "alte particule decât cele specificate la 10 09 11",
+      "category": "10",
+      "subcategory": "10 09",
+      "hazardous": false
+    },
+    {
+      "code": "10 09 13*",
+      "description": "deşeuri de lianti cu conţinut de substanţe periculoase",
+      "category": "10",
+      "subcategory": "10 09",
+      "hazardous": true
+    },
+    {
+      "code": "10 09 14",
+      "description": "deşeuri de lianti, altele decât cele specificate la 10 09 13",
+      "category": "10",
+      "subcategory": "10 09",
+      "hazardous": false
+    },
+    {
+      "code": "10 09 15*",
+      "description": "deşeuri de agenţi pentru detectarea fisurilor, cu conţinut de",
+      "category": "10",
+      "subcategory": "10 09",
+      "hazardous": true
+    },
+    {
+      "code": "10 09 16",
+      "description": "deşeuri de agenţi pentru detectarea fisurilor, altele decât cele",
+      "category": "10",
+      "subcategory": "10 09",
+      "hazardous": false
+    },
+    {
+      "code": "10 09 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "10",
+      "subcategory": "10 09",
+      "hazardous": false
+    },
+    {
+      "code": "10 10 03",
+      "description": "zgura de topitorie",
+      "category": "10",
+      "subcategory": "10 10",
+      "hazardous": false
+    },
+    {
+      "code": "10 10 05*",
+      "description": "miezuri şi forme de turnare care nu au fost încă folosite la turnare",
+      "category": "10",
+      "subcategory": "10 10",
+      "hazardous": true
+    },
+    {
+      "code": "10 10 06",
+      "description": "miezuri şi forme de turnare care nu au fost încă folosite la",
+      "category": "10",
+      "subcategory": "10 10",
+      "hazardous": false
+    },
+    {
+      "code": "10 10 07*",
+      "description": "miezuri şi forme de turnare care au fost folosite la turnare cu",
+      "category": "10",
+      "subcategory": "10 10",
+      "hazardous": true
+    },
+    {
+      "code": "10 10 08",
+      "description": "miezuri şi forme de turnare care au fost folosite la turnare,",
+      "category": "10",
+      "subcategory": "10 10",
+      "hazardous": false
+    },
+    {
+      "code": "10 10 09*",
+      "description": "praf din gazul de ardere cu conţinut de substanţe periculoase",
+      "category": "10",
+      "subcategory": "10 10",
+      "hazardous": true
+    },
+    {
+      "code": "10 10 10",
+      "description": "praf din gazul de ardere, altul decât cel specificat la 10 10 09",
+      "category": "10",
+      "subcategory": "10 10",
+      "hazardous": false
+    },
+    {
+      "code": "10 10 11*",
+      "description": "alte particule cu conţinut de substanţe periculoase",
+      "category": "10",
+      "subcategory": "10 10",
+      "hazardous": true
+    },
+    {
+      "code": "10 10 12",
+      "description": "alte particule, decât cele specificate la 10 10 11",
+      "category": "10",
+      "subcategory": "10 10",
+      "hazardous": false
+    },
+    {
+      "code": "10 10 13*",
+      "description": "deşeuri de lianti cu conţinut de substanţe periculoase",
+      "category": "10",
+      "subcategory": "10 10",
+      "hazardous": true
+    },
+    {
+      "code": "10 10 14",
+      "description": "deşeuri de lianti, altele decât cele specificate la 10 10 13",
+      "category": "10",
+      "subcategory": "10 10",
+      "hazardous": false
+    },
+    {
+      "code": "10 10 15*",
+      "description": "deşeuri de agenţi pentru detectarea fisurilor, cu conţinut de",
+      "category": "10",
+      "subcategory": "10 10",
+      "hazardous": true
+    },
+    {
+      "code": "10 10 16",
+      "description": "deşeuri de agenţi pentru detectarea fisurilor, altele decât cele",
+      "category": "10",
+      "subcategory": "10 10",
+      "hazardous": false
+    },
+    {
+      "code": "10 10 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "10",
+      "subcategory": "10 10",
+      "hazardous": false
+    },
+    {
+      "code": "10 11 03",
+      "description": "deşeuri din fibre de sticlă",
+      "category": "10",
+      "subcategory": "10 11",
+      "hazardous": false
+    },
+    {
+      "code": "10 11 05",
+      "description": "particule şi praf",
+      "category": "10",
+      "subcategory": "10 11",
+      "hazardous": false
+    },
+    {
+      "code": "10 11 09*",
+      "description": "deşeuri de la prepararea amestecurilor, anterior procesarii termice,",
+      "category": "10",
+      "subcategory": "10 11",
+      "hazardous": true
+    },
+    {
+      "code": "10 11 10",
+      "description": "deşeuri de la prepararea amestecurilor, anterior procesarii termice,",
+      "category": "10",
+      "subcategory": "10 11",
+      "hazardous": false
+    },
+    {
+      "code": "10 11 11*",
+      "description": "deşeuri de sticlă sub forma de particule fine şi pudra de sticlă cu",
+      "category": "10",
+      "subcategory": "10 11",
+      "hazardous": true
+    },
+    {
+      "code": "10 11 12",
+      "description": "deşeuri de sticlă, altele decât cele specificate la 10 11 11",
+      "category": "10",
+      "subcategory": "10 11",
+      "hazardous": false
+    },
+    {
+      "code": "10 11 13*",
+      "description": "namoluri de la slefuirea şi polizarea sticlei cu conţinut de",
+      "category": "10",
+      "subcategory": "10 11",
+      "hazardous": true
+    },
+    {
+      "code": "10 11 14",
+      "description": "namoluri de la slefuirea şi polizarea sticlei, altele decât cele",
+      "category": "10",
+      "subcategory": "10 11",
+      "hazardous": false
+    },
+    {
+      "code": "10 11 15*",
+      "description": "deşeuri solide de la epurarea gazelor de ardere cu conţinut de",
+      "category": "10",
+      "subcategory": "10 11",
+      "hazardous": true
+    },
+    {
+      "code": "10 11 16",
+      "description": "deşeuri solide de la epurarea gazelor de ardere, altele decât cele",
+      "category": "10",
+      "subcategory": "10 11",
+      "hazardous": false
+    },
+    {
+      "code": "10 11 17*",
+      "description": "namoluri şi turte de filtrare de la epurarea gazelor de ardere cu",
+      "category": "10",
+      "subcategory": "10 11",
+      "hazardous": true
+    },
+    {
+      "code": "10 11 18",
+      "description": "namoluri şi turte de filtrare de la epurarea gazelor de ardere,",
+      "category": "10",
+      "subcategory": "10 11",
+      "hazardous": false
+    },
+    {
+      "code": "10 11 19*",
+      "description": "deşeuri solide de la epurarea efluentilor proprii cu conţinut de",
+      "category": "10",
+      "subcategory": "10 11",
+      "hazardous": true
+    },
+    {
+      "code": "10 11 20",
+      "description": "deşeuri solide de la epurarea efluentilor proprii, altele decît",
+      "category": "10",
+      "subcategory": "10 11",
+      "hazardous": false
+    },
+    {
+      "code": "10 11 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "10",
+      "subcategory": "10 11",
+      "hazardous": false
+    },
+    {
+      "code": "10 12 01",
+      "description": "deşeuri de la prepararea amestecurilor anterior procesarii termice",
+      "category": "10",
+      "subcategory": "10 12",
+      "hazardous": false
+    },
+    {
+      "code": "10 12 03",
+      "description": "particule şi praf",
+      "category": "10",
+      "subcategory": "10 12",
+      "hazardous": false
+    },
+    {
+      "code": "10 12 05",
+      "description": "namoluri şi turte de filtrare de la epurarea gazelor",
+      "category": "10",
+      "subcategory": "10 12",
+      "hazardous": false
+    },
+    {
+      "code": "10 12 06",
+      "description": "forme şi mulaje uzate",
+      "category": "10",
+      "subcategory": "10 12",
+      "hazardous": false
+    },
+    {
+      "code": "10 12 08",
+      "description": "deşeuri ceramice, de caramizi, tigle sau materiale de construcţie",
+      "category": "10",
+      "subcategory": "10 12",
+      "hazardous": false
+    },
+    {
+      "code": "10 12 09*",
+      "description": "deşeuri solide de la epurarea gazelor cu conţinut de substanţe",
+      "category": "10",
+      "subcategory": "10 12",
+      "hazardous": true
+    },
+    {
+      "code": "10 12 10",
+      "description": "deşeuri solide de la epurarea gazelor, altele decât cele specificate",
+      "category": "10",
+      "subcategory": "10 12",
+      "hazardous": false
+    },
+    {
+      "code": "10 12 11*",
+      "description": "deşeuri de la smaltuire cu conţinut de metale grele",
+      "category": "10",
+      "subcategory": "10 12",
+      "hazardous": true
+    },
+    {
+      "code": "10 12 12",
+      "description": "deşeuri de la smaltuire, altele decât cele specificate la 10 12 11",
+      "category": "10",
+      "subcategory": "10 12",
+      "hazardous": false
+    },
+    {
+      "code": "10 12 13",
+      "description": "namoluri de la epurarea efluentilor proprii",
+      "category": "10",
+      "subcategory": "10 12",
+      "hazardous": false
+    },
+    {
+      "code": "10 12 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "10",
+      "subcategory": "10 12",
+      "hazardous": false
+    },
+    {
+      "code": "10 13 01",
+      "description": "deşeuri de la prepararea amestecului, anterior procesarii termice",
+      "category": "10",
+      "subcategory": "10 13",
+      "hazardous": false
+    },
+    {
+      "code": "10 13 04",
+      "description": "deşeuri de la calcinarea şi hidratarea varului",
+      "category": "10",
+      "subcategory": "10 13",
+      "hazardous": false
+    },
+    {
+      "code": "10 13 06",
+      "description": "particule şi praf (cu excepţia 10 13 12 şi 10 13 13)",
+      "category": "10",
+      "subcategory": "10 13",
+      "hazardous": false
+    },
+    {
+      "code": "10 13 07",
+      "description": "namoluri şi turte de filtrare de la epurarea gazelor",
+      "category": "10",
+      "subcategory": "10 13",
+      "hazardous": false
+    },
+    {
+      "code": "10 13 09*",
+      "description": "deşeuri de la fabricarea azbesto-cimenturilor, cu conţinut de azbest",
+      "category": "10",
+      "subcategory": "10 13",
+      "hazardous": true
+    },
+    {
+      "code": "10 13 10",
+      "description": "deşeuri de la producerea azbesto-cimenturilor, altele decât cele",
+      "category": "10",
+      "subcategory": "10 13",
+      "hazardous": false
+    },
+    {
+      "code": "10 13 11",
+      "description": "deşeuri de materiale compozite pe bază de ciment, altele decât cele",
+      "category": "10",
+      "subcategory": "10 13",
+      "hazardous": false
+    },
+    {
+      "code": "10 13 12*",
+      "description": "deşeuri solide de la epurarea gazelor cu conţinut de substanţe",
+      "category": "10",
+      "subcategory": "10 13",
+      "hazardous": true
+    },
+    {
+      "code": "10 13 13",
+      "description": "deşeuri solide de la epurarea gazelor, altele decât cele specificate",
+      "category": "10",
+      "subcategory": "10 13",
+      "hazardous": false
+    },
+    {
+      "code": "10 13 14",
+      "description": "deşeuri de beton şi namoluri cu beton",
+      "category": "10",
+      "subcategory": "10 13",
+      "hazardous": false
+    },
+    {
+      "code": "10 13 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "10",
+      "subcategory": "10 13",
+      "hazardous": false
+    },
+    {
+      "code": "10 14 01*",
+      "description": "deşeuri de la spalarea gazelor cu conţinut de mercur",
+      "category": "10",
+      "subcategory": "10 14",
+      "hazardous": true
+    },
+    {
+      "code": "11 01 05*",
+      "description": "acizi de decapare",
+      "category": "11",
+      "subcategory": "11 01",
+      "hazardous": true
+    },
+    {
+      "code": "11 01 06*",
+      "description": "acizi fără alta specificaţie",
+      "category": "11",
+      "subcategory": "11 01",
+      "hazardous": true
+    },
+    {
+      "code": "11 01 07*",
+      "description": "baze de decapare",
+      "category": "11",
+      "subcategory": "11 01",
+      "hazardous": true
+    },
+    {
+      "code": "11 01 08*",
+      "description": "namoluri cu conţinut de fosfati",
+      "category": "11",
+      "subcategory": "11 01",
+      "hazardous": true
+    },
+    {
+      "code": "11 01 09*",
+      "description": "namoluri şi turte de filtrare cu conţinut de substanţe periculoase",
+      "category": "11",
+      "subcategory": "11 01",
+      "hazardous": true
+    },
+    {
+      "code": "11 01 10",
+      "description": "namoluri şi turte de filtrare, altele decât cele specificate",
+      "category": "11",
+      "subcategory": "11 01",
+      "hazardous": false
+    },
+    {
+      "code": "11 01 11*",
+      "description": "lichide apoase de clatire cu conţinut de substanţe periculoase",
+      "category": "11",
+      "subcategory": "11 01",
+      "hazardous": true
+    },
+    {
+      "code": "11 01 12",
+      "description": "lichide apoase de clatire, altele decât cele specificate la 11 01 11",
+      "category": "11",
+      "subcategory": "11 01",
+      "hazardous": false
+    },
+    {
+      "code": "11 01 13*",
+      "description": "deşeuri de degresare cu conţinut de substanţe periculoase",
+      "category": "11",
+      "subcategory": "11 01",
+      "hazardous": true
+    },
+    {
+      "code": "11 01 14",
+      "description": "deşeuri de degresare, altele decât cele specificate la 11 01 13",
+      "category": "11",
+      "subcategory": "11 01",
+      "hazardous": false
+    },
+    {
+      "code": "11 01 15*",
+      "description": "eluati şi namoluri de la sistemele de membrane sau de schimbatori",
+      "category": "11",
+      "subcategory": "11 01",
+      "hazardous": true
+    },
+    {
+      "code": "11 01 16*",
+      "description": "rasini schimbatoare de ioni saturate sau epuizate",
+      "category": "11",
+      "subcategory": "11 01",
+      "hazardous": true
+    },
+    {
+      "code": "11 01 98*",
+      "description": "alte deşeuri conţinând substanţe periculoase",
+      "category": "11",
+      "subcategory": "11 01",
+      "hazardous": true
+    },
+    {
+      "code": "11 01 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "11",
+      "subcategory": "11 01",
+      "hazardous": false
+    },
+    {
+      "code": "11 02 02*",
+      "description": "namoluri de la hidrometalurgia zincului (inclusiv jarosit, goethit)",
+      "category": "11",
+      "subcategory": "11 02",
+      "hazardous": true
+    },
+    {
+      "code": "11 02 03",
+      "description": "deşeuri de la producerea anozilor pentru procesele de electroliza",
+      "category": "11",
+      "subcategory": "11 02",
+      "hazardous": false
+    },
+    {
+      "code": "11 02 05*",
+      "description": "deşeuri de la procesele de hidrometalurgie a cuprului, cu conţinut",
+      "category": "11",
+      "subcategory": "11 02",
+      "hazardous": true
+    },
+    {
+      "code": "11 02 06",
+      "description": "deşeuri de la procesele de hidrometalurgie a cuprului, altele decât",
+      "category": "11",
+      "subcategory": "11 02",
+      "hazardous": false
+    },
+    {
+      "code": "11 02 07*",
+      "description": "alte deşeuri cu conţinut de substanţe periculoase",
+      "category": "11",
+      "subcategory": "11 02",
+      "hazardous": true
+    },
+    {
+      "code": "11 02 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "11",
+      "subcategory": "11 02",
+      "hazardous": false
+    },
+    {
+      "code": "11 03 01*",
+      "description": "deşeuri cu conţinut de cianuri",
+      "category": "11",
+      "subcategory": "11 03",
+      "hazardous": true
+    },
+    {
+      "code": "11 03 02*",
+      "description": "alte deşeuri",
+      "category": "11",
+      "subcategory": "11 03",
+      "hazardous": true
+    },
+    {
+      "code": "11 05 01",
+      "description": "zinc dur",
+      "category": "11",
+      "subcategory": "11 05",
+      "hazardous": false
+    },
+    {
+      "code": "11 05 02",
+      "description": "cenusa de zinc",
+      "category": "11",
+      "subcategory": "11 05",
+      "hazardous": false
+    },
+    {
+      "code": "11 05 03*",
+      "description": "deşeuri solide de la epurarea gazelor",
+      "category": "11",
+      "subcategory": "11 05",
+      "hazardous": true
+    },
+    {
+      "code": "11 05 04*",
+      "description": "baie uzata",
+      "category": "11",
+      "subcategory": "11 05",
+      "hazardous": true
+    },
+    {
+      "code": "11 05 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "11",
+      "subcategory": "11 05",
+      "hazardous": false
+    },
+    {
+      "code": "12 01 01",
+      "description": "pilitura şi span feros",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": false
+    },
+    {
+      "code": "12 01 02",
+      "description": "praf şi suspensii de metale feroase",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": false
+    },
+    {
+      "code": "12 01 03",
+      "description": "pilitura şi span neferos",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": false
+    },
+    {
+      "code": "12 01 04",
+      "description": "praf şi particule de metale neferoase",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": false
+    },
+    {
+      "code": "12 01 05",
+      "description": "pilitura şi span de materiale plastice",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": false
+    },
+    {
+      "code": "12 01 06*",
+      "description": "uleiuri minerale de ungere uzate cu conţinut de halogeni",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": true
+    },
+    {
+      "code": "12 01 07*",
+      "description": "uleiuri minerale de ungere uzate fără halogeni (cu excepţia",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": true
+    },
+    {
+      "code": "12 01 08*",
+      "description": "emulsii şi soluţii de ungere uzate cu conţinut de halogeni",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": true
+    },
+    {
+      "code": "12 01 09*",
+      "description": "emulsii şi soluţii de ungere uzate fără halogeni",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": true
+    },
+    {
+      "code": "12 01 10*",
+      "description": "uleiuri sintetice de ungere uzate",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": true
+    },
+    {
+      "code": "12 01 12*",
+      "description": "ceruri şi grăsimi uzate",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": true
+    },
+    {
+      "code": "12 01 13",
+      "description": "deşeuri de la sudura",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": false
+    },
+    {
+      "code": "12 01 14*",
+      "description": "namoluri de la maşini-unelte cu conţinut de substanţe periculoase",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": true
+    },
+    {
+      "code": "12 01 15",
+      "description": "namoluri de la maşini-unelte, altele decât cele specificate",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": false
+    },
+    {
+      "code": "12 01 16*",
+      "description": "deşeuri de materiale de sablare cu conţinut de substanţe periculoase",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": true
+    },
+    {
+      "code": "12 01 17",
+      "description": "deşeuri de materiale de sablare, altele decât cele specificate",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": false
+    },
+    {
+      "code": "12 01 18*",
+      "description": "namoluri metalice (de la maruntire, honuire, lepuire) cu conţinut",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": true
+    },
+    {
+      "code": "12 01 19*",
+      "description": "uleiuri de ungere uşor biodegradabile",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": true
+    },
+    {
+      "code": "12 01 20*",
+      "description": "piese de polizare uzate maruntite şi materiale de polizare maruntite",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": true
+    },
+    {
+      "code": "12 01 21",
+      "description": "piese vizate de polizare maruntite şi materiale de polizare",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": false
+    },
+    {
+      "code": "12 01 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "12",
+      "subcategory": "12 01",
+      "hazardous": false
+    },
+    {
+      "code": "12 03 01*",
+      "description": "lichide apoase de spalare",
+      "category": "12",
+      "subcategory": "12 03",
+      "hazardous": true
+    },
+    {
+      "code": "12 03 02*",
+      "description": "deşeuri de la degresarea cu abur",
+      "category": "12",
+      "subcategory": "12 03",
+      "hazardous": true
+    },
+    {
+      "code": "13 01 01*",
+      "description": "uleiuri hidraulice cu conţinut de PCB*1)",
+      "category": "13",
+      "subcategory": "13 01",
+      "hazardous": true
+    },
+    {
+      "code": "13 01 04*",
+      "description": "emulsii clorurate",
+      "category": "13",
+      "subcategory": "13 01",
+      "hazardous": true
+    },
+    {
+      "code": "13 01 05*",
+      "description": "emulsii neclorurate",
+      "category": "13",
+      "subcategory": "13 01",
+      "hazardous": true
+    },
+    {
+      "code": "13 01 09*",
+      "description": "uleiuri hidraulice minerale clorinate",
+      "category": "13",
+      "subcategory": "13 01",
+      "hazardous": true
+    },
+    {
+      "code": "13 01 10*",
+      "description": "uleiuri minerale hidraulice neclorinate",
+      "category": "13",
+      "subcategory": "13 01",
+      "hazardous": true
+    },
+    {
+      "code": "13 01 11*",
+      "description": "uleiuri hidraulice sintetice",
+      "category": "13",
+      "subcategory": "13 01",
+      "hazardous": true
+    },
+    {
+      "code": "13 01 12*",
+      "description": "uleiuri hidraulice uşor biodegradabile",
+      "category": "13",
+      "subcategory": "13 01",
+      "hazardous": true
+    },
+    {
+      "code": "13 01 13*",
+      "description": "alte uleiuri hidraulice",
+      "category": "13",
+      "subcategory": "13 01",
+      "hazardous": true
+    },
+    {
+      "code": "13 02 04*",
+      "description": "uleiuri minerale clorurate de motor, de transmisie şi de ungere",
+      "category": "13",
+      "subcategory": "13 02",
+      "hazardous": true
+    },
+    {
+      "code": "13 02 05*",
+      "description": "uleiuri minerale neclorurate de motor, de transmisie şi de ungere",
+      "category": "13",
+      "subcategory": "13 02",
+      "hazardous": true
+    },
+    {
+      "code": "13 02 06*",
+      "description": "uleiuri sintetice de motor, de transmisie şi de ungere",
+      "category": "13",
+      "subcategory": "13 02",
+      "hazardous": true
+    },
+    {
+      "code": "13 02 07*",
+      "description": "uleiuri de motor, de transmisie şi de ungere uşor biodegradabile",
+      "category": "13",
+      "subcategory": "13 02",
+      "hazardous": true
+    },
+    {
+      "code": "13 02 08*",
+      "description": "alte uleiuri de motor, de transmisie şi de ungere",
+      "category": "13",
+      "subcategory": "13 02",
+      "hazardous": true
+    },
+    {
+      "code": "13 03 01*",
+      "description": "uleiuri izolante şi de transmitere a caldurii cu conţinut de PCB",
+      "category": "13",
+      "subcategory": "13 03",
+      "hazardous": true
+    },
+    {
+      "code": "13 03 06*",
+      "description": "uleiuri minerale clorinate izolante şi de transmitere a caldurii,",
+      "category": "13",
+      "subcategory": "13 03",
+      "hazardous": true
+    },
+    {
+      "code": "13 03 07*",
+      "description": "uleiuri minerale neclorinate izolante şi de transmitere a caldurii",
+      "category": "13",
+      "subcategory": "13 03",
+      "hazardous": true
+    },
+    {
+      "code": "13 03 08*",
+      "description": "uleiuri sintetice izolante şi de transmitere a caldurii",
+      "category": "13",
+      "subcategory": "13 03",
+      "hazardous": true
+    },
+    {
+      "code": "13 03 09*",
+      "description": "uleiuri izolante şi de transmitere a caldurii uşor biodegradabile",
+      "category": "13",
+      "subcategory": "13 03",
+      "hazardous": true
+    },
+    {
+      "code": "13 03 10*",
+      "description": "alte uleiuri izolante şi de transmitere a caldurii",
+      "category": "13",
+      "subcategory": "13 03",
+      "hazardous": true
+    },
+    {
+      "code": "13 04 01*",
+      "description": "uleiuri de santina din navigaţia pe apele interioare",
+      "category": "13",
+      "subcategory": "13 04",
+      "hazardous": true
+    },
+    {
+      "code": "13 04 02*",
+      "description": "uleiuri de santina din colectoarele de debarcader",
+      "category": "13",
+      "subcategory": "13 04",
+      "hazardous": true
+    },
+    {
+      "code": "13 04 03*",
+      "description": "uleiuri de santina din alte tipuri de navigaţie",
+      "category": "13",
+      "subcategory": "13 04",
+      "hazardous": true
+    },
+    {
+      "code": "13 05 01*",
+      "description": "solide din paturile de nisip şi separatoarele ulei/apa",
+      "category": "13",
+      "subcategory": "13 05",
+      "hazardous": true
+    },
+    {
+      "code": "13 05 02*",
+      "description": "namoluri de la separatoarele ulei/apa",
+      "category": "13",
+      "subcategory": "13 05",
+      "hazardous": true
+    },
+    {
+      "code": "13 05 03*",
+      "description": "namoluri de interceptie",
+      "category": "13",
+      "subcategory": "13 05",
+      "hazardous": true
+    },
+    {
+      "code": "13 05 06*",
+      "description": "ulei de la separatoarele ulei/apa",
+      "category": "13",
+      "subcategory": "13 05",
+      "hazardous": true
+    },
+    {
+      "code": "13 05 07*",
+      "description": "ape uleioase de la separatoarele ulei/apa",
+      "category": "13",
+      "subcategory": "13 05",
+      "hazardous": true
+    },
+    {
+      "code": "13 05 08*",
+      "description": "amestecuri de deşeuri de la paturile de nisip şi separatoarele",
+      "category": "13",
+      "subcategory": "13 05",
+      "hazardous": true
+    },
+    {
+      "code": "13 07 01*",
+      "description": "ulei combustibil şi combustibil diesel",
+      "category": "13",
+      "subcategory": "13 07",
+      "hazardous": true
+    },
+    {
+      "code": "13 07 02*",
+      "description": "benzina",
+      "category": "13",
+      "subcategory": "13 07",
+      "hazardous": true
+    },
+    {
+      "code": "13 07 03*",
+      "description": "alţi combustibili (inclusiv amestecuri)",
+      "category": "13",
+      "subcategory": "13 07",
+      "hazardous": true
+    },
+    {
+      "code": "13 08 01*",
+      "description": "namoluri şi emulsii de la desalinizare",
+      "category": "13",
+      "subcategory": "13 08",
+      "hazardous": true
+    },
+    {
+      "code": "13 08 02*",
+      "description": "alte emulsii",
+      "category": "13",
+      "subcategory": "13 08",
+      "hazardous": true
+    },
+    {
+      "code": "13 08 99*",
+      "description": "alte deşeuri nespecificate",
+      "category": "13",
+      "subcategory": "13 08",
+      "hazardous": true
+    },
+    {
+      "code": "14 06 01*",
+      "description": "clorofluorocarburi, HCFC, HFC",
+      "category": "14",
+      "subcategory": "14 06",
+      "hazardous": true
+    },
+    {
+      "code": "14 06 02*",
+      "description": "alţi solventi halogenati şi amestecuri de solventi",
+      "category": "14",
+      "subcategory": "14 06",
+      "hazardous": true
+    },
+    {
+      "code": "14 06 03*",
+      "description": "alţi solventi şi amestecuri de solventi",
+      "category": "14",
+      "subcategory": "14 06",
+      "hazardous": true
+    },
+    {
+      "code": "14 06 04*",
+      "description": "namoluri sau deşeuri solide cu conţinut de solventi halogenati",
+      "category": "14",
+      "subcategory": "14 06",
+      "hazardous": true
+    },
+    {
+      "code": "14 06 05*",
+      "description": "namoluri sau deşeuri solide cu conţinut de alţi solventi",
+      "category": "14",
+      "subcategory": "14 06",
+      "hazardous": true
+    },
+    {
+      "code": "15 01 01",
+      "description": "ambalaje de hârtie şi carton",
+      "category": "15",
+      "subcategory": "15 01",
+      "hazardous": false
+    },
+    {
+      "code": "15 01 02",
+      "description": "ambalaje de materiale plastice",
+      "category": "15",
+      "subcategory": "15 01",
+      "hazardous": false
+    },
+    {
+      "code": "15 01 03",
+      "description": "ambalaje de lemn",
+      "category": "15",
+      "subcategory": "15 01",
+      "hazardous": false
+    },
+    {
+      "code": "15 01 04",
+      "description": "ambalaje metalice",
+      "category": "15",
+      "subcategory": "15 01",
+      "hazardous": false
+    },
+    {
+      "code": "15 01 05",
+      "description": "ambalaje de materiale compozite",
+      "category": "15",
+      "subcategory": "15 01",
+      "hazardous": false
+    },
+    {
+      "code": "15 01 06",
+      "description": "ambalaje amestecate",
+      "category": "15",
+      "subcategory": "15 01",
+      "hazardous": false
+    },
+    {
+      "code": "15 01 07",
+      "description": "ambalaje de sticlă",
+      "category": "15",
+      "subcategory": "15 01",
+      "hazardous": false
+    },
+    {
+      "code": "15 01 09",
+      "description": "ambalaje din materiale textile",
+      "category": "15",
+      "subcategory": "15 01",
+      "hazardous": false
+    },
+    {
+      "code": "15 01 10*",
+      "description": "ambalaje care conţin reziduuri sau sunt contaminate cu substanţe",
+      "category": "15",
+      "subcategory": "15 01",
+      "hazardous": true
+    },
+    {
+      "code": "15 01 11*",
+      "description": "ambalaje metalice care conţin o matrita poroasa formată din",
+      "category": "15",
+      "subcategory": "15 01",
+      "hazardous": true
+    },
+    {
+      "code": "15 02 02*",
+      "description": "absorbanti, materiale filtrante (inclusiv filtre de ulei fără alta",
+      "category": "15",
+      "subcategory": "15 02",
+      "hazardous": true
+    },
+    {
+      "code": "15 02 03",
+      "description": "absorbanti, materiale filtrante, materiale de lustruire şi",
+      "category": "15",
+      "subcategory": "15 02",
+      "hazardous": false
+    },
+    {
+      "code": "16 01 03",
+      "description": "anvelope scoase din uz",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": false
+    },
+    {
+      "code": "16 01 04*",
+      "description": "vehicule scoase din uz",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": true
+    },
+    {
+      "code": "16 01 06",
+      "description": "vehicule scoase din uz, care nu conţin lichide sau alte componente",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": false
+    },
+    {
+      "code": "16 01 07*",
+      "description": "filtre de ulei",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": true
+    },
+    {
+      "code": "16 01 08*",
+      "description": "componente cu conţinut de mercur",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": true
+    },
+    {
+      "code": "16 01 09*",
+      "description": "componente cu conţinut de PCB",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": true
+    },
+    {
+      "code": "16 01 10*",
+      "description": "componente explozive (de ex. perne de protecţie (air bags))",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": true
+    },
+    {
+      "code": "16 01 11*",
+      "description": "plăcuţe de frana cu conţinut de azbest",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": true
+    },
+    {
+      "code": "16 01 12",
+      "description": "plăcuţe de frana, altele decât cele specificate la 16 01 11",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": false
+    },
+    {
+      "code": "16 01 13*",
+      "description": "lichide de frana",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": true
+    },
+    {
+      "code": "16 01 14*",
+      "description": "fluide antigel cu conţinut de substanţe periculoase",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": true
+    },
+    {
+      "code": "16 01 15",
+      "description": "fluide antigel, altele decât cele specificate la 16 01 14",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": false
+    },
+    {
+      "code": "16 01 16",
+      "description": "rezervoare pentru gaz lichefiat",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": false
+    },
+    {
+      "code": "16 01 17",
+      "description": "metale feroase",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": false
+    },
+    {
+      "code": "16 01 18",
+      "description": "metale neferoase",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": false
+    },
+    {
+      "code": "16 01 19",
+      "description": "materiale plastice",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": false
+    },
+    {
+      "code": "16 01 20",
+      "description": "sticlă",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": false
+    },
+    {
+      "code": "16 01 21*",
+      "description": "componente periculoase, altele decât cele specificate de",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": true
+    },
+    {
+      "code": "16 01 22",
+      "description": "componente fără alta specificaţie",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": false
+    },
+    {
+      "code": "16 01 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "16",
+      "subcategory": "16 01",
+      "hazardous": false
+    },
+    {
+      "code": "16 02 09*",
+      "description": "transformatori şi condensatori conţinând PCB",
+      "category": "16",
+      "subcategory": "16 02",
+      "hazardous": true
+    },
+    {
+      "code": "16 02 10*",
+      "description": "echipamente casate cu conţinut de PCB sau contaminate cu PCB,",
+      "category": "16",
+      "subcategory": "16 02",
+      "hazardous": true
+    },
+    {
+      "code": "16 02 11*",
+      "description": "echipamente casate cu conţinut de clorofluorcarburi, HCFC, HFC",
+      "category": "16",
+      "subcategory": "16 02",
+      "hazardous": true
+    },
+    {
+      "code": "16 02 12*",
+      "description": "echipamente casate cu conţinut de azbest liber",
+      "category": "16",
+      "subcategory": "16 02",
+      "hazardous": true
+    },
+    {
+      "code": "16 02 13*",
+      "description": "echipamente casate cu conţinut de componente periculoase*2) altele",
+      "category": "16",
+      "subcategory": "16 02",
+      "hazardous": true
+    },
+    {
+      "code": "16 02 14",
+      "description": "echipamente casate, altele decât cele specificate de la 16 02 09",
+      "category": "16",
+      "subcategory": "16 02",
+      "hazardous": false
+    },
+    {
+      "code": "16 02 15*",
+      "description": "componente periculoase demontate din echipamente casate",
+      "category": "16",
+      "subcategory": "16 02",
+      "hazardous": true
+    },
+    {
+      "code": "16 02 16",
+      "description": "componente demontate din echipamente casate, altele decât cele",
+      "category": "16",
+      "subcategory": "16 02",
+      "hazardous": false
+    },
+    {
+      "code": "16 03 03*",
+      "description": "deşeuri anorganice cu conţinut de substanţe periculoase",
+      "category": "16",
+      "subcategory": "16 03",
+      "hazardous": true
+    },
+    {
+      "code": "16 03 04",
+      "description": "deşeuri anorganice, altele decât cele specificate la 16 03 03",
+      "category": "16",
+      "subcategory": "16 03",
+      "hazardous": false
+    },
+    {
+      "code": "16 03 05*",
+      "description": "deşeuri organice cu conţinut de substanţe periculoase",
+      "category": "16",
+      "subcategory": "16 03",
+      "hazardous": true
+    },
+    {
+      "code": "16 03 06",
+      "description": "deşeuri organice, altele decât cele specificate la 16 03 05",
+      "category": "16",
+      "subcategory": "16 03",
+      "hazardous": false
+    },
+    {
+      "code": "16 04 01*",
+      "description": "deşeuri de munitie",
+      "category": "16",
+      "subcategory": "16 04",
+      "hazardous": true
+    },
+    {
+      "code": "16 04 02*",
+      "description": "deşeuri de artificii",
+      "category": "16",
+      "subcategory": "16 04",
+      "hazardous": true
+    },
+    {
+      "code": "16 04 03*",
+      "description": "alte deşeuri de explozivi",
+      "category": "16",
+      "subcategory": "16 04",
+      "hazardous": true
+    },
+    {
+      "code": "16 05 04*",
+      "description": "butelii de gaze sub presiune (inclusiv haloni) cu conţinut",
+      "category": "16",
+      "subcategory": "16 05",
+      "hazardous": true
+    },
+    {
+      "code": "16 05 05",
+      "description": "butelii de gaze sub presiune cu conţinut de alte substanţe decât",
+      "category": "16",
+      "subcategory": "16 05",
+      "hazardous": false
+    },
+    {
+      "code": "16 05 06*",
+      "description": "substanţe chimice de laborator constând din sau conţinând substanţe",
+      "category": "16",
+      "subcategory": "16 05",
+      "hazardous": true
+    },
+    {
+      "code": "16 05 07*",
+      "description": "substanţe chimice anorganice de laborator expirate constând din sau",
+      "category": "16",
+      "subcategory": "16 05",
+      "hazardous": true
+    },
+    {
+      "code": "16 05 08*",
+      "description": "substanţe chimice organice de laborator expirate, constând din sau",
+      "category": "16",
+      "subcategory": "16 05",
+      "hazardous": true
+    },
+    {
+      "code": "16 05 09",
+      "description": "substanţe chimice expirate, altele decât cele menţionate la 16 05 06,",
+      "category": "16",
+      "subcategory": "16 05",
+      "hazardous": false
+    },
+    {
+      "code": "16 05 07",
+      "description": "sau 16 05 08",
+      "category": "16",
+      "subcategory": "16 05",
+      "hazardous": false
+    },
+    {
+      "code": "16 06 01*",
+      "description": "baterii cu plumb",
+      "category": "16",
+      "subcategory": "16 06",
+      "hazardous": true
+    },
+    {
+      "code": "16 06 02*",
+      "description": "baterii cu Ni-Cd",
+      "category": "16",
+      "subcategory": "16 06",
+      "hazardous": true
+    },
+    {
+      "code": "16 06 03*",
+      "description": "baterii cu conţinut de mercur",
+      "category": "16",
+      "subcategory": "16 06",
+      "hazardous": true
+    },
+    {
+      "code": "16 06 04",
+      "description": "baterii alcaline (cu excepţia 16 06 03)",
+      "category": "16",
+      "subcategory": "16 06",
+      "hazardous": false
+    },
+    {
+      "code": "16 06 05",
+      "description": "alte baterii şi acumulatori",
+      "category": "16",
+      "subcategory": "16 06",
+      "hazardous": false
+    },
+    {
+      "code": "16 06 06*",
+      "description": "electroliti colectati separat din baterii şi acumulatori",
+      "category": "16",
+      "subcategory": "16 06",
+      "hazardous": true
+    },
+    {
+      "code": "16 07 08*",
+      "description": "deşeuri cu conţinut de ţiţei",
+      "category": "16",
+      "subcategory": "16 07",
+      "hazardous": true
+    },
+    {
+      "code": "16 07 09*",
+      "description": "deşeuri conţinând alte substanţe periculoase",
+      "category": "16",
+      "subcategory": "16 07",
+      "hazardous": true
+    },
+    {
+      "code": "16 07 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "16",
+      "subcategory": "16 07",
+      "hazardous": false
+    },
+    {
+      "code": "16 08 01",
+      "description": "catalizatori uzati cu conţinut de aur, argint, reniu, rodiu,",
+      "category": "16",
+      "subcategory": "16 08",
+      "hazardous": false
+    },
+    {
+      "code": "16 08 02*",
+      "description": "catalizatori uzati cu conţinut de metale tranzitionale periculoase*3)",
+      "category": "16",
+      "subcategory": "16 08",
+      "hazardous": true
+    },
+    {
+      "code": "16 08 03",
+      "description": "catalizatori uzati cu conţinut de metale tranzitionale sau compuşi",
+      "category": "16",
+      "subcategory": "16 08",
+      "hazardous": false
+    },
+    {
+      "code": "16 08 04",
+      "description": "catalizatori uzati de la cracare catalitica (cu excepţia 16 08 07)",
+      "category": "16",
+      "subcategory": "16 08",
+      "hazardous": false
+    },
+    {
+      "code": "16 08 05*",
+      "description": "catalizatori uzati cu conţinut de acid fosforic",
+      "category": "16",
+      "subcategory": "16 08",
+      "hazardous": true
+    },
+    {
+      "code": "16 08 06*",
+      "description": "lichide uzate folosite drept catalizatori",
+      "category": "16",
+      "subcategory": "16 08",
+      "hazardous": true
+    },
+    {
+      "code": "16 08 07*",
+      "description": "catalizatori uzati contaminati cu substanţe periculoase",
+      "category": "16",
+      "subcategory": "16 08",
+      "hazardous": true
+    },
+    {
+      "code": "16 09 01*",
+      "description": "permanganati, de ex. permanganat de potasiu",
+      "category": "16",
+      "subcategory": "16 09",
+      "hazardous": true
+    },
+    {
+      "code": "16 09 02*",
+      "description": "cromati, de ex. cromat de potasiu, bicromat de potasiu sau sodiu",
+      "category": "16",
+      "subcategory": "16 09",
+      "hazardous": true
+    },
+    {
+      "code": "16 09 03*",
+      "description": "peroxizi, de ex. apa oxigenata",
+      "category": "16",
+      "subcategory": "16 09",
+      "hazardous": true
+    },
+    {
+      "code": "16 09 04*",
+      "description": "substanţe oxidante, fără alte specificaţii",
+      "category": "16",
+      "subcategory": "16 09",
+      "hazardous": true
+    },
+    {
+      "code": "16 10 01*",
+      "description": "deşeuri lichide apoase cu conţinut de substanţe periculoase",
+      "category": "16",
+      "subcategory": "16 10",
+      "hazardous": true
+    },
+    {
+      "code": "16 10 02",
+      "description": "deşeuri lichide apoase, altele decât cele menţionate la 16 10 01",
+      "category": "16",
+      "subcategory": "16 10",
+      "hazardous": false
+    },
+    {
+      "code": "16 10 03*",
+      "description": "concentrate apoase cu conţinut de substanţe periculoase",
+      "category": "16",
+      "subcategory": "16 10",
+      "hazardous": true
+    },
+    {
+      "code": "16 10 04",
+      "description": "concentrate apoase, altele decât cele specificate la 16 10 03",
+      "category": "16",
+      "subcategory": "16 10",
+      "hazardous": false
+    },
+    {
+      "code": "16 11 01*",
+      "description": "materiale de captusire şi refractare pe bază de carbon din procesele",
+      "category": "16",
+      "subcategory": "16 11",
+      "hazardous": true
+    },
+    {
+      "code": "16 11 02",
+      "description": "materiale de captusire şi refractare pe bază de carbon din procesele",
+      "category": "16",
+      "subcategory": "16 11",
+      "hazardous": false
+    },
+    {
+      "code": "16 11 03*",
+      "description": "alte materiale de captusire şi refractare din procesele metalurgice,",
+      "category": "16",
+      "subcategory": "16 11",
+      "hazardous": true
+    },
+    {
+      "code": "16 11 04",
+      "description": "materiale de captusire şi refractare din procesele metalurgice,",
+      "category": "16",
+      "subcategory": "16 11",
+      "hazardous": false
+    },
+    {
+      "code": "16 11 05*",
+      "description": "materiale de captusire şi refractare din procesele ne-metalurgice,",
+      "category": "16",
+      "subcategory": "16 11",
+      "hazardous": true
+    },
+    {
+      "code": "16 11 06",
+      "description": "materiale de captusire şi refractare din procesele ne-metalurgice,",
+      "category": "16",
+      "subcategory": "16 11",
+      "hazardous": false
+    },
+    {
+      "code": "17 01 01",
+      "description": "beton",
+      "category": "17",
+      "subcategory": "17 01",
+      "hazardous": false
+    },
+    {
+      "code": "17 01 02",
+      "description": "caramizi",
+      "category": "17",
+      "subcategory": "17 01",
+      "hazardous": false
+    },
+    {
+      "code": "17 01 03",
+      "description": "tigle şi materiale ceramice",
+      "category": "17",
+      "subcategory": "17 01",
+      "hazardous": false
+    },
+    {
+      "code": "17 01 06*",
+      "description": "amestecuri sau fractii separate de beton, caramizi, tigle sau",
+      "category": "17",
+      "subcategory": "17 01",
+      "hazardous": true
+    },
+    {
+      "code": "17 01 07",
+      "description": "amestecuri de beton, caramizi, tigle şi materiale ceramice, altele",
+      "category": "17",
+      "subcategory": "17 01",
+      "hazardous": false
+    },
+    {
+      "code": "17 02 01",
+      "description": "lemn",
+      "category": "17",
+      "subcategory": "17 02",
+      "hazardous": false
+    },
+    {
+      "code": "17 02 02",
+      "description": "sticlă",
+      "category": "17",
+      "subcategory": "17 02",
+      "hazardous": false
+    },
+    {
+      "code": "17 02 03",
+      "description": "materiale plastice",
+      "category": "17",
+      "subcategory": "17 02",
+      "hazardous": false
+    },
+    {
+      "code": "17 02 04*",
+      "description": "sticlă, materiale plastice sau lemn cu conţinut de sau contaminate",
+      "category": "17",
+      "subcategory": "17 02",
+      "hazardous": true
+    },
+    {
+      "code": "17 03 01*",
+      "description": "asfalturi cu conţinut de gudron de huila",
+      "category": "17",
+      "subcategory": "17 03",
+      "hazardous": true
+    },
+    {
+      "code": "17 03 02",
+      "description": "asfalturi, altele decât cele specificate la 17 03 01",
+      "category": "17",
+      "subcategory": "17 03",
+      "hazardous": false
+    },
+    {
+      "code": "17 03 03*",
+      "description": "gudron de huila şi produse gudronate",
+      "category": "17",
+      "subcategory": "17 03",
+      "hazardous": true
+    },
+    {
+      "code": "17 04 01",
+      "description": "cupru, bronz, alama",
+      "category": "17",
+      "subcategory": "17 04",
+      "hazardous": false
+    },
+    {
+      "code": "17 04 02",
+      "description": "aluminiu",
+      "category": "17",
+      "subcategory": "17 04",
+      "hazardous": false
+    },
+    {
+      "code": "17 04 03",
+      "description": "plumb",
+      "category": "17",
+      "subcategory": "17 04",
+      "hazardous": false
+    },
+    {
+      "code": "17 04 04",
+      "description": "zinc",
+      "category": "17",
+      "subcategory": "17 04",
+      "hazardous": false
+    },
+    {
+      "code": "17 04 05",
+      "description": "fier şi oţel",
+      "category": "17",
+      "subcategory": "17 04",
+      "hazardous": false
+    },
+    {
+      "code": "17 04 06",
+      "description": "staniu",
+      "category": "17",
+      "subcategory": "17 04",
+      "hazardous": false
+    },
+    {
+      "code": "17 04 07",
+      "description": "amestecuri metalice",
+      "category": "17",
+      "subcategory": "17 04",
+      "hazardous": false
+    },
+    {
+      "code": "17 04 09*",
+      "description": "deşeuri metalice contaminate cu substanţe periculoase",
+      "category": "17",
+      "subcategory": "17 04",
+      "hazardous": true
+    },
+    {
+      "code": "17 04 10*",
+      "description": "cabluri cu conţinut de ulei, gudron sau alte substanţe periculoase",
+      "category": "17",
+      "subcategory": "17 04",
+      "hazardous": true
+    },
+    {
+      "code": "17 04 11",
+      "description": "cabluri, altele decât cele specificate la 17 04 10",
+      "category": "17",
+      "subcategory": "17 04",
+      "hazardous": false
+    },
+    {
+      "code": "17 05 03*",
+      "description": "pământ şi pietre cu conţinut de substanţe periculoase",
+      "category": "17",
+      "subcategory": "17 05",
+      "hazardous": true
+    },
+    {
+      "code": "17 05 04",
+      "description": "pământ şi pietre, altele decât cele specificate la 17 05 03",
+      "category": "17",
+      "subcategory": "17 05",
+      "hazardous": false
+    },
+    {
+      "code": "17 05 05*",
+      "description": "deşeuri de la dragare cu conţinut de substanţe periculoase",
+      "category": "17",
+      "subcategory": "17 05",
+      "hazardous": true
+    },
+    {
+      "code": "17 05 06",
+      "description": "deşeuri de la dragare, altele decât cele specificate la 17 05 05",
+      "category": "17",
+      "subcategory": "17 05",
+      "hazardous": false
+    },
+    {
+      "code": "17 05 07*",
+      "description": "resturi de balast cu conţinut de substanţe periculoase",
+      "category": "17",
+      "subcategory": "17 05",
+      "hazardous": true
+    },
+    {
+      "code": "17 05 08",
+      "description": "resturi de balast, altele decât cele specificate la 17 05 07",
+      "category": "17",
+      "subcategory": "17 05",
+      "hazardous": false
+    },
+    {
+      "code": "17 06 01*",
+      "description": "materiale izolante cu conţinut de azbest",
+      "category": "17",
+      "subcategory": "17 06",
+      "hazardous": true
+    },
+    {
+      "code": "17 06 03*",
+      "description": "alte materiale izolante constând din sau cu conţinut de substanţe",
+      "category": "17",
+      "subcategory": "17 06",
+      "hazardous": true
+    },
+    {
+      "code": "17 06 04",
+      "description": "materiale izolante, altele decât cele specificate la 17 06 01",
+      "category": "17",
+      "subcategory": "17 06",
+      "hazardous": false
+    },
+    {
+      "code": "17 06 05*",
+      "description": "materiale de construcţie cu conţinut de azbest",
+      "category": "17",
+      "subcategory": "17 06",
+      "hazardous": true
+    },
+    {
+      "code": "17 08 01*",
+      "description": "materiale de construcţie pe bază de gips contaminate cu substanţe",
+      "category": "17",
+      "subcategory": "17 08",
+      "hazardous": true
+    },
+    {
+      "code": "17 08 02",
+      "description": "materiale de construcţie pe bază de gips, altele decât cele",
+      "category": "17",
+      "subcategory": "17 08",
+      "hazardous": false
+    },
+    {
+      "code": "17 09 01*",
+      "description": "deşeuri de la construcţii şi demolări cu conţinut de mercur",
+      "category": "17",
+      "subcategory": "17 09",
+      "hazardous": true
+    },
+    {
+      "code": "17 09 02*",
+      "description": "deşeuri de la construcţii şi demolări cu conţinut de PCB",
+      "category": "17",
+      "subcategory": "17 09",
+      "hazardous": true
+    },
+    {
+      "code": "17 09 03*",
+      "description": "alte deşeuri de la construcţii şi demolări (inclusiv amestecuri",
+      "category": "17",
+      "subcategory": "17 09",
+      "hazardous": true
+    },
+    {
+      "code": "17 09 04",
+      "description": "amestecuri de deşeuri de la construcţii şi demolări, altele decât",
+      "category": "17",
+      "subcategory": "17 09",
+      "hazardous": false
+    },
+    {
+      "code": "18 01 01",
+      "description": "obiecte ascutite (cu excepţia 18 01 03)",
+      "category": "18",
+      "subcategory": "18 01",
+      "hazardous": false
+    },
+    {
+      "code": "18 01 02",
+      "description": "fragmente şi organe umane, inclusiv recipienţi de sânge şi sânge",
+      "category": "18",
+      "subcategory": "18 01",
+      "hazardous": false
+    },
+    {
+      "code": "18 01 03*",
+      "description": "deşeuri a căror colectare şi eliminare fac obiectul unor măsuri",
+      "category": "18",
+      "subcategory": "18 01",
+      "hazardous": true
+    },
+    {
+      "code": "18 01 04",
+      "description": "deşeuri a căror colectare şi eliminare nu fac obiectul unor măsuri",
+      "category": "18",
+      "subcategory": "18 01",
+      "hazardous": false
+    },
+    {
+      "code": "18 01 06*",
+      "description": "chimicale constând din sau conţinând substanţe periculoase",
+      "category": "18",
+      "subcategory": "18 01",
+      "hazardous": true
+    },
+    {
+      "code": "18 01 07",
+      "description": "chimicale, altele decât cele specificate la 18 01 06",
+      "category": "18",
+      "subcategory": "18 01",
+      "hazardous": false
+    },
+    {
+      "code": "18 01 08*",
+      "description": "medicamente citotoxice şi citostatice",
+      "category": "18",
+      "subcategory": "18 01",
+      "hazardous": true
+    },
+    {
+      "code": "18 01 09",
+      "description": "medicamente, altele decât cele specificate la 18 01 08",
+      "category": "18",
+      "subcategory": "18 01",
+      "hazardous": false
+    },
+    {
+      "code": "18 01 10*",
+      "description": "deşeuri de amalgam de la tratamentele stomatologice",
+      "category": "18",
+      "subcategory": "18 01",
+      "hazardous": true
+    },
+    {
+      "code": "18 02 01",
+      "description": "obiecte ascutite (cu excepţia 18 02 02)",
+      "category": "18",
+      "subcategory": "18 02",
+      "hazardous": false
+    },
+    {
+      "code": "18 02 02*",
+      "description": "deşeuri a căror colectare şi eliminare fac obiectul unor măsuri",
+      "category": "18",
+      "subcategory": "18 02",
+      "hazardous": true
+    },
+    {
+      "code": "18 02 03",
+      "description": "deşeuri a căror colectare şi eliminare nu fac obiectul unor măsuri",
+      "category": "18",
+      "subcategory": "18 02",
+      "hazardous": false
+    },
+    {
+      "code": "18 02 05*",
+      "description": "chimicale constând din sau conţinând substanţe periculoase",
+      "category": "18",
+      "subcategory": "18 02",
+      "hazardous": true
+    },
+    {
+      "code": "18 02 06",
+      "description": "chimicale, altele decât cele specificate la 18 02 05",
+      "category": "18",
+      "subcategory": "18 02",
+      "hazardous": false
+    },
+    {
+      "code": "18 02 07*",
+      "description": "medicamente citotoxice şi citostatice",
+      "category": "18",
+      "subcategory": "18 02",
+      "hazardous": true
+    },
+    {
+      "code": "18 02 08",
+      "description": "medicamente, altele decât cele specificate la 18 02 07",
+      "category": "18",
+      "subcategory": "18 02",
+      "hazardous": false
+    },
+    {
+      "code": "19 01 02",
+      "description": "materiale feroase din cenusile de ardere",
+      "category": "19",
+      "subcategory": "19 01",
+      "hazardous": false
+    },
+    {
+      "code": "19 01 05*",
+      "description": "turte de filtrare de la epurarea gazelor",
+      "category": "19",
+      "subcategory": "19 01",
+      "hazardous": true
+    },
+    {
+      "code": "19 01 06*",
+      "description": "deşeuri lichide apoase de la epurarea gazelor şi alte deşeuri lichide",
+      "category": "19",
+      "subcategory": "19 01",
+      "hazardous": true
+    },
+    {
+      "code": "19 01 07*",
+      "description": "deşeuri solide de la epurarea gazelor",
+      "category": "19",
+      "subcategory": "19 01",
+      "hazardous": true
+    },
+    {
+      "code": "19 01 10*",
+      "description": "cărbune activ epuizat de la epurarea gazelor de ardere",
+      "category": "19",
+      "subcategory": "19 01",
+      "hazardous": true
+    },
+    {
+      "code": "19 01 11*",
+      "description": "cenusi de ardere şi zguri cu conţinut de substanţe periculoase",
+      "category": "19",
+      "subcategory": "19 01",
+      "hazardous": true
+    },
+    {
+      "code": "19 01 12",
+      "description": "cenusi de ardere şi zguri, altele decât cele menţionate la 19 01 11",
+      "category": "19",
+      "subcategory": "19 01",
+      "hazardous": false
+    },
+    {
+      "code": "19 01 13*",
+      "description": "cenusi zburătoare cu conţinut de substanţe periculoase",
+      "category": "19",
+      "subcategory": "19 01",
+      "hazardous": true
+    },
+    {
+      "code": "19 01 14",
+      "description": "cenusi zburătoare, altele decât cele menţionate la 19 01 13",
+      "category": "19",
+      "subcategory": "19 01",
+      "hazardous": false
+    },
+    {
+      "code": "19 01 15*",
+      "description": "praf de cazan cu conţinut de substanţe periculoase",
+      "category": "19",
+      "subcategory": "19 01",
+      "hazardous": true
+    },
+    {
+      "code": "19 01 16",
+      "description": "praf de cazan, altul decât cel menţionat la 19 01 15",
+      "category": "19",
+      "subcategory": "19 01",
+      "hazardous": false
+    },
+    {
+      "code": "19 01 17*",
+      "description": "deşeuri de piroliza cu conţinut de substanţe periculoase",
+      "category": "19",
+      "subcategory": "19 01",
+      "hazardous": true
+    },
+    {
+      "code": "19 01 18",
+      "description": "deşeuri de piroliza, altele decât cele menţionate la 19 01 17",
+      "category": "19",
+      "subcategory": "19 01",
+      "hazardous": false
+    },
+    {
+      "code": "19 01 19",
+      "description": "nisipuri de la paturile fluidizate",
+      "category": "19",
+      "subcategory": "19 01",
+      "hazardous": false
+    },
+    {
+      "code": "19 01 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "19",
+      "subcategory": "19 01",
+      "hazardous": false
+    },
+    {
+      "code": "19 02 03",
+      "description": "deşeuri preamestecate conţinând numai deşeuri nepericuloase",
+      "category": "19",
+      "subcategory": "19 02",
+      "hazardous": false
+    },
+    {
+      "code": "19 02 04*",
+      "description": "deşeuri preamestecate conţinând cel puţin un deseu periculos",
+      "category": "19",
+      "subcategory": "19 02",
+      "hazardous": true
+    },
+    {
+      "code": "19 02 05*",
+      "description": "namoluri de la tratarea fizico-chimica cu conţinut de substanţe",
+      "category": "19",
+      "subcategory": "19 02",
+      "hazardous": true
+    },
+    {
+      "code": "19 02 06",
+      "description": "namoluri de la tratarea fizico-chimica, altele decât cele",
+      "category": "19",
+      "subcategory": "19 02",
+      "hazardous": false
+    },
+    {
+      "code": "19 02 07*",
+      "description": "ulei şi concentrate de la separare",
+      "category": "19",
+      "subcategory": "19 02",
+      "hazardous": true
+    },
+    {
+      "code": "19 02 08*",
+      "description": "deşeuri lichide combustibile cu conţinut de substanţe periculoase",
+      "category": "19",
+      "subcategory": "19 02",
+      "hazardous": true
+    },
+    {
+      "code": "19 02 09*",
+      "description": "deşeuri solide combustibile cu conţinut de substanţe periculoase",
+      "category": "19",
+      "subcategory": "19 02",
+      "hazardous": true
+    },
+    {
+      "code": "19 02 10",
+      "description": "deşeuri combustibile, altele decât cele specificate la 19 02 08",
+      "category": "19",
+      "subcategory": "19 02",
+      "hazardous": false
+    },
+    {
+      "code": "19 02 11*",
+      "description": "alte deşeuri cu conţinut de substanţe periculoase",
+      "category": "19",
+      "subcategory": "19 02",
+      "hazardous": true
+    },
+    {
+      "code": "19 02 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "19",
+      "subcategory": "19 02",
+      "hazardous": false
+    },
+    {
+      "code": "19 03 04*",
+      "description": "deşeuri încadrate ca periculoase, parţial*5) stabilizate",
+      "category": "19",
+      "subcategory": "19 03",
+      "hazardous": true
+    },
+    {
+      "code": "19 03 05",
+      "description": "deşeuri stabilizate, altele decât cele specificate la 19 03 04",
+      "category": "19",
+      "subcategory": "19 03",
+      "hazardous": false
+    },
+    {
+      "code": "19 03 06*",
+      "description": "deşeuri încadrate ca periculoase, solidificate",
+      "category": "19",
+      "subcategory": "19 03",
+      "hazardous": true
+    },
+    {
+      "code": "19 03 07",
+      "description": "deşeuri solidificate, altele decât cele specificate la 19 03 06",
+      "category": "19",
+      "subcategory": "19 03",
+      "hazardous": false
+    },
+    {
+      "code": "19 04 01",
+      "description": "deşeuri vitrificate",
+      "category": "19",
+      "subcategory": "19 04",
+      "hazardous": false
+    },
+    {
+      "code": "19 04 02*",
+      "description": "cenusa zburătoare sau alte deşeuri de la epurarea gazelor de ardere",
+      "category": "19",
+      "subcategory": "19 04",
+      "hazardous": true
+    },
+    {
+      "code": "19 04 03*",
+      "description": "faza solida nevitrificata",
+      "category": "19",
+      "subcategory": "19 04",
+      "hazardous": true
+    },
+    {
+      "code": "19 04 04",
+      "description": "deşeuri lichide apoase de la vitrificarea deşeurilor",
+      "category": "19",
+      "subcategory": "19 04",
+      "hazardous": false
+    },
+    {
+      "code": "19 05 01",
+      "description": "fracţiunea necompostata din deşeurile municipale şi asimilabile",
+      "category": "19",
+      "subcategory": "19 05",
+      "hazardous": false
+    },
+    {
+      "code": "19 05 02",
+      "description": "fracţiunea necompostata din deşeurile animaliere şi vegetale",
+      "category": "19",
+      "subcategory": "19 05",
+      "hazardous": false
+    },
+    {
+      "code": "19 05 03",
+      "description": "compost fără specificarea provenientei",
+      "category": "19",
+      "subcategory": "19 05",
+      "hazardous": false
+    },
+    {
+      "code": "19 05 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "19",
+      "subcategory": "19 05",
+      "hazardous": false
+    },
+    {
+      "code": "19 06 03",
+      "description": "faza lichidă de la tratarea anaeroba a deşeurilor municipale",
+      "category": "19",
+      "subcategory": "19 06",
+      "hazardous": false
+    },
+    {
+      "code": "19 06 04",
+      "description": "faza fermentată de la tratarea anaeroba a deşeurilor municipale",
+      "category": "19",
+      "subcategory": "19 06",
+      "hazardous": false
+    },
+    {
+      "code": "19 06 05",
+      "description": "faza lichidă de la tratarea anaeroba a deşeurilor animale şi vegetale",
+      "category": "19",
+      "subcategory": "19 06",
+      "hazardous": false
+    },
+    {
+      "code": "19 06 06",
+      "description": "faza fermentată de la tratarea anaeroba a deşeurilor animale şi",
+      "category": "19",
+      "subcategory": "19 06",
+      "hazardous": false
+    },
+    {
+      "code": "19 06 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "19",
+      "subcategory": "19 06",
+      "hazardous": false
+    },
+    {
+      "code": "19 07 02*",
+      "description": "levigate din depozite de deşeuri cu conţinut de substanţe periculoase",
+      "category": "19",
+      "subcategory": "19 07",
+      "hazardous": true
+    },
+    {
+      "code": "19 07 03",
+      "description": "levigate din depozite de deşeuri, altele decât cele specificate",
+      "category": "19",
+      "subcategory": "19 07",
+      "hazardous": false
+    },
+    {
+      "code": "19 08 01",
+      "description": "deşeuri reţinute pe site",
+      "category": "19",
+      "subcategory": "19 08",
+      "hazardous": false
+    },
+    {
+      "code": "19 08 02",
+      "description": "deşeuri de la deznisipatoare",
+      "category": "19",
+      "subcategory": "19 08",
+      "hazardous": false
+    },
+    {
+      "code": "19 08 05",
+      "description": "namoluri de la epurarea apelor uzate orăşeneşti",
+      "category": "19",
+      "subcategory": "19 08",
+      "hazardous": false
+    },
+    {
+      "code": "19 08 06*",
+      "description": "rasini schimbatoare de ioni saturate sau epuizate",
+      "category": "19",
+      "subcategory": "19 08",
+      "hazardous": true
+    },
+    {
+      "code": "19 08 07*",
+      "description": "soluţii sau namoluri de la regenerarea rasinilor schimbatoare de ioni",
+      "category": "19",
+      "subcategory": "19 08",
+      "hazardous": true
+    },
+    {
+      "code": "19 08 08*",
+      "description": "deşeuri ale sistemelor cu membrana cu conţinut de metale grele",
+      "category": "19",
+      "subcategory": "19 08",
+      "hazardous": true
+    },
+    {
+      "code": "19 08 09",
+      "description": "amestecuri de grăsimi şi uleiuri de la separarea amestecurilor",
+      "category": "19",
+      "subcategory": "19 08",
+      "hazardous": false
+    },
+    {
+      "code": "19 08 10*",
+      "description": "amestecuri de grăsimi şi uleiuri de la separarea amestecurilor",
+      "category": "19",
+      "subcategory": "19 08",
+      "hazardous": true
+    },
+    {
+      "code": "19 08 11*",
+      "description": "namoluri cu conţinut de substanţe periculoase de la epurarea",
+      "category": "19",
+      "subcategory": "19 08",
+      "hazardous": true
+    },
+    {
+      "code": "19 08 12",
+      "description": "namoluri de la epurarea biologica a apelor reziduale industriale,",
+      "category": "19",
+      "subcategory": "19 08",
+      "hazardous": false
+    },
+    {
+      "code": "19 08 13*",
+      "description": "namoluri cu conţinut de substanţe periculoase provenite din alte",
+      "category": "19",
+      "subcategory": "19 08",
+      "hazardous": true
+    },
+    {
+      "code": "19 08 14",
+      "description": "namoluri provenite din alte procedee de epurare a apelor reziduale",
+      "category": "19",
+      "subcategory": "19 08",
+      "hazardous": false
+    },
+    {
+      "code": "19 08 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "19",
+      "subcategory": "19 08",
+      "hazardous": false
+    },
+    {
+      "code": "19 09 01",
+      "description": "deşeuri solide de la filtrarea primara şi separarea cu site",
+      "category": "19",
+      "subcategory": "19 09",
+      "hazardous": false
+    },
+    {
+      "code": "19 09 02",
+      "description": "namoluri de la limpezirea apei",
+      "category": "19",
+      "subcategory": "19 09",
+      "hazardous": false
+    },
+    {
+      "code": "19 09 03",
+      "description": "namoluri de la decarbonatare",
+      "category": "19",
+      "subcategory": "19 09",
+      "hazardous": false
+    },
+    {
+      "code": "19 09 04",
+      "description": "cărbune activ epuizat",
+      "category": "19",
+      "subcategory": "19 09",
+      "hazardous": false
+    },
+    {
+      "code": "19 09 05",
+      "description": "rasini schimbatoare de ioni saturate sau epuizate",
+      "category": "19",
+      "subcategory": "19 09",
+      "hazardous": false
+    },
+    {
+      "code": "19 09 06",
+      "description": "soluţii şi namoluri de la regenerarea schimbatorilor de ioni",
+      "category": "19",
+      "subcategory": "19 09",
+      "hazardous": false
+    },
+    {
+      "code": "19 09 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "19",
+      "subcategory": "19 09",
+      "hazardous": false
+    },
+    {
+      "code": "19 10 01",
+      "description": "deşeuri de fier şi oţel",
+      "category": "19",
+      "subcategory": "19 10",
+      "hazardous": false
+    },
+    {
+      "code": "19 10 02",
+      "description": "deşeuri neferoase",
+      "category": "19",
+      "subcategory": "19 10",
+      "hazardous": false
+    },
+    {
+      "code": "19 10 03*",
+      "description": "fractii de span uşor şi praf conţinând substanţe periculoase",
+      "category": "19",
+      "subcategory": "19 10",
+      "hazardous": true
+    },
+    {
+      "code": "19 10 04",
+      "description": "fractii de span uşor şi praf, altele decât cele specificate",
+      "category": "19",
+      "subcategory": "19 10",
+      "hazardous": false
+    },
+    {
+      "code": "19 10 05*",
+      "description": "alte fractii cu conţinut de substanţe periculoase",
+      "category": "19",
+      "subcategory": "19 10",
+      "hazardous": true
+    },
+    {
+      "code": "19 10 06",
+      "description": "alte fractii decât cele specificate la 19 10 05",
+      "category": "19",
+      "subcategory": "19 10",
+      "hazardous": false
+    },
+    {
+      "code": "19 11 01*",
+      "description": "argile de filtrare epuizate",
+      "category": "19",
+      "subcategory": "19 11",
+      "hazardous": true
+    },
+    {
+      "code": "19 11 02*",
+      "description": "gudroane acide",
+      "category": "19",
+      "subcategory": "19 11",
+      "hazardous": true
+    },
+    {
+      "code": "19 11 03*",
+      "description": "deşeuri lichide apoase",
+      "category": "19",
+      "subcategory": "19 11",
+      "hazardous": true
+    },
+    {
+      "code": "19 11 04*",
+      "description": "deşeuri de la spalarea combustibililor cu baze",
+      "category": "19",
+      "subcategory": "19 11",
+      "hazardous": true
+    },
+    {
+      "code": "19 11 05*",
+      "description": "namoluri de la epurarea efluentilor proprii cu conţinut de substanţe",
+      "category": "19",
+      "subcategory": "19 11",
+      "hazardous": true
+    },
+    {
+      "code": "19 11 06",
+      "description": "namoluri de la epurarea efluentilor proprii, altele decât cele",
+      "category": "19",
+      "subcategory": "19 11",
+      "hazardous": false
+    },
+    {
+      "code": "19 11 07*",
+      "description": "deşeuri de la spalarea gazelor de ardere",
+      "category": "19",
+      "subcategory": "19 11",
+      "hazardous": true
+    },
+    {
+      "code": "19 11 99",
+      "description": "alte deşeuri nespecificate",
+      "category": "19",
+      "subcategory": "19 11",
+      "hazardous": false
+    },
+    {
+      "code": "19 12 01",
+      "description": "hârtie şi carton",
+      "category": "19",
+      "subcategory": "19 12",
+      "hazardous": false
+    },
+    {
+      "code": "19 12 02",
+      "description": "metale feroase",
+      "category": "19",
+      "subcategory": "19 12",
+      "hazardous": false
+    },
+    {
+      "code": "19 12 03",
+      "description": "metale neferoase",
+      "category": "19",
+      "subcategory": "19 12",
+      "hazardous": false
+    },
+    {
+      "code": "19 12 04",
+      "description": "materiale plastice şi de cauciuc",
+      "category": "19",
+      "subcategory": "19 12",
+      "hazardous": false
+    },
+    {
+      "code": "19 12 05",
+      "description": "sticlă",
+      "category": "19",
+      "subcategory": "19 12",
+      "hazardous": false
+    },
+    {
+      "code": "19 12 06*",
+      "description": "lemn cu conţinut de substanţe periculoase",
+      "category": "19",
+      "subcategory": "19 12",
+      "hazardous": true
+    },
+    {
+      "code": "19 12 07",
+      "description": "lemn, altul decât cel specificat la 19 12 06",
+      "category": "19",
+      "subcategory": "19 12",
+      "hazardous": false
+    },
+    {
+      "code": "19 12 08",
+      "description": "materiale textile",
+      "category": "19",
+      "subcategory": "19 12",
+      "hazardous": false
+    },
+    {
+      "code": "19 12 09",
+      "description": "minerale (de ex: nisip, pietre)",
+      "category": "19",
+      "subcategory": "19 12",
+      "hazardous": false
+    },
+    {
+      "code": "19 12 10",
+      "description": "deşeuri combustibile (rebuturi de derivati de combustibili)",
+      "category": "19",
+      "subcategory": "19 12",
+      "hazardous": false
+    },
+    {
+      "code": "19 12 11*",
+      "description": "alte deşeuri (inclusiv amestecuri de materiale) de la tratarea",
+      "category": "19",
+      "subcategory": "19 12",
+      "hazardous": true
+    },
+    {
+      "code": "19 12 12",
+      "description": "alte deşeuri (inclusiv amestecuri de materiale) de la tratarea",
+      "category": "19",
+      "subcategory": "19 12",
+      "hazardous": false
+    },
+    {
+      "code": "19 13 01*",
+      "description": "deşeuri solide de la remedierea solului cu conţinut de substanţe",
+      "category": "19",
+      "subcategory": "19 13",
+      "hazardous": true
+    },
+    {
+      "code": "19 13 02",
+      "description": "deşeuri solide de la remedierea solului, altele decât cele",
+      "category": "19",
+      "subcategory": "19 13",
+      "hazardous": false
+    },
+    {
+      "code": "19 13 03*",
+      "description": "namoluri de la remedierea solului cu conţinut de substanţe",
+      "category": "19",
+      "subcategory": "19 13",
+      "hazardous": true
+    },
+    {
+      "code": "19 13 04",
+      "description": "namoluri de la remedierea solului, altele decât cele specificate",
+      "category": "19",
+      "subcategory": "19 13",
+      "hazardous": false
+    },
+    {
+      "code": "19 13 05*",
+      "description": "namoluri de la remedierea apelor subterane cu conţinut de substanţe",
+      "category": "19",
+      "subcategory": "19 13",
+      "hazardous": true
+    },
+    {
+      "code": "19 13 06",
+      "description": "namoluri de la remedierea apelor subterane, altele decât cele",
+      "category": "19",
+      "subcategory": "19 13",
+      "hazardous": false
+    },
+    {
+      "code": "19 13 07*",
+      "description": "deşeuri lichide apoase şi concentrate apoase de la remedierea",
+      "category": "19",
+      "subcategory": "19 13",
+      "hazardous": true
+    },
+    {
+      "code": "19 13 08",
+      "description": "deşeuri lichide apoase şi concentrate apoase de la remedierea apelor",
+      "category": "19",
+      "subcategory": "19 13",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 01",
+      "description": "hârtie şi carton",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 02",
+      "description": "sticlă",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 08",
+      "description": "deşeuri biodegradabile de la bucatarii şi cantine",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 10",
+      "description": "îmbrăcăminte",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 11",
+      "description": "textile",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 13*",
+      "description": "solventi",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": true
+    },
+    {
+      "code": "20 01 14*",
+      "description": "acizi",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": true
+    },
+    {
+      "code": "20 01 15*",
+      "description": "baze",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": true
+    },
+    {
+      "code": "20 01 17*",
+      "description": "substanţe chimice fotografice",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": true
+    },
+    {
+      "code": "20 01 19*",
+      "description": "pesticide",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": true
+    },
+    {
+      "code": "20 01 21*",
+      "description": "tuburi fluorescente şi alte deşeuri cu conţinut de mercur",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": true
+    },
+    {
+      "code": "20 01 23*",
+      "description": "echipamente abandonate cu conţinut de CFC (clorofluorocarburi)",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": true
+    },
+    {
+      "code": "20 01 25",
+      "description": "uleiuri şi grăsimi comestibile",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 26*",
+      "description": "uleiuri şi grăsimi, altele decât cele specificate la 20 01 25",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": true
+    },
+    {
+      "code": "20 01 27*",
+      "description": "vopsele, cerneluri, adezivi şi rasini conţinând substanţe periculoase",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": true
+    },
+    {
+      "code": "20 01 28",
+      "description": "vopsele, cerneluri, adezivi şi rasini, altele decât cele specificate",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 29*",
+      "description": "detergenti cu conţinut de substanţe periculoase",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": true
+    },
+    {
+      "code": "20 01 30",
+      "description": "detergenti, alţii decât cei specificati la 20 01 29",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 31*",
+      "description": "medicamente citotoxice şi citostatice",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": true
+    },
+    {
+      "code": "20 01 32",
+      "description": "medicamente, altele decât cele menţionate la 20 01 31",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 33*",
+      "description": "baterii şi acumulatori incluşi în 16 06 01, 16 06 02 sau 16 06 03",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": true
+    },
+    {
+      "code": "20 01 34",
+      "description": "baterii şi acumulatori, altele decât cele specificate la 20 01 33",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 35*",
+      "description": "echipamente electrice şi electronice casate, altele decât cele",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": true
+    },
+    {
+      "code": "20 01 36",
+      "description": "echipamente electrice şi electronice casate, altele decât cele",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 37*",
+      "description": "lemn cu conţinut de substanţe periculoase",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": true
+    },
+    {
+      "code": "20 01 38",
+      "description": "lemn, altul decât cel specificat la 20 01 37",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 39",
+      "description": "materiale plastice",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 40",
+      "description": "metale",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 41",
+      "description": "deşeuri de la curatatul coşurilor",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 01 99",
+      "description": "alte fractii, nespecificate",
+      "category": "20",
+      "subcategory": "20 01",
+      "hazardous": false
+    },
+    {
+      "code": "20 02 01",
+      "description": "deşeuri biodegradabile",
+      "category": "20",
+      "subcategory": "20 02",
+      "hazardous": false
+    },
+    {
+      "code": "20 02 02",
+      "description": "pământ şi pietre",
+      "category": "20",
+      "subcategory": "20 02",
+      "hazardous": false
+    },
+    {
+      "code": "20 02 03",
+      "description": "alte deşeuri nebiodegradabile",
+      "category": "20",
+      "subcategory": "20 02",
+      "hazardous": false
+    },
+    {
+      "code": "20 03 01",
+      "description": "deşeuri municipale amestecate",
+      "category": "20",
+      "subcategory": "20 03",
+      "hazardous": false
+    },
+    {
+      "code": "20 03 02",
+      "description": "deşeuri din pieţe",
+      "category": "20",
+      "subcategory": "20 03",
+      "hazardous": false
+    },
+    {
+      "code": "20 03 03",
+      "description": "deşeuri stradale",
+      "category": "20",
+      "subcategory": "20 03",
+      "hazardous": false
+    },
+    {
+      "code": "20 03 04",
+      "description": "namoluri din fosele septice",
+      "category": "20",
+      "subcategory": "20 03",
+      "hazardous": false
+    },
+    {
+      "code": "20 03 06",
+      "description": "deşeuri de la curatarea canalizarii",
+      "category": "20",
+      "subcategory": "20 03",
+      "hazardous": false
+    },
+    {
+      "code": "20 03 07",
+      "description": "deşeuri voluminoase",
+      "category": "20",
+      "subcategory": "20 03",
+      "hazardous": false
+    },
+    {
+      "code": "20 03 99",
+      "description": "deşeuri municipale, fără alta specificaţie",
+      "category": "20",
+      "subcategory": "20 03",
+      "hazardous": false
+    }
+  ]
