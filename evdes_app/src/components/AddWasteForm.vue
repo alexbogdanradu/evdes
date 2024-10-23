@@ -13,7 +13,13 @@
             </div>
             <div>
                 <label>Unitate de masura</label>
-                <input v-model="formData.unit" />
+                <select v-model="formData.unit">
+                    <option value="kg">Kilograme (kg)</option>
+                    <option value="L">Litri (L)</option>
+                    <option value="ton">Tone (T)</option>
+                    <option value="m3">Meteri Cubi (m³)</option>
+                    <option value="g">Grame (g)</option>
+                </select>
             </div>
             <div>
                 <label>Deseu:</label>
@@ -35,7 +41,13 @@
                 </div>
                 <div>
                     <label>Unitate de masura:</label>
-                    <input v-model="formData.outbound.Stocat.unit" />
+                    <select v-model="formData.outbound.Stocat.unit">
+                        <option value="kg">Kilograme (kg)</option>
+                        <option value="L">Litri (L)</option>
+                        <option value="ton">Tone (T)</option>
+                        <option value="m3">Meteri Cubi (m³)</option>
+                        <option value="g">Grame (g)</option>
+                    </select>
                 </div>
                 <div>
                     <label>Mod stocare:</label>
@@ -50,7 +62,13 @@
                 </div>
                 <div>
                     <label>Unitate de masura:</label>
-                    <input v-model="formData.outbound.Tratat.unit" />
+                    <select v-model="formData.outbound.Tratat.unit">
+                        <option value="kg">Kilograme (kg)</option>
+                        <option value="L">Litri (L)</option>
+                        <option value="ton">Tone (T)</option>
+                        <option value="m3">Meteri Cubi (m³)</option>
+                        <option value="g">Grame (g)</option>
+                    </select>
                 </div>
                 <div>
                     <label>Mod tratare:</label>
@@ -64,12 +82,18 @@
             <fieldset>
                 <legend>Transportat</legend>
                 <div>
-                    <label>Quantity:</label>
+                    <label>Cantitate:</label>
                     <input v-model.number="formData.outbound.Transportat.quantity" type="number" />
                 </div>
                 <div>
                     <label>Unitate de masura:</label>
-                    <input v-model="formData.outbound.Transportat.unit" />
+                    <select v-model="formData.outbound.Transportat.unit">
+                        <option value="kg">Kilograme (kg)</option>
+                        <option value="L">Litri (L)</option>
+                        <option value="ton">Tone (T)</option>
+                        <option value="m3">Meteri Cubi (m³)</option>
+                        <option value="g">Grame (g)</option>
+                    </select>
                 </div>
                 <div>
                     <label>Mijloc:</label>
@@ -84,11 +108,17 @@
                 <legend>Valorificat</legend>
                 <div>
                     <label>Cantitate:</label>
-                    <input v-model.number="formData.outbound.Valorificat.quantity" type="number" />
+                    <input v-model.number="formData.outbound.Valorificat.quantity" />
                 </div>
                 <div>
                     <label>Unitate de masura:</label>
-                    <input v-model="formData.outbound.Valorificat.unit" />
+                    <select v-model="formData.outbound.Valorificat.unit">
+                        <option value="kg">Kilograme (kg)</option>
+                        <option value="L">Litri (L)</option>
+                        <option value="ton">Tone (T)</option>
+                        <option value="m3">Meteri Cubi (m³)</option>
+                        <option value="g">Grame (g)</option>
+                    </select>
                 </div>
                 <div>
                     <label>Cod operatie:</label>
@@ -107,7 +137,13 @@
                 </div>
                 <div>
                     <label>Unitate de masura:</label>
-                    <input v-model="formData.outbound.Eliminat.unit" />
+                    <select v-model="formData.outbound.Eliminat.unit">
+                        <option value="kg">Kilograme (kg)</option>
+                        <option value="L">Litri (L)</option>
+                        <option value="ton">Tone (T)</option>
+                        <option value="m3">Meteri Cubi (m³)</option>
+                        <option value="g">Grame (g)</option>
+                    </select>
                 </div>
                 <div>
                     <label>Cod operatie:</label>
@@ -126,6 +162,7 @@
 
 <script>
 import SearchableDropdown from './SearchableDropdown.vue';
+import { reactive, toRaw } from 'vue';
 
 export default {
     components: {
@@ -142,12 +179,8 @@ export default {
         },
     },
     watch: {
-        item: {
-            handler(newValue) {
-                this.formData = { ...newValue };
-            },
-            deep: true,
-            immediate: true
+        'formData.unit': function (newUnit) {
+            this.changeUnit(newUnit);
         }
     },
     data() {
@@ -163,6 +196,18 @@ export default {
         },
         submitForm() {
             this.$emit('save-item', { ...this.formData });
+        },
+        changeUnit(newUnit) {
+            const rawFormData = toRaw(this.formData);  // Convert formData to its raw (non-reactive) form
+
+            rawFormData.unit = newUnit;
+            rawFormData.outbound.Stocat.unit = newUnit;
+            rawFormData.outbound.Tratat.unit = newUnit;
+            rawFormData.outbound.Transportat.unit = newUnit;
+            rawFormData.outbound.Valorificat.unit = newUnit;
+            rawFormData.outbound.Eliminat.unit = newUnit;
+
+            this.formData = reactive(rawFormData);  // Apply the changes back
         }
     }
 };

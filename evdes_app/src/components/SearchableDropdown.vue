@@ -5,7 +5,7 @@
             :placeholder="searchQuery ? '' : 'Search...'" class="search-input" />
 
         <!-- Dropdown Menu -->
-        <div v-if="isDropdownVisible" class="dropdown">
+        <div v-if="isDropdownVisible" class="dropdown" ref="dropdown">
             <ul>
                 <li v-for="item in filteredItems" :key="item.code" @click="selectItem(item)" class="dropdown-item">
                     {{ item.code }}: {{ item.description }}
@@ -38,7 +38,9 @@ export default {
     },
     methods: {
         handleClickOutside(event) {
-            if (!this.$refs.dropdown.contains(event.target)) {
+            const dropdown = this.$refs.dropdown;
+            // Ensure dropdown ref is available before accessing its methods
+            if (dropdown && !dropdown.contains(event.target)) {
                 this.isDropdownVisible = false;
             }
         },
@@ -56,7 +58,6 @@ export default {
             try {
                 const response = await fetch('./../../src/assets/wastes.json');
                 this.items = await response.json();
-                console.log(this.items.length);
             } catch (error) {
                 console.error('Error fetching the items:', error);
             }
