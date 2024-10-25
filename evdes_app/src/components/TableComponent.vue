@@ -2,6 +2,7 @@
   <div class="custom-table">
     <div v-for="(items, year) in groupedByYear" :key="year" class="year-section">
       <h2>{{ year }}</h2>
+      <button @click="exportToExcel">Export Data to Excel</button>
 
       <table>
         <thead>
@@ -44,6 +45,8 @@
 
 <script>
 import AddWasteForm from './AddWasteForm.vue';
+import * as XLSX from 'xlsx';
+import { saveAs } from 'file-saver';
 
 export default {
   components: {
@@ -135,6 +138,23 @@ export default {
     }
   },
   methods: {
+    exportToExcel() {
+      // 1. Convert JSON data to a worksheet
+      const worksheet = XLSX.utils.json_to_sheet(this.wasteList);
+
+      // 2. Create a new workbook and add the worksheet
+      const workbook = XLSX.utils.book_new();
+      XLSX.utils.book_append_sheet(workbook, worksheet, 'Sheet1');
+
+      // 3. Generate Excel file and save it
+      const excelBuffer = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
+
+      // 4. Create Blob from the Excel buffer
+      const blob = new Blob([excelBuffer], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+
+      // 5. Trigger the download using FileSaver
+      saveAs(blob, 'data-export.xlsx');
+    },
     addItemHandler(newItem) {
       if (this.currentYear) {
         this.wasteList[this.currentYear].push(newItem);
