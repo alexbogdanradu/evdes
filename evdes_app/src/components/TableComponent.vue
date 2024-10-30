@@ -1,39 +1,55 @@
 <template>
-  <div class="custom-table">
-    <div v-for="(items, year) in groupedByYear" :key="year" class="year-section">
-      <h2>{{ year }}</h2>
-      <button @click="exportToExcel">Export Data to Excel</button>
+  <div class="p-4 mb-4 bg-green-200 rounded-lg overflow-clip" v-for="(items, year) in groupedByYear" :key="year">
+    <div class="flex items-center justify-between">
+      <h2 class="text-3xl font-bold text-black">{{ year }}</h2>
+      <div class="space-x-2">
+        <button
+          class="px-4 py-2 bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
+          Raport
+        </button>
+        <button
+          class="px-4 py-2 bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+          @click="exportToExcel">Export catre Excel</button>
+      </div>
+    </div>
 
-      <table>
+    <div class="pt-3">
+      <table class="pb-2 min-w-full border border-gray-300 bg-white rounded-lg shadow-md">
         <thead>
           <tr>
-            <th>Code</th>
-            <th>Quantity</th>
-            <th>Name</th>
-            <th>Month</th>
-            <th>Outbound</th>
-            <th>Edit</th>
-            <th>Delete</th>
+            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-20">Luna</th>
+            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-40">Cod deseu</th>
+            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-20">Generat</th>
+            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-fit">Descriere deseu</th>
+            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-72">Iesire</th>
+            <th class="px-4 py-3 border-b font-semibold text-gray-600 w-12">Editeaza</th>
+            <th class="px-4 py-3 border-b font-semibold text-gray-600 w-12">Sterge</th>
           </tr>
         </thead>
         <tbody>
-          <tr v-for="(item, index) in items" :key="index">
-            <td>{{ item.code }}</td>
-            <td>{{ item.quantity }} {{ item.unit }}</td>
-            <td>{{ item.name }}</td>
-            <td>{{ item.month }}</td>
-            <td v-html="formattedOutbound(item.outbound)"></td>
-            <td><button @click="openAddModal(item.id, item)">✏️</button></td>
-            <td><button @click="removeItem(item.id, item)">❌</button></td>
+          <tr v-for="(item, index) in items" :key="index" class="hover:bg-gray-50">
+            <td class="px-4 py-2 border-b text-gray-700 text-center">{{ item.month }}</td>
+            <td class="px-4 py-2 border-b text-gray-700 text-center">{{ item.code }}</td>
+            <td class="px-4 py-2 border-b text-gray-700 text-center">{{ item.quantity }} {{ item.unit }}</td>
+            <td class="px-4 py-2 border-b text-gray-700 text-center">{{ item.name }}</td>
+
+            <td class="px-4 py-2 border-b text-gray-700 text-center" v-html="formattedOutbound(item.outbound)"></td>
+            <td class="px-4 py-2 border-b text-gray-700 w-12">
+              <button @click="openAddModal(item.id, item)"
+                class="px-3 py-1 bg-blue-100 hover:bg-blue-600 text-white rounded">
+                ✏️
+              </button>
+            </td>
+            <td class="px-4 py-2 border-b text-gray-700 w-12">
+              <button @click="removeItem(item.id, item)"
+                class="px-3 py-1 bg-red-100 hover:bg-red-300 text-white rounded">
+                ❌
+              </button>
+            </td>
           </tr>
         </tbody>
       </table>
-
-      <button>Raport</button>
     </div>
-
-    <button @click="openAddModal()">+ Adaugă Raport</button>
-
     <div v-if="isAddModalOpen" class="modal">
       <div class="modal-content">
         <AddWasteForm :year="currentYear" :item="currentItem" :isEdit="isEditMode" @save-item="saveItem"
@@ -41,6 +57,13 @@
       </div>
     </div>
   </div>
+
+  <div class="">
+    <button
+      class="px-4 py-2 float-left bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+      @click="openAddModal()">+ Adaugă Raport</button>
+  </div>
+
 </template>
 
 <script>
@@ -166,8 +189,22 @@ export default {
       const initials = ['S', 'T', 'T', 'V', 'E'];
 
       return keys.map((key, index) => {
-        const value = outbound[key].quantity;
-        return value > 0 ? `<u>${initials[index]}</u>` : initials[index];
+        const value = outbound[key]?.quantity || 0;
+        const isHighlighted = value > 0;
+
+        return `
+      <button 
+        class="
+          px-3 py-1 m-1 
+          text-white 
+          font-semibold 
+          rounded 
+          ${isHighlighted ? 'bg-green-500 hover:bg-green-100 hover:text-black' : 'bg-gray-300'}
+        "
+      >
+        ${initials[index]}
+      </button>
+    `;
       }).join('');
     },
     openAddModal(itemId = null, item = null) {
