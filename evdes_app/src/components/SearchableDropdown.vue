@@ -1,19 +1,23 @@
 <template>
-    <div class="searchable-dropdown" ref="dropdown">
+    <div ref="dropdown">
         <!-- Search Input Field -->
         <input type="text" v-model="searchQuery" @focus="isDropdownVisible = true" @input="filterItems"
-            :placeholder="searchQuery ? '' : 'Search...'" class="search-input" />
+            :placeholder="searchQuery ? '' : 'Cauta...'"
+            class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;" />
 
         <!-- Dropdown Menu -->
-        <div v-if="isDropdownVisible" class="dropdown" ref="dropdown">
-            <ul>
-                <li v-for="item in filteredItems" :key="item.code" @click="selectItem(item)" class="dropdown-item">
+        <div v-if="isDropdownVisible"
+            class="absolute z-10 w-full mt-2 bg-white border border-gray-200 rounded-md shadow-lg" ref="dropdown">
+            <ul class="max-h-60 overflow-y-auto">
+                <li v-for="item in filteredItems" :key="item.code" @click="selectItem(item)"
+                    class="px-4 py-2 font- hover:bg-gray-100 cursor-pointer">
                     {{ item.code }}: {{ item.description }}
                 </li>
             </ul>
         </div>
     </div>
 </template>
+
 
 <script>
 export default {
@@ -48,8 +52,6 @@ export default {
             this.selectedItem = item;
             this.$emit('item-selected', item);
             this.isDropdownVisible = false;
-            this.selectedItem = null;
-            this.searchQuery = '';
         },
         filterItems() {
             this.isDropdownVisible = true;
@@ -76,47 +78,10 @@ export default {
     watch: {
         isDropdownVisible(val) {
             if (!val) this.searchQuery = this.selectedItem ? `${this.selectedItem.code} - ${this.selectedItem.description}` : '';
+            if (val) this.searchQuery = '';
         }
     }
 };
 </script>
 
-<style scoped>
-.searchable-dropdown {
-    position: relative;
-    width: 300px;
-}
-
-.search-input {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-}
-
-.dropdown {
-    position: absolute;
-    width: 100%;
-    max-height: 200px;
-    overflow-y: auto;
-    background: white;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-}
-
-.dropdown-item {
-    padding: 8px;
-    cursor: pointer;
-    font-size: xx-small;
-}
-
-.dropdown ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.dropdown-item:hover {
-    background-color: #f0f0f0;
-}
-</style>
+<style scoped></style>

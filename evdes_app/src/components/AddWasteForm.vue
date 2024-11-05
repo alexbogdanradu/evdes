@@ -1,166 +1,223 @@
 <template>
-    <div class="add-item-form">
-        <SearchableDropdown @item-selected="updateFormFields" />
-        <h3>Adauga deseu</h3>
-        <form @submit.prevent="submitForm">
-            <div>
-                <label>Cod:</label>
-                <input v-model="formData.code" />
-            </div>
-            <div>
-                <label>Cantitate:</label>
-                <input v-model.number="formData.quantity" type="number" />
-            </div>
-            <div>
-                <label>Unitate de masura</label>
-                <select v-model="formData.unit">
-                    <option value="kg">Kilograme (kg)</option>
-                    <option value="L">Litri (L)</option>
-                    <option value="ton">Tone (T)</option>
-                    <option value="m3">Meteri Cubi (m³)</option>
-                    <option value="g">Grame (g)</option>
-                </select>
-            </div>
-            <div>
-                <label>Deseu:</label>
-                <input v-model="formData.name" />
-            </div>
-            <div>
-                <label>Luna:</label>
-                <input v-model="formData.month" />
-            </div>
-            <div>
-                <label>Anul:</label>
-                <input v-model="formData.year" type="number" />
-            </div>
-            <fieldset>
-                <legend>Stocat</legend>
-                <div>
-                    <label>Cantitate:</label>
-                    <input v-model.number="formData.outbound.Stocat.quantity" type="number" />
+
+    <form @submit.prevent="submitForm">
+        <div class="flex flex-col">
+            <div class="basis-1/6 mb-4 p-2 bg-green-200 rounded-lg shadow-md flex space-x-3">
+                <!-- Select, anul, cantitatea, tipul -->
+                <div class="flex-grow">
+                    <label class="sttve-label">Cautare</label>
+                    <SearchableDropdown @item-selected="updateFormFields" />
                 </div>
                 <div>
-                    <label>Unitate de masura:</label>
-                    <select v-model="formData.outbound.Stocat.unit">
-                        <option value="kg">Kilograme (kg)</option>
-                        <option value="L">Litri (L)</option>
-                        <option value="ton">Tone (T)</option>
-                        <option value="m3">Meteri Cubi (m³)</option>
-                        <option value="g">Grame (g)</option>
+                    <label class="sttve-label">Luna:</label>
+                    <select class="sttve-content" v-model="formData.month">
+                        <option disabled value="">Selectaza luna</option>
+                        <option v-for="(month, index) in months" :key="index" :value="month">
+                            {{ month }}
+                        </option>
                     </select>
                 </div>
+
                 <div>
-                    <label>Mod stocare:</label>
-                    <input v-model="formData.outbound.Stocat.storageType" />
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Tratat</legend>
-                <div>
-                    <label>Cantitate:</label>
-                    <input v-model.number="formData.outbound.Tratat.quantity" type="number" />
-                </div>
-                <div>
-                    <label>Unitate de masura:</label>
-                    <select v-model="formData.outbound.Tratat.unit">
-                        <option value="kg">Kilograme (kg)</option>
-                        <option value="L">Litri (L)</option>
-                        <option value="ton">Tone (T)</option>
-                        <option value="m3">Meteri Cubi (m³)</option>
-                        <option value="g">Grame (g)</option>
+                    <label class="sttve-label">Anul:</label>
+                    <select class="sttve-content" v-model="formData.year">
+                        <option disabled value="">Selecteaza anul</option>
+                        <option v-for="year in years" :key="year" :value="year">
+                            {{ year }}
+                        </option>
                     </select>
                 </div>
-                <div>
-                    <label>Mod tratare:</label>
-                    <input v-model="formData.outbound.Tratat.treatmentMode" />
+
+            </div>
+            <div class="basis-4/6 flex space-x-3 mb-3">
+                <!-- Generare -->
+                <div class="sttve">
+                    <fieldset>
+                        <legend>Generat</legend>
+                        <div>
+                            <label class="sttve-label">Cantitate:</label>
+                            <input class="sttve-content" v-model.number="formData.quantity" type="number" />
+                        </div>
+                        <div>
+                            <label class="sttve-label">Cod:</label>
+                            <input class="sttve-content" v-model="formData.code" />
+                        </div>
+                        <div>
+                            <label class="sttve-label">Unitate de masura</label>
+                            <select class="sttve-content" v-model="formData.unit">
+                                <option value="kg">Kilograme (kg)</option>
+                                <option value="L">Litri (L)</option>
+                                <option value="ton">Tone (T)</option>
+                                <option value="m3">Meteri Cubi (m³)</option>
+                                <option value="g">Grame (g)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="sttve-label">Deseu:</label>
+                            <input class="sttve-content" v-model="formData.name" />
+                        </div>
+                    </fieldset>
                 </div>
-                <div>
-                    <label>Scop:</label>
-                    <input v-model="formData.outbound.Tratat.treatmentScope" />
+                <!-- Tratare -->
+                <div class="sttve">
+                    <fieldset>
+                        <legend>Stocat</legend>
+
+                        <div class="mb-4">
+                            <label class="sttve-label">Cantitate:</label>
+                            <input v-model.number="formData.outbound.Stocat.quantity" type="number"
+                                class="sttve-content" />
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="sttve-label">Unitate de masura:</label>
+                            <select v-model="formData.outbound.Stocat.unit" class="sttve-content">
+                                <option value="kg">Kilograme (kg)</option>
+                                <option value="L">Litri (L)</option>
+                                <option value="ton">Tone (T)</option>
+                                <option value="m3">Meteri Cubi (m³)</option>
+                                <option value="g">Grame (g)</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="sttve-label">Mod stocare:</label>
+                            <input v-model="formData.outbound.Stocat.storageType" type="text" class="sttve-content" />
+                        </div>
+                    </fieldset>
+
                 </div>
-            </fieldset>
-            <fieldset>
-                <legend>Transportat</legend>
-                <div>
-                    <label>Cantitate:</label>
-                    <input v-model.number="formData.outbound.Transportat.quantity" type="number" />
+                <div class="sttve">
+                    <fieldset>
+                        <legend>Tratat</legend>
+                        <div>
+                            <label class="sttve-label">Cantitate:</label>
+                            <input class="sttve-content" v-model.number="formData.outbound.Tratat.quantity"
+                                type="number" />
+                        </div>
+                        <div>
+                            <label class="sttve-label">Unitate de masura:</label>
+                            <select class="sttve-content" v-model="formData.outbound.Tratat.unit">
+                                <option value="kg">Kilograme (kg)</option>
+                                <option value="L">Litri (L)</option>
+                                <option value="ton">Tone (T)</option>
+                                <option value="m3">Meteri Cubi (m³)</option>
+                                <option value="g">Grame (g)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="sttve-label">Mod tratare:</label>
+                            <input class="sttve-content" v-model="formData.outbound.Tratat.treatmentMode" />
+                        </div>
+                        <div>
+                            <label class="sttve-label">Scop:</label>
+                            <input class="sttve-content" v-model="formData.outbound.Tratat.treatmentScope" />
+                        </div>
+                    </fieldset>
                 </div>
-                <div>
-                    <label>Unitate de masura:</label>
-                    <select v-model="formData.outbound.Transportat.unit">
-                        <option value="kg">Kilograme (kg)</option>
-                        <option value="L">Litri (L)</option>
-                        <option value="ton">Tone (T)</option>
-                        <option value="m3">Meteri Cubi (m³)</option>
-                        <option value="g">Grame (g)</option>
-                    </select>
+                <div class="sttve">
+                    <fieldset>
+                        <legend>Transportat</legend>
+                        <div>
+                            <label class="sttve-label">Cantitate:</label>
+                            <input class="sttve-content" v-model.number="formData.outbound.Transportat.quantity"
+                                type="number" />
+                        </div>
+                        <div>
+                            <label class="sttve-label">Unitate de masura:</label>
+                            <select class="sttve-content" v-model="formData.outbound.Transportat.unit">
+                                <option value="kg">Kilograme (kg)</option>
+                                <option value="L">Litri (L)</option>
+                                <option value="ton">Tone (T)</option>
+                                <option value="m3">Meteri Cubi (m³)</option>
+                                <option value="g">Grame (g)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="sttve-label">Mijloc:</label>
+                            <input class="sttve-content"
+                                v-model="formData.outbound.Transportat.meansOfTransportation" />
+                        </div>
+                        <div>
+                            <label class="sttve-label">Destinatie:</label>
+                            <input class="sttve-content" v-model="formData.outbound.Transportat.destination" />
+                        </div>
+                    </fieldset>
                 </div>
-                <div>
-                    <label>Mijloc:</label>
-                    <input v-model="formData.outbound.Transportat.meansOfTransportation" />
+                <div class="sttve">
+                    <fieldset>
+                        <legend>Valorificat</legend>
+                        <div>
+                            <label class="sttve-label">Cantitate:</label>
+                            <input class="sttve-content" v-model.number="formData.outbound.Valorificat.quantity" />
+                        </div>
+                        <div>
+                            <label class="sttve-label">Unitate de masura:</label>
+                            <select class="sttve-content" v-model="formData.outbound.Valorificat.unit">
+                                <option value="kg">Kilograme (kg)</option>
+                                <option value="L">Litri (L)</option>
+                                <option value="ton">Tone (T)</option>
+                                <option value="m3">Meteri Cubi (m³)</option>
+                                <option value="g">Grame (g)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="sttve-label">Cod operatie:</label>
+                            <input class="sttve-content" v-model="formData.outbound.Valorificat.operationCode" />
+                        </div>
+                        <div>
+                            <label class="sttve-label">Procesator:</label>
+                            <input class="sttve-content" v-model="formData.outbound.Valorificat.processingCompany" />
+                        </div>
+                    </fieldset>
                 </div>
-                <div>
-                    <label>Destinatie:</label>
-                    <input v-model="formData.outbound.Transportat.destination" />
+                <div class="sttve">
+                    <fieldset>
+                        <legend>Eliminat</legend>
+                        <div>
+                            <label class="sttve-label">Cantitate:</label>
+                            <input class="sttve-content" v-model.number="formData.outbound.Eliminat.quantity"
+                                type="number" />
+                        </div>
+                        <div>
+                            <label class="sttve-label">Unitate de masura:</label>
+                            <select class="sttve-content" v-model="formData.outbound.Eliminat.unit">
+                                <option value="kg">Kilograme (kg)</option>
+                                <option value="L">Litri (L)</option>
+                                <option value="ton">Tone (T)</option>
+                                <option value="m3">Meteri Cubi (m³)</option>
+                                <option value="g">Grame (g)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="sttve-label">Cod operatie:</label>
+                            <input class="sttve-content" v-model="formData.outbound.Eliminat.operationCode" />
+                        </div>
+                        <div>
+                            <label class="sttve-label">Procesator:</label>
+                            <input class="sttve-content" v-model="formData.outbound.Eliminat.processingCompany" />
+                        </div>
+                    </fieldset>
                 </div>
-            </fieldset>
-            <fieldset>
-                <legend>Valorificat</legend>
-                <div>
-                    <label>Cantitate:</label>
-                    <input v-model.number="formData.outbound.Valorificat.quantity" />
+            </div>
+            <div class="basis-1/6 flex">
+                <!-- OK/NOK -->
+                <button
+                    class="px-4 py-2 bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+                    type="submit" @click="submitForm()">{{ isEdit ? 'Editeaza' : 'Adauga' }} deseu</button>
+                <button
+                    class="px-4 py-2 ml-2 bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+                    type="button" @click="$emit('close')">Cancel</button>
+                <div class="px-4 py-2 rounded  ml-2 flex-grow text-right">
+                    <span class="text-gray-800 cursor-text" v-text="errorMessage"></span>
                 </div>
-                <div>
-                    <label>Unitate de masura:</label>
-                    <select v-model="formData.outbound.Valorificat.unit">
-                        <option value="kg">Kilograme (kg)</option>
-                        <option value="L">Litri (L)</option>
-                        <option value="ton">Tone (T)</option>
-                        <option value="m3">Meteri Cubi (m³)</option>
-                        <option value="g">Grame (g)</option>
-                    </select>
-                </div>
-                <div>
-                    <label>Cod operatie:</label>
-                    <input v-model="formData.outbound.Valorificat.operationCode" />
-                </div>
-                <div>
-                    <label>Procesator:</label>
-                    <input v-model="formData.outbound.Valorificat.processingCompany" />
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Eliminat</legend>
-                <div>
-                    <label>Cantitate:</label>
-                    <input v-model.number="formData.outbound.Eliminat.quantity" type="number" />
-                </div>
-                <div>
-                    <label>Unitate de masura:</label>
-                    <select v-model="formData.outbound.Eliminat.unit">
-                        <option value="kg">Kilograme (kg)</option>
-                        <option value="L">Litri (L)</option>
-                        <option value="ton">Tone (T)</option>
-                        <option value="m3">Meteri Cubi (m³)</option>
-                        <option value="g">Grame (g)</option>
-                    </select>
-                </div>
-                <div>
-                    <label>Cod operatie:</label>
-                    <input v-model="formData.outbound.Eliminat.operationCode" />
-                </div>
-                <div>
-                    <label>Procesator:</label>
-                    <input v-model="formData.outbound.Eliminat.processingCompany" />
-                </div>
-            </fieldset>
-            <button type="submit" @click="submitForm()">{{ isEdit ? 'Editeaza' : 'Adauga' }} deseu</button>
-            <button type="button" @click="$emit('close')">Cancel</button>
-        </form>
-    </div>
+            </div>
+        </div>
+    </form>
 </template>
 
 <script>
+import { errorMessages } from 'vue/compiler-sfc';
 import SearchableDropdown from './SearchableDropdown.vue';
 import { reactive, toRaw } from 'vue';
 
@@ -178,6 +235,18 @@ export default {
             default: false,
         },
     },
+    computed: {
+        years() {
+            const currentYear = new Date().getFullYear();
+            const startYear = currentYear - 15;
+            const endYear = currentYear + 5;
+            const years = [];
+            for (let year = startYear; year <= endYear; year++) {
+                years.push(year);
+            }
+            return years;
+        }
+    },
     watch: {
         'formData.unit': function (newUnit) {
             this.changeUnit(newUnit);
@@ -185,7 +254,12 @@ export default {
     },
     data() {
         return {
-            formData: { ...this.item }
+            formData: { ...this.item },
+            months: [
+                "Ianuarie", "Februarie", "Martie", "Aprilie", "Mai", "Iunie",
+                "Iulie", "August", "Septembrie", "Octombrie", "Noiembrie", "Decembrie"
+            ],
+            errorMessage: ''
         };
     },
     methods: {
@@ -194,7 +268,18 @@ export default {
             this.formData.code = selectedItem.code;
             this.formData.name = selectedItem.description;
         },
+        validate() {
+            if (this.formData.month == '') { this.errorMessage = 'Alegeti luna'; return ''; }
+            if (this.formData.year == '') { this.errorMessage = 'Alegeti anul'; return ''; }
+            if (this.formData.quantity == '') { this.errorMessage = 'Alegeti cantitatea generata'; return ''; }
+            console.log(typeof (this.formData.quantity));
+            if (this.formData.quantity < 0) { this.errorMessage = 'Cantitatea nu poate fi negativa'; return ''; }
+
+            if (this.formData.code == '') { this.errorMessage = 'Alegeti codul deseului'; return ''; }
+            if (this.formData.unit == '') { this.errorMessage = 'Alegeti unitatea de masura'; return ''; }
+        },
         submitForm() {
+            if (this.validate() != undefined) { return };
             this.$emit('save-item', { ...this.formData });
         },
         changeUnit(newUnit) {
@@ -214,5 +299,23 @@ export default {
 </script>
 
 <style scoped>
-/* Add basic styling for form */
+.sttve {
+    @apply p-2 bg-green-200 rounded-lg shadow-md w-48;
+}
+
+.sttve-label {
+    @apply block text-sm font-medium text-gray-600 mb-1;
+}
+
+.sttve-content {
+    @apply w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+legend {
+    @apply text-lg font-semibold px-2 text-gray-700;
+}
+
+fieldset {
+    @apply border border-gray-300 p-4 rounded-md shadow-sm;
+}
 </style>

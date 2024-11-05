@@ -1,7 +1,9 @@
 <template>
   <div class="p-4 mb-4 bg-green-200 rounded-lg overflow-clip" v-for="(items, year) in groupedByYear" :key="year">
     <div class="flex items-center justify-between">
-      <h2 class="text-3xl font-bold text-black">{{ year }}</h2>
+      <div class="p-1 rounded shadow-md bg-green-500">
+        <h2 class="text-3xl font-bold text-black">{{ year }}</h2>
+      </div>
       <div class="space-x-2">
         <button
           class="px-4 py-2 bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
@@ -20,8 +22,9 @@
             <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-20">Luna</th>
             <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-40">Cod deseu</th>
             <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-20">Generat</th>
-            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-fit">Descriere deseu</th>
-            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-72">Iesire</th>
+            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-fit">Descriere deseu
+            </th>
+            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-72">Tratare/Eliminare</th>
             <th class="px-4 py-3 border-b font-semibold text-gray-600 w-12">Editeaza</th>
             <th class="px-4 py-3 border-b font-semibold text-gray-600 w-12">Sterge</th>
           </tr>
@@ -88,8 +91,8 @@ export default {
           code: "105123",
           quantity: 150,
           unit: "Kg",
-          name: "Cartan",
-          month: "January",
+          name: "Carton",
+          month: "Ianuarie",
           year: 2023,
           outbound: {
             Stocat: { quantity: 32, unit: "", storageType: "" },
@@ -104,8 +107,8 @@ export default {
           code: "105123",
           quantity: 150,
           unit: "Kg",
-          name: "Cartan",
-          month: "January",
+          name: "Carton",
+          month: "Ianuarie",
           year: 2024,
           outbound: {
             Stocat: { quantity: 32, unit: "", storageType: "" },
@@ -120,8 +123,8 @@ export default {
           code: "105123",
           quantity: 150,
           unit: "Kg",
-          name: "Cartan",
-          month: "January",
+          name: "Carton",
+          month: "Ianuarie",
           year: 2024,
           outbound: {
             Stocat: { quantity: 32, unit: "", storageType: "" },
@@ -136,8 +139,8 @@ export default {
           code: "105123",
           quantity: 150,
           unit: "Kg",
-          name: "Cartan",
-          month: "January",
+          name: "Carton",
+          month: "Ianuarie",
           year: 2024,
           outbound: {
             Stocat: { quantity: 32, unit: "", storageType: "" },

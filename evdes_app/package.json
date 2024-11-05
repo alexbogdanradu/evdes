@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "file-saver": "^2.0.5",
+    "vee-validate": "^4.14.6",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3",
     "xlsx": "^0.18.5"
