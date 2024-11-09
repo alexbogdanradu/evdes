@@ -1,5 +1,5 @@
 TODO
-[ ] Add simple validation to form
+[-] Add simple validation to form
 [ ] Make quantity sum (QS)
 [ ] Show inconsistent QS on line, describe it with a tooltip
 [ ] Show inconsistent QS on add/edit, describe it on a banner
