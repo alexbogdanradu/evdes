@@ -1,7 +1,6 @@
 TODO
-[-] Add simple validation to form
-[ ] Make quantity sum (QS)
-[ ] Show inconsistent QS on line, describe it with a tooltip
-[ ] Show inconsistent QS on add/edit, describe it on a banner
+[x] Add simple validation to form
+[x] Make quantity sum (QS)
+[x] Show inconsistent QS on line, describe it with a tooltip
+[x] Show inconsistent QS on add/edit, describe it on a banner
 [ ] Empty JSON will broke Add Report button functionality
-[ ] 

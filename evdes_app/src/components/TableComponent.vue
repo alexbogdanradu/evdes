@@ -22,6 +22,7 @@
             <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-20">Luna</th>
             <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-40">Cod deseu</th>
             <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-20">Generat</th>
+            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-20">Tratat/Eliminat</th>
             <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-fit">Descriere deseu
             </th>
             <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-72">Tratare/Eliminare</th>
@@ -34,6 +35,7 @@
             <td class="px-4 py-2 border-b text-gray-700 text-center">{{ item.month }}</td>
             <td class="px-4 py-2 border-b text-gray-700 text-center">{{ item.code }}</td>
             <td class="px-4 py-2 border-b text-gray-700 text-center">{{ item.quantity }} {{ item.unit }}</td>
+            <td class="px-4 py-2 border-b text-gray-700 text-center">{{ disposedQuantityPercent(item) }}</td>
             <td class="px-4 py-2 border-b text-gray-700 text-center">{{ item.name }}</td>
 
             <td class="px-4 py-2 border-b text-gray-700 text-center" v-html="formattedOutbound(item.outbound)"></td>
@@ -164,6 +166,11 @@ export default {
     }
   },
   methods: {
+    disposedQuantityPercent(arg) {
+      const total = arg.outbound.Stocat.quantity + arg.outbound.Tratat.quantity + arg.outbound.Transportat.quantity + arg.outbound.Valorificat.quantity + arg.outbound.Eliminat.quantity;
+      const percentage = (total / arg.quantity) * 100;
+      return `${total} ${arg.unit} (${percentage.toFixed(0)}%)`;
+    },
     exportToExcel() {
       // 1. Convert JSON data to a worksheet
       const worksheet = XLSX.utils.json_to_sheet(this.wasteList);

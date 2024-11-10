@@ -1,13 +1,13 @@
 <template>
-    <div ref="dropdown">
+    <div ref="dropdown" class="relative w-full">
         <!-- Search Input Field -->
         <input type="text" v-model="searchQuery" @focus="isDropdownVisible = true" @input="filterItems"
             :placeholder="searchQuery ? '' : 'Cauta...'"
-            class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;" />
+            class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
 
         <!-- Dropdown Menu -->
         <div v-if="isDropdownVisible"
-            class="absolute z-10 w-full mt-2 bg-white border border-gray-200 rounded-md shadow-lg" ref="dropdown">
+            class="absolute z-10 w-full mt-2 bg-white border border-gray-200 rounded-md shadow-lg">
             <ul class="max-h-60 overflow-y-auto">
                 <li v-for="item in filteredItems" :key="item.code" @click="selectItem(item)"
                     class="px-4 py-2 font- hover:bg-gray-100 cursor-pointer">
@@ -16,6 +16,7 @@
             </ul>
         </div>
     </div>
+
 </template>
 
 

@@ -33,7 +33,7 @@
                 <!-- Generare -->
                 <div class="sttve">
                     <fieldset>
-                        <legend>Generat</legend>
+                        <legend class="valid-legend">Generat</legend>
                         <div>
                             <label class="sttve-label">Cantitate:</label>
                             <input class="sttve-content" v-model.number="formData.quantity" type="number" />
@@ -61,15 +61,15 @@
                 <!-- Tratare -->
                 <div class="sttve">
                     <fieldset>
-                        <legend>Stocat</legend>
-
-                        <div class="mb-4">
+                        <legend :class="percentageStocat > 100 ? 'invalid-legend' : 'valid-legend'">
+                            Stocat: {{ percentageStocat }}%
+                        </legend>
+                        <div>
                             <label class="sttve-label">Cantitate:</label>
                             <input v-model.number="formData.outbound.Stocat.quantity" type="number"
                                 class="sttve-content" />
                         </div>
-
-                        <div class="mb-4">
+                        <div>
                             <label class="sttve-label">Unitate de masura:</label>
                             <select v-model="formData.outbound.Stocat.unit" class="sttve-content">
                                 <option value="kg">Kilograme (kg)</option>
@@ -79,17 +79,21 @@
                                 <option value="g">Grame (g)</option>
                             </select>
                         </div>
-
-                        <div class="mb-4">
+                        <div>
+                            <label class="sttve-label">Mod stocare:</label>
+                            <input v-model="formData.outbound.Stocat.storageType" type="text" class="sttve-content" />
+                        </div>
+                        <div class="invisible">
                             <label class="sttve-label">Mod stocare:</label>
                             <input v-model="formData.outbound.Stocat.storageType" type="text" class="sttve-content" />
                         </div>
                     </fieldset>
-
                 </div>
                 <div class="sttve">
                     <fieldset>
-                        <legend>Tratat</legend>
+                        <legend :class="percentageTratat > 100 ? 'invalid-legend' : 'valid-legend'">
+                            Tratat: {{ percentageTratat }}%
+                        </legend>
                         <div>
                             <label class="sttve-label">Cantitate:</label>
                             <input class="sttve-content" v-model.number="formData.outbound.Tratat.quantity"
@@ -117,7 +121,9 @@
                 </div>
                 <div class="sttve">
                     <fieldset>
-                        <legend>Transportat</legend>
+                        <legend :class="percentageTransportat > 100 ? 'invalid-legend' : 'valid-legend'">
+                            Transportat: {{ percentageTransportat }}%
+                        </legend>
                         <div>
                             <label class="sttve-label">Cantitate:</label>
                             <input class="sttve-content" v-model.number="formData.outbound.Transportat.quantity"
@@ -146,7 +152,9 @@
                 </div>
                 <div class="sttve">
                     <fieldset>
-                        <legend>Valorificat</legend>
+                        <legend :class="percentageValorificat > 100 ? 'invalid-legend' : 'valid-legend'">
+                            Valorificat: {{ percentageValorificat }}%
+                        </legend>
                         <div>
                             <label class="sttve-label">Cantitate:</label>
                             <input class="sttve-content" v-model.number="formData.outbound.Valorificat.quantity" />
@@ -173,7 +181,9 @@
                 </div>
                 <div class="sttve">
                     <fieldset>
-                        <legend>Eliminat</legend>
+                        <legend :class="percentageEliminat > 100 ? 'invalid-legend' : 'valid-legend'">
+                            Eliminat: {{ percentageEliminat }}%
+                        </legend>
                         <div>
                             <label class="sttve-label">Cantitate:</label>
                             <input class="sttve-content" v-model.number="formData.outbound.Eliminat.quantity"
@@ -204,10 +214,11 @@
                 <!-- OK/NOK -->
                 <button
                     class="px-4 py-2 bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-                    type="submit" @click="submitForm()">{{ isEdit ? 'Editeaza' : 'Adauga' }} deseu</button>
+                    type="submit" @click="submitForm()">{{ isEdit ? 'Editeaza' : 'Adauga' }} deseu | {{
+                        averagePercentage }}%</button>
                 <button
                     class="px-4 py-2 ml-2 bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-                    type="button" @click="$emit('close')">Cancel</button>
+                    type="button" @click="$emit('close')">Inapoi</button>
                 <div class="px-4 py-2 rounded  ml-2 flex-grow text-right">
                     <span class="text-gray-800 cursor-text" v-text="errorMessage"></span>
                 </div>
@@ -245,6 +256,30 @@ export default {
                 years.push(year);
             }
             return years;
+        },
+        percentageStocat() {
+            return this.calculatePercentage(this.formData.outbound.Stocat.quantity);
+        },
+        percentageTratat() {
+            return this.calculatePercentage(this.formData.outbound.Tratat.quantity);
+        },
+        percentageTransportat() {
+            return this.calculatePercentage(this.formData.outbound.Transportat.quantity);
+        },
+        percentageValorificat() {
+            return this.calculatePercentage(this.formData.outbound.Valorificat.quantity);
+        },
+        percentageEliminat() {
+            return this.calculatePercentage(this.formData.outbound.Eliminat.quantity);
+        },
+        averagePercentage() {
+            const total =
+                parseFloat(this.percentageStocat) +
+                parseFloat(this.percentageTratat) +
+                parseFloat(this.percentageTransportat) +
+                parseFloat(this.percentageValorificat) +
+                parseFloat(this.percentageEliminat);
+            return total.toFixed(0);
         }
     },
     watch: {
@@ -259,10 +294,15 @@ export default {
                 "Ianuarie", "Februarie", "Martie", "Aprilie", "Mai", "Iunie",
                 "Iulie", "August", "Septembrie", "Octombrie", "Noiembrie", "Decembrie"
             ],
-            errorMessage: ''
+            errorMessage: '',
+            disposalPercentage: ''
         };
     },
     methods: {
+        calculatePercentage(quantity) {
+            const generated = this.formData.quantity;
+            return generated > 0 ? ((quantity / generated) * 100).toFixed(0) : 0;
+        },
         // Update form fields based on the selected dropdown item
         updateFormFields(selectedItem) {
             this.formData.code = selectedItem.code;
@@ -272,7 +312,6 @@ export default {
             if (this.formData.month == '') { this.errorMessage = 'Alegeti luna'; return ''; }
             if (this.formData.year == '') { this.errorMessage = 'Alegeti anul'; return ''; }
             if (this.formData.quantity == '') { this.errorMessage = 'Alegeti cantitatea generata'; return ''; }
-            console.log(typeof (this.formData.quantity));
             if (this.formData.quantity < 0) { this.errorMessage = 'Cantitatea nu poate fi negativa'; return ''; }
 
             if (this.formData.code == '') { this.errorMessage = 'Alegeti codul deseului'; return ''; }
@@ -311,8 +350,12 @@ export default {
     @apply w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
 }
 
-legend {
-    @apply text-lg font-semibold px-2 text-gray-700;
+.valid-legend {
+    @apply text-sm font-semibold px-2 text-gray-700;
+}
+
+.invalid-legend {
+    @apply text-sm font-semibold px-2 text-red-700;
 }
 
 fieldset {
