@@ -10,7 +10,7 @@
                 </div>
                 <div>
                     <label class="sttve-label">Luna:</label>
-                    <select class="sttve-content" v-model="formData.month">
+                    <select class="sttve-content" v-model="formData.month" required>
                         <option disabled value="">Selectaza luna</option>
                         <option v-for="(month, index) in months" :key="index" :value="month">
                             {{ month }}
@@ -20,7 +20,7 @@
 
                 <div>
                     <label class="sttve-label">Anul:</label>
-                    <select class="sttve-content" v-model="formData.year">
+                    <select class="sttve-content" v-model="formData.year" required>
                         <option disabled value="">Selecteaza anul</option>
                         <option v-for="year in years" :key="year" :value="year">
                             {{ year }}
@@ -36,15 +36,15 @@
                         <legend class="valid-legend">Generat</legend>
                         <div>
                             <label class="sttve-label">Cantitate:</label>
-                            <input class="sttve-content" v-model.number="formData.quantity" type="number" />
+                            <input class="sttve-content" v-model.number="formData.quantity" type="number" required />
                         </div>
                         <div>
                             <label class="sttve-label">Cod:</label>
-                            <input class="sttve-content" v-model="formData.code" />
+                            <input class="sttve-content" v-model="formData.code" required />
                         </div>
                         <div>
                             <label class="sttve-label">Unitate de masura</label>
-                            <select class="sttve-content" v-model="formData.unit">
+                            <select class="sttve-content" v-model="formData.unit" required>
                                 <option value="kg">Kilograme (kg)</option>
                                 <option value="L">Litri (L)</option>
                                 <option value="ton">Tone (T)</option>

@@ -38,7 +38,7 @@
             <td class="px-4 py-2 border-b text-gray-700 text-center">{{ disposedQuantityPercent(item) }}</td>
             <td class="px-4 py-2 border-b text-gray-700 text-center">{{ item.name }}</td>
 
-            <td class="px-4 py-2 border-b text-gray-700 text-center" v-html="formattedOutbound(item.outbound)"></td>
+            <td class="px-4 py-2 border-b text-gray-700 text-center" v-html="formattedOutbound(item)"></td>
             <td class="px-4 py-2 border-b text-gray-700 w-12">
               <button @click="openAddModal(item.id, item)"
                 class="px-3 py-1 bg-blue-100 hover:bg-blue-600 text-white rounded">
@@ -55,18 +55,20 @@
         </tbody>
       </table>
     </div>
-    <div v-if="isAddModalOpen" class="modal">
-      <div class="modal-content">
-        <AddWasteForm :year="currentYear" :item="currentItem" :isEdit="isEditMode" @save-item="saveItem"
-          @close="isAddModalOpen = false" />
-      </div>
-    </div>
+
   </div>
 
   <div class="">
     <button
       class="px-4 py-2 float-left bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
       @click="openAddModal()">+ Adaugă Raport</button>
+  </div>
+
+  <div v-if="isAddModalOpen" class="modal">
+    <div class="modal-content">
+      <AddWasteForm :year="currentYear" :item="currentItem" :isEdit="isEditMode" @save-item="saveItem"
+        @close="isAddModalOpen = false" />
+    </div>
   </div>
 
 </template>
@@ -87,71 +89,7 @@ export default {
       currentYear: null,
       currentItem: null,
       currentItemIndex: null,
-      wasteList: [
-        {
-          id: 0,
-          code: "105123",
-          quantity: 150,
-          unit: "Kg",
-          name: "Carton",
-          month: "Ianuarie",
-          year: 2023,
-          outbound: {
-            Stocat: { quantity: 32, unit: "", storageType: "" },
-            Tratat: { quantity: 0, unit: "", treatmentMode: "", treatmentScope: "" },
-            Transportat: { quantity: 0, unit: "", meansOfTransportation: "", destination: "" },
-            Valorificat: { quantity: 33, unit: "", operationCode: "", processingCompany: "" },
-            Eliminat: { quantity: 0, unit: "", operationCode: "", processingCompany: "" },
-          },
-        },
-        {
-          id: 1,
-          code: "105123",
-          quantity: 150,
-          unit: "Kg",
-          name: "Carton",
-          month: "Ianuarie",
-          year: 2024,
-          outbound: {
-            Stocat: { quantity: 32, unit: "", storageType: "" },
-            Tratat: { quantity: 0, unit: "", treatmentMode: "", treatmentScope: "" },
-            Transportat: { quantity: 0, unit: "", meansOfTransportation: "", destination: "" },
-            Valorificat: { quantity: 33, unit: "", operationCode: "", processingCompany: "" },
-            Eliminat: { quantity: 0, unit: "", operationCode: "", processingCompany: "" },
-          },
-        },
-        {
-          id: 2,
-          code: "105123",
-          quantity: 150,
-          unit: "Kg",
-          name: "Carton",
-          month: "Ianuarie",
-          year: 2024,
-          outbound: {
-            Stocat: { quantity: 32, unit: "", storageType: "" },
-            Tratat: { quantity: 0, unit: "", treatmentMode: "", treatmentScope: "" },
-            Transportat: { quantity: 0, unit: "", meansOfTransportation: "", destination: "" },
-            Valorificat: { quantity: 33, unit: "", operationCode: "", processingCompany: "" },
-            Eliminat: { quantity: 0, unit: "", operationCode: "", processingCompany: "" },
-          },
-        },
-        {
-          id: 3,
-          code: "105123",
-          quantity: 150,
-          unit: "Kg",
-          name: "Carton",
-          month: "Ianuarie",
-          year: 2024,
-          outbound: {
-            Stocat: { quantity: 32, unit: "", storageType: "" },
-            Tratat: { quantity: 0, unit: "", treatmentMode: "", treatmentScope: "" },
-            Transportat: { quantity: 0, unit: "", meansOfTransportation: "", destination: "" },
-            Valorificat: { quantity: 33, unit: "", operationCode: "", processingCompany: "" },
-            Eliminat: { quantity: 0, unit: "", operationCode: "", processingCompany: "" },
-          },
-        }]
+      wasteList: []
     }
   },
   computed: {
@@ -194,26 +132,34 @@ export default {
       }
       this.isAddModalOpen = false;
     },
-    formattedOutbound(outbound) {
+    formattedOutbound(item) {
       const keys = ['Stocat', 'Tratat', 'Transportat', 'Valorificat', 'Eliminat'];
       const initials = ['S', 'T', 'T', 'V', 'E'];
 
       return keys.map((key, index) => {
-        const value = outbound[key]?.quantity || 0;
+        const value = item.outbound[key]?.quantity || 0;
+        const percent = ((value / item.quantity) * 100).toFixed(1);
         const isHighlighted = value > 0;
+        const details = JSON.stringify(item.outbound[key] || {}, null, 2); // format details
 
         return `
-      <button 
-        class="
-          px-3 py-1 m-1 
-          text-white 
-          font-semibold 
-          rounded 
-          ${isHighlighted ? 'bg-green-500 hover:bg-green-100 hover:text-black' : 'bg-gray-300'}
-        "
-      >
-        ${initials[index]}
-      </button>
+      <div style="display: inline-block; position: relative;">
+        <div 
+          class="
+            px-3 py-1 m-1 
+            text-white 
+            font-semibold 
+            rounded 
+            ${isHighlighted ? 'bg-green-500 hover:bg-green-100 hover:text-black' : 'bg-gray-300'}
+          "
+          title="${key}: ${value}${item.unit} (${percent}%)"
+        >
+          ${initials[index]}
+        </div>
+        <div id="popover-${key}" class="popover" style="display: none;">
+          <pre>${details}</pre>
+        </div>
+      </div>
     `;
       }).join('');
     },

@@ -3,4 +3,7 @@ TODO
 [x] Make quantity sum (QS)
 [x] Show inconsistent QS on line, describe it with a tooltip
 [x] Show inconsistent QS on add/edit, describe it on a banner
-[ ] Empty JSON will broke Add Report button functionality
+[x] Empty JSON will broke Add Report button functionality
+[x] Add tootlips for STTVE
+[ ] Generate excel file
+[ ] Make a small modal showing a Report
