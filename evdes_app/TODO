@@ -7,3 +7,10 @@ TODO
 [x] Add tootlips for STTVE
 [ ] Generate excel file
 [ ] Make a small modal showing a Report
+[ ] STTVE pointer instead of cursor
+[ ] Tratat/Eliminat percent red when more than 100%, orange when less, green when 100. In modal and main page.
+[ ] Add mod tratare dropdown
+[ ] Add mod stocare dropdown
+[ ] Add cod operatie dropdown
+[ ] Add Procesator dropdown
+[ ] Add Procesator add/edit/remove

@@ -9,9 +9,7 @@
           class="px-4 py-2 bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
           Raport
         </button>
-        <button
-          class="px-4 py-2 bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
-          @click="exportToExcel">Export catre Excel</button>
+        <ExcelDownloader :wasteList="wasteList" :year="year" />
       </div>
     </div>
 
@@ -75,12 +73,14 @@
 
 <script>
 import AddWasteForm from './AddWasteForm.vue';
+import ExcelDownloader from './ExcelDownloader.vue';
 import * as XLSX from 'xlsx';
 import { saveAs } from 'file-saver';
 
 export default {
   components: {
-    AddWasteForm
+    AddWasteForm,
+    ExcelDownloader,
   },
   data() {
     return {
@@ -89,7 +89,71 @@ export default {
       currentYear: null,
       currentItem: null,
       currentItemIndex: null,
-      wasteList: []
+      wasteList: [
+        {
+          id: 0,
+          code: "105123",
+          quantity: 150,
+          unit: "Kg",
+          name: "Carton",
+          month: "Ianuarie",
+          year: 2023,
+          outbound: {
+            Stocat: { quantity: 32, unit: "", storageType: "" },
+            Tratat: { quantity: 0, unit: "", treatmentMode: "", treatmentScope: "" },
+            Transportat: { quantity: 0, unit: "", meansOfTransportation: "", destination: "" },
+            Valorificat: { quantity: 33, unit: "", operationCode: "", processingCompany: "" },
+            Eliminat: { quantity: 0, unit: "", operationCode: "", processingCompany: "" },
+          },
+        },
+        {
+          id: 1,
+          code: "105123",
+          quantity: 150,
+          unit: "Kg",
+          name: "Carton",
+          month: "Ianuarie",
+          year: 2024,
+          outbound: {
+            Stocat: { quantity: 32, unit: "", storageType: "" },
+            Tratat: { quantity: 0, unit: "", treatmentMode: "", treatmentScope: "" },
+            Transportat: { quantity: 0, unit: "", meansOfTransportation: "", destination: "" },
+            Valorificat: { quantity: 33, unit: "", operationCode: "", processingCompany: "" },
+            Eliminat: { quantity: 0, unit: "", operationCode: "", processingCompany: "" },
+          },
+        },
+        {
+          id: 2,
+          code: "105123",
+          quantity: 150,
+          unit: "Kg",
+          name: "Carton",
+          month: "Ianuarie",
+          year: 2024,
+          outbound: {
+            Stocat: { quantity: 32, unit: "", storageType: "" },
+            Tratat: { quantity: 0, unit: "", treatmentMode: "", treatmentScope: "" },
+            Transportat: { quantity: 0, unit: "", meansOfTransportation: "", destination: "" },
+            Valorificat: { quantity: 33, unit: "", operationCode: "", processingCompany: "" },
+            Eliminat: { quantity: 0, unit: "", operationCode: "", processingCompany: "" },
+          },
+        },
+        {
+          id: 3,
+          code: "105123",
+          quantity: 150,
+          unit: "Kg",
+          name: "Carton",
+          month: "Ianuarie",
+          year: 2024,
+          outbound: {
+            Stocat: { quantity: 32, unit: "", storageType: "" },
+            Tratat: { quantity: 0, unit: "", treatmentMode: "", treatmentScope: "" },
+            Transportat: { quantity: 0, unit: "", meansOfTransportation: "", destination: "" },
+            Valorificat: { quantity: 33, unit: "", operationCode: "", processingCompany: "" },
+            Eliminat: { quantity: 0, unit: "", operationCode: "", processingCompany: "" },
+          },
+        }]
     }
   },
   computed: {
@@ -108,23 +172,6 @@ export default {
       const total = arg.outbound.Stocat.quantity + arg.outbound.Tratat.quantity + arg.outbound.Transportat.quantity + arg.outbound.Valorificat.quantity + arg.outbound.Eliminat.quantity;
       const percentage = (total / arg.quantity) * 100;
       return `${total} ${arg.unit} (${percentage.toFixed(0)}%)`;
-    },
-    exportToExcel() {
-      // 1. Convert JSON data to a worksheet
-      const worksheet = XLSX.utils.json_to_sheet(this.wasteList);
-
-      // 2. Create a new workbook and add the worksheet
-      const workbook = XLSX.utils.book_new();
-      XLSX.utils.book_append_sheet(workbook, worksheet, 'Sheet1');
-
-      // 3. Generate Excel file and save it
-      const excelBuffer = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
-
-      // 4. Create Blob from the Excel buffer
-      const blob = new Blob([excelBuffer], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
-
-      // 5. Trigger the download using FileSaver
-      saveAs(blob, 'data-export.xlsx');
     },
     addItemHandler(newItem) {
       if (this.currentYear) {
