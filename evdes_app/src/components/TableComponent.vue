@@ -4,12 +4,15 @@
       <div class="p-1 rounded shadow-md bg-green-500">
         <h2 class="text-3xl font-bold text-black">{{ year }}</h2>
       </div>
-      <div class="space-x-2">
+      <div class="flex items-center gap-3">
         <button
           class="px-4 py-2 bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
           Raport
         </button>
         <ExcelDownloader :wasteList="wasteList" :year="year" />
+        <TemplateExcelDownloader
+          :wasteList="wasteList"
+          :year="year" />
       </div>
     </div>
 
@@ -74,6 +77,7 @@
 <script>
 import AddWasteForm from './AddWasteForm.vue';
 import ExcelDownloader from './ExcelDownloader.vue';
+import TemplateExcelDownloader from './TemplateExcelDownloader.vue';
 import * as XLSX from 'xlsx';
 import { saveAs } from 'file-saver';
 
@@ -81,6 +85,7 @@ export default {
   components: {
     AddWasteForm,
     ExcelDownloader,
+    TemplateExcelDownloader,
   },
   data() {
     return {
