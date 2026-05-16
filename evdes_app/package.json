@@ -11,10 +11,12 @@
   "dependencies": {
     "exceljs": "^4.4.0",
     "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
     "vee-validate": "^4.14.6",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3",
-    "xlsx": "^0.18.5"
+    "xlsx": "^0.18.5",
+    "xlsx-populate": "^1.21.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
