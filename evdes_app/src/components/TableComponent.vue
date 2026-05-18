@@ -1,12 +1,12 @@
 <template>
   <div class="p-4 mb-4 bg-green-200 rounded-lg overflow-clip" v-for="(items, year) in groupedByYear" :key="year">
-    <div class="flex items-center justify-between">
+    <div class="flex items-center justify-between max-md:flex-col max-md:items-start max-md:gap-3">
       <div class="p-1 rounded shadow-md bg-green-500">
-        <h2 class="text-3xl font-bold text-black">{{ year }}</h2>
+        <h2 class="text-3xl font-bold text-black max-md:text-2xl">{{ year }}</h2>
       </div>
-      <div class="flex items-center gap-3">
+      <div class="flex items-center gap-3 max-md:w-full max-md:flex-wrap max-md:gap-2">
         <button
-          class="px-4 py-2 bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
+          class="px-4 py-2 bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 max-md:w-full">
           Raport
         </button>
         <ExcelDownloader :wasteList="wasteList" :year="year" />
@@ -16,37 +16,37 @@
       </div>
     </div>
 
-    <div class="pt-3">
+    <div class="pt-3 overflow-x-auto">
       <table class="pb-2 min-w-full border border-gray-300 bg-white rounded-lg shadow-md">
         <thead>
           <tr>
-            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-20">Luna</th>
-            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-40">Cod deseu</th>
-            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-20">Generat</th>
-            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-20">Tratat/Eliminat</th>
-            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-fit">Descriere deseu
+            <th class="px-4 py-3 border-b font-semibold text-center text-black w-20">Luna</th>
+            <th class="px-4 py-3 border-b font-semibold text-center text-black w-40">Cod deseu</th>
+            <th class="px-4 py-3 border-b font-semibold text-center text-black w-20">Generat</th>
+            <th class="px-4 py-3 border-b font-semibold text-center text-black w-20">Tratat/Eliminat</th>
+            <th class="px-4 py-3 border-b font-semibold text-center text-black w-fit">Descriere deseu
             </th>
-            <th class="px-4 py-3 border-b font-semibold text-center text-gray-600 w-72">Tratare/Eliminare</th>
-            <th class="px-4 py-3 border-b font-semibold text-gray-600 w-12">Editeaza</th>
-            <th class="px-4 py-3 border-b font-semibold text-gray-600 w-12">Sterge</th>
+            <th class="px-4 py-3 border-b font-semibold text-center text-black w-72">Tratare/Eliminare</th>
+            <th class="px-4 py-3 border-b font-semibold text-black w-12">Editeaza</th>
+            <th class="px-4 py-3 border-b font-semibold text-black w-12">Sterge</th>
           </tr>
         </thead>
         <tbody>
           <tr v-for="(item, index) in items" :key="index" class="hover:bg-gray-50">
-            <td class="px-4 py-2 border-b text-gray-700 text-center">{{ item.month }}</td>
-            <td class="px-4 py-2 border-b text-gray-700 text-center">{{ item.code }}</td>
-            <td class="px-4 py-2 border-b text-gray-700 text-center">{{ item.quantity }} {{ item.unit }}</td>
-            <td class="px-4 py-2 border-b text-gray-700 text-center">{{ disposedQuantityPercent(item) }}</td>
-            <td class="px-4 py-2 border-b text-gray-700 text-center">{{ item.name }}</td>
+            <td class="px-4 py-2 border-b text-black text-center">{{ item.month }}</td>
+            <td class="px-4 py-2 border-b text-black text-center">{{ item.code }}</td>
+            <td class="px-4 py-2 border-b text-black text-center">{{ item.quantity }} {{ item.unit }}</td>
+            <td class="px-4 py-2 border-b text-black text-center">{{ disposedQuantityPercent(item) }}</td>
+            <td class="px-4 py-2 border-b text-black text-center">{{ item.name }}</td>
 
-            <td class="px-4 py-2 border-b text-gray-700 text-center" v-html="formattedOutbound(item)"></td>
-            <td class="px-4 py-2 border-b text-gray-700 w-12">
+            <td class="px-4 py-2 border-b text-black text-center" v-html="formattedOutbound(item)"></td>
+            <td class="px-4 py-2 border-b text-black w-12">
               <button @click="openAddModal(item.id, item)"
                 class="px-3 py-1 bg-blue-100 hover:bg-blue-600 text-white rounded">
                 ✏️
               </button>
             </td>
-            <td class="px-4 py-2 border-b text-gray-700 w-12">
+            <td class="px-4 py-2 border-b text-black w-12">
               <button @click="removeItem(item.id, item)"
                 class="px-3 py-1 bg-red-100 hover:bg-red-300 text-white rounded">
                 ❌
@@ -59,9 +59,9 @@
 
   </div>
 
-  <div class="">
+  <div class="max-md:mt-3">
     <button
-      class="px-4 py-2 float-left bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+      class="px-4 py-2 float-left bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 max-md:float-none max-md:w-full"
       @click="openAddModal()">+ Adaugă Raport</button>
   </div>
 
@@ -280,5 +280,20 @@ export default {
   background-color: white;
   padding: 20px;
   border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .modal {
+    align-items: flex-start;
+    overflow-y: auto;
+    padding: 12px;
+  }
+
+  .modal-content {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 12px;
+    padding: 14px;
+  }
 }
 </style>

@@ -2,7 +2,7 @@
 
     <form @submit.prevent="submitForm">
         <div class="flex flex-col">
-            <div class="basis-1/6 mb-4 p-2 bg-green-200 rounded-lg shadow-md flex space-x-3">
+            <div class="basis-1/6 mb-4 p-2 bg-green-200 rounded-lg shadow-md flex space-x-3 max-md:flex-col max-md:space-x-0 max-md:space-y-3">
                 <!-- Select, anul, cantitatea, tipul -->
                 <div class="flex-grow">
                     <label class="sttve-label">Cautare</label>
@@ -29,7 +29,7 @@
                 </div>
 
             </div>
-            <div class="basis-4/6 flex space-x-3 mb-3">
+            <div class="basis-4/6 flex space-x-3 mb-3 max-md:flex-col max-md:space-x-0 max-md:space-y-3">
                 <!-- Generare -->
                 <div class="sttve">
                     <fieldset>
@@ -210,17 +210,17 @@
                     </fieldset>
                 </div>
             </div>
-            <div class="basis-1/6 flex">
+            <div class="basis-1/6 flex max-md:flex-col max-md:gap-2">
                 <!-- OK/NOK -->
                 <button
                     class="px-4 py-2 bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
                     type="submit" @click="submitForm()">{{ isEdit ? 'Editeaza' : 'Adauga' }} deseu | {{
                         averagePercentage }}%</button>
                 <button
-                    class="px-4 py-2 ml-2 bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+                    class="px-4 py-2 ml-2 bg-green-500 hover:bg-green-100 hover:text-black text-white font-semibold rounded shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 max-md:ml-0"
                     type="button" @click="$emit('close')">Inapoi</button>
-                <div class="px-4 py-2 rounded  ml-2 flex-grow text-right">
-                    <span class="text-gray-800 cursor-text" v-text="errorMessage"></span>
+                <div class="px-4 py-2 rounded  ml-2 flex-grow text-right max-md:ml-0 max-md:px-0 max-md:text-left">
+                    <span class="text-black cursor-text" v-text="errorMessage"></span>
                 </div>
             </div>
         </div>
@@ -343,15 +343,15 @@ export default {
 }
 
 .sttve-label {
-    @apply block text-sm font-medium text-gray-600 mb-1;
+    @apply block text-sm font-medium text-black mb-1;
 }
 
 .sttve-content {
-    @apply w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+    @apply w-full p-2 text-black placeholder:text-gray-500 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
 }
 
 .valid-legend {
-    @apply text-sm font-semibold px-2 text-gray-700;
+    @apply text-sm font-semibold px-2 text-black;
 }
 
 .invalid-legend {
@@ -360,5 +360,15 @@ export default {
 
 fieldset {
     @apply border border-gray-300 p-4 rounded-md shadow-sm;
+}
+
+@media (max-width: 768px) {
+    .sttve {
+        width: 100%;
+    }
+
+    fieldset {
+        padding: 12px;
+    }
 }
 </style>

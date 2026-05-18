@@ -3,14 +3,14 @@
         <!-- Search Input Field -->
         <input type="text" v-model="searchQuery" @focus="isDropdownVisible = true" @input="filterItems"
             :placeholder="searchQuery ? '' : 'Cauta...'"
-            class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            class="w-full p-2 text-black placeholder:text-gray-500 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
 
         <!-- Dropdown Menu -->
         <div v-if="isDropdownVisible"
             class="absolute z-10 w-full mt-2 bg-white border border-gray-200 rounded-md shadow-lg">
             <ul class="max-h-60 overflow-y-auto">
                 <li v-for="item in filteredItems" :key="item.code" @click="selectItem(item)"
-                    class="px-4 py-2 font- hover:bg-gray-100 cursor-pointer">
+                    class="px-4 py-2 text-black hover:bg-gray-100 cursor-pointer">
                     {{ item.code }}: {{ item.description }}
                 </li>
             </ul>
@@ -21,6 +21,8 @@
 
 
 <script>
+import wastesData from '@/assets/wastes.json';
+
 export default {
     data() {
         return {
@@ -57,20 +59,12 @@ export default {
         filterItems() {
             this.isDropdownVisible = true;
         },
-        async fetchItems() {
-            try {
-                const response = await fetch('./../../src/assets/wastes.json');
-                this.items = await response.json();
-            } catch (error) {
-                console.error('Error fetching the items:', error);
-            }
-        },
         normalizeText(text) {
             return text.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
         }
     },
     mounted() {
-        this.fetchItems();
+        this.items = wastesData;
         document.addEventListener('click', this.handleClickOutside);
     },
     beforeDestroy() {

@@ -27,6 +27,23 @@ export default {
         },
     },
     methods: {
+        async loadTemplateBuffer() {
+            const baseUrl = import.meta.env.BASE_URL || '/';
+            const candidates = [
+                `${baseUrl}templateEvdes.xlsx`,
+                `${baseUrl}templateEvdes.xls`,
+            ];
+
+            for (const url of candidates) {
+                const response = await fetch(url);
+                if (response.ok) {
+                    return response.arrayBuffer();
+                }
+            }
+
+            throw new Error('Failed to fetch template');
+        },
+
         filterByYearAndCode(wasteList, year) {
             const numericYear = parseInt(year, 10);
             const result = {};
@@ -266,9 +283,7 @@ export default {
 
         async downloadTemplateExcel() {
             try {
-                const response = await fetch('/templateEvdes.xlsx');
-                if (!response.ok) throw new Error('Failed to fetch template');
-                const templateBuffer = await response.arrayBuffer();
+                const templateBuffer = await this.loadTemplateBuffer();
 
                 const workbook = await XlsxPopulate.fromDataAsync(templateBuffer);
 
